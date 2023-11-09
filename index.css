@@ -1356,7 +1356,7 @@
 .frame,
 .navbar {
   position: absolute;
-  width: 1442px;
+  width: 100%;
   overflow: hidden;
 }
 .navbar {
