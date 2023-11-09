@@ -19,7 +19,7 @@
 .c82cc4e14a1d2c8c8ffff9840d24b5-icon,
 .image-2-icon {
   position: relative;
-  width: 1441px;
+  width: 100%;
   height: 775px;
   object-fit: cover;
 }
@@ -123,7 +123,7 @@
 .frame-child {
   position: absolute;
   top: -357px;
-  left: 670.7px;
+  left: 860px;
   width: 940.1px;
   height: 2025.3px;
 }
@@ -480,7 +480,7 @@
   width: 1921px;
 }
 .frame-group {
-  top: calc(50% - 460.5px);
+  top: calc(52% - 460.5px);
   left: calc(50% - 960.5px);
   height: 920px;
   display: flex;
@@ -1112,10 +1112,10 @@
 }
 .image-29-icon {
   position: absolute;
-  top: -65px;
+  top: -43px;
   left: 12.4px;
-  width: 1561.6px;
-  height: 614.7px;
+  width: 100%;
+  height: 693px;
   object-fit: scale-down;
 }
 .lorem-ipsum-dolor6 {
@@ -1155,7 +1155,7 @@
 }
 .frame-parent18 {
   position: absolute;
-  top: 70px;
+  top: 130px;
   left: 75.8px;
   height: 416px;
   display: flex;
@@ -1166,17 +1166,17 @@
 .frame-child3 {
   position: relative;
   background: linear-gradient( -90deg, rgba(255, 255, 255, 0.75) 53.12%, rgba(255, 255, 255, 0.47) 85.36%, rgba(255, 255, 255, 0) );
-  width: 958.7px;
-  height: 534.7px;
+  width: 1000px;
+  height: 650px;
   z-index: 0;
   left: 225px;
-  bottom: 9px;
+  bottom: -16px;
 }
 .image-17-icon {
   position: absolute;
   margin: 0 !important;
-  top: calc(50% - 168.25px);
-  left: 320px;
+  top: calc(64% - 168.25px);
+  left: 400px;
   width: 600.4px;
   height: 255.4px;
   object-fit: scale-down;
@@ -1398,7 +1398,7 @@
 }
 .image-23-icon1 {
   position: relative;
-  width: 1441px;
+  width: 100%;
   height: 390.9px;
   object-fit: cover;
   z-index: 0;
