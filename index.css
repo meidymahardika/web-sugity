@@ -34,6 +34,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  width: 100%;
 }
 .arrows-icon,
 .arrows-icon1 {
@@ -67,7 +68,7 @@
 .navigation {
   position: absolute;
   bottom: 39.9px;
-  left: 34.5%;
+  left: 42.5%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -508,7 +509,7 @@
   justify-content: flex-start;
   gap: 11.33px;
   position: relative;
-  right: 245px;
+  right: 120px;
   /* margin-bottom: 70px; */
   margin-top: -11px;
 }
