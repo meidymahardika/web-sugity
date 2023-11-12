@@ -1,0 +1,61 @@
+.slider-client {
+    background-color: #F4F4F4;
+}
+.img-cibitung-plant {
+    border-top-right-radius: 35px 100px;
+    border-bottom-right-radius: 35px 100px;
+}
+.img-karawang-plant {
+    border-top-right-radius: 35px 100px;
+    border-bottom-right-radius: 35px 100px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Ensure the container doesn't exceed the image width */
+}
+
+.text-overlay {
+    max-width: 90%;
+    width: 100%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F7B691; 
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+.image-container:hover > .text-overlay{
+    color: #fff;
+}
+/* .overlay-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px; 
+    width: 100%;
+} */
+
+.slider-client.text-center, h2 {
+    margin-bottom: 0px !important;
+}
+
+.slider-client.text-center, h1 {
+    margin-bottom: 0px !important;
+    color: #EE6D22;
+}
