@@ -77,6 +77,7 @@ body{
     background-color: #EE6D22;
 }
 .item-services:hover {
+    cursor: pointer;
     color: #fff;
     background-color: #EE6D22;
 }
