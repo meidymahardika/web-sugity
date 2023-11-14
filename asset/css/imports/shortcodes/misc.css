@@ -595,7 +595,7 @@ body:not(.device-touch) #gotoTop {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .nav-tree li i {
   font-size: 13px;
@@ -627,7 +627,7 @@ body:not(.device-touch) #gotoTop {
   line-height: 1;
   font-size: 80px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .wedding-head .first-name,
 .wedding-head .last-name,
