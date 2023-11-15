@@ -45,3 +45,9 @@ body {
     transition-duration: 0.3s;
     transition-delay: 0.1s;
 }
+.item-text-overlay-philosophy {
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: end;
+}
