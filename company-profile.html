@@ -175,16 +175,15 @@
 			</div>
 		</nav><!-- #Navbar end -->
 
-		<!-- Page Title
+		<!-- Banner Slider
 		============================================= -->
-		<section id="page-title" class="page-title-dark"
-			style="background-image: url('./asset/images/background/background-company-profile.png'); padding: 300px 0;">
-
-			<div class="container clearfix text-center">
-				<div class="title-on-slider dark">Company Profile</div>
+		<div class="owl-carousel owl-theme style-owl-banner-slider">
+			<div class="item min-vh-60 min-vh-md-100">
+				<video autoplay="" muted="" loop="" style="object-fit: fill; height: 100vh; width: 100%; padding:0; margin:0; position:absolute">
+					<source src="./asset/videos/banner-video-profile.mov" type="video/mp4">
+				</video>
 			</div>
-
-		</section><!-- #page-title end -->
+		</div><!-- #Banner Slider end -->
 
 		<!-- Content
 		============================================= -->
@@ -546,6 +545,19 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="./asset/js/functions.js"></script>
+	<script>
+		$('.style-owl-banner-slider').owlCarousel({
+			loop: false,
+			margin: 0,
+			nav: false,
+			items: 1,
+			autoplay: false,
+			autoplayTimeout: 4000,
+			autoplayHoverPause: false,
+			animateOut: 'slideOutLeft',
+			animateIn: 'slideInRight',
+		});
+	</script>
 
 </body>
 
