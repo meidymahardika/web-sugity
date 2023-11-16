@@ -549,18 +549,61 @@
 
 /* responsive css */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 	.logo-nav {
 		height: 35px !important;
 	}
+	.style-content .style-title {
+		font-size: 17px !important;
+	}
+	.hide-txt-par-landing {
+		display: contents !important;
+		font-weight: 200;
+		font-size: 20px;
+	}
+	.text-second-parallax {
+		display: none !important;
+	}
+	.vec-line {
+		display: none !important;
+	}
+	.style-tab-content .style-content-image {
+		display: none !important;
+	}
+	.recent-news-section .px-5 {
+		padding-left: 10px !important;
+	}
+
+	.style-recent-news .col-md-9 {
+		padding-left: 10px !important;
+	}
+	.style-recent-news .col-md-3 {
+		padding-left: 10px !important;
+		padding-right: 0 !important;
+		padding-left: 10px !important;
+		padding-top: 20px !important;
+	}
+	.style-section-location .col-md-4 .style-content {
+		padding-bottom: 20px !important;
+	}
+	.style-content .style-description {
+		font-size: 18px !important;
+		bottom: 15px !important;
+	}.style-section-location .justify-content-start {
+		display: flex !important; 
+		justify-content: center !important; 
+		align-items: end !important;
+	}
+	.style-content-animation .style-description {
+		font-size: 12px !important;
+	}
  }
-  
 
  @media screen and (max-width: 550px) {
 	
  }
 
- @media screen and (max-width: 765px) {
+ @media screen and (max-width: 765px) and (min-width: 401px) {
 	.hide-txt-par-landing {
 		display: contents !important;
 		font-weight: 200;
@@ -601,6 +644,9 @@
 		display: flex !important; 
 		justify-content: center !important; 
 		align-items: end !important;
+	}
+	.style-content-animation .style-description {
+		font-size: 14px !important;
 	}
  }
   
