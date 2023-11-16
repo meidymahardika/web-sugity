@@ -21,7 +21,7 @@
 
 	<link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/custom/landing-page.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- Document Title
 	============================================= -->
@@ -39,7 +39,7 @@
 		============================================= -->
 		<nav class="navbar navbar-dark navbar-expand-md fixed-top p-0 style-navbar">
 			<div class="container-fluid px-4">
-				<a class="navbar-brand" href="#"><img src="./asset/logo/logo-sugity-nav.png" style="height: 55px;"
+				<a class="navbar-brand" href="#"><img src="./asset/logo/logo-sugity-nav.png" class="logo-nav" style="height: 55px;"
 						alt="Canvas Logo"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
 					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -153,12 +153,12 @@
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="coming-soon.html">
 									CSR
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="coming-soon.html">
 									News
 								</a>
 							</li>
@@ -172,10 +172,9 @@
 		============================================= -->
 		<div class="owl-carousel owl-theme style-owl-banner-slider">
 			<div class="item min-vh-60 min-vh-md-100">
-				<h2 class="style-banner-title">PRIDE</h2>
-				<div class="style-banner-image"
-					style="background-image: url('./asset/images/banner/banner-1-landing.png');">
-				</div>
+				<video autoplay="" muted="" loop="" style="object-fit: fill; height: 100vh; width: 100%; padding:0; margin:0; position:absolute">
+					<source src="./asset/videos/vid-slider-1.mp4" type="video/mp4">
+				</video>
 			</div>
 			<div class="item min-vh-60 min-vh-md-100">
 				<h2 class="style-banner-title style-title-short">PRIDE of Team.</h2>
@@ -193,8 +192,9 @@
 					style="background-image: url('./asset/images/banner/banner-4-landing.png');"></div>
 			</div>
 			<div class="item min-vh-60 min-vh-md-100">
-				<div class="style-banner-image"
-					style="background-image: url('./asset/images/banner/banner-5-landing.png');"></div>
+				<video autoplay="" muted="" loop="" style="object-fit: fill; height: 100vh; width: 100%; padding:0; margin:0; position:absolute">
+					<source src="./asset/videos/vid-slider-last.mp4" type="video/mp4">
+				</video>
 			</div>
 		</div><!-- #Banner Slider end -->
 
@@ -214,21 +214,14 @@
 							<h2 class="mb-0" style="color: #C5C2C3;">Welcome</h2>
 							<h1 class="mt-0 mb-2 sugity-creative-text">Sugity Creatives</h1>
 							<p style="line-height: 25px;">
-								Established in 1995, is one of subsidiary companies of
-								TOYOTA AUTO BODY JAPAN, a leading manufacturer of minivans,
-								commercial vehicles, and sport utility vehicles such as
-								Alphard, Land Cruiser, Lexus, Noah, etc. Our mission is to
-								enrich people's lives through motor vehicles that meet
-								customer expectation while at the same time responding to
-								environmental issues. SUGITY CREATIVES’ core business is
-								manufacturing of various automotive plastic parts (the
-								biggest in South East Asia) and in 2012 started assembling
-								one of TOYOTA brand vehicles (NAV1).
+								Join us on a journey where precision meets passion, shaping the future of automotive creativity with integrity and innovation.
+								Driven by a profound mission, we aspire to elevate the human experience through meticulously crafted products that not only meet but exceed customer expectations. 
+								Concurrently, we remain steadfast in our commitment to address environmental concerns, ensuring a harmonious balance between automotive innovation and sustainable practices.
 							</p>
 							<div class="row">
-								<div class="col-md-4 text-first-parallax">1995</div>
-								<div class="col-md-4 text-first-parallax">± 1300</div>
-								<div class="col-md-4 text-first-parallax">20</div>
+								<div class="col-md-4 text-first-parallax">1995 <span class="hide-txt-par-landing">Year Established</span></div>
+								<div class="col-md-4 text-first-parallax">± 1300 <span class="hide-txt-par-landing">Professional Employees</span></div>
+								<div class="col-md-4 text-first-parallax">20 <span class="hide-txt-par-landing">Business Partner</span></div>
 							</div>
 							<div class="row">
 								<div class="col-md-4 text-second-parallax">Year Established</div>
@@ -236,11 +229,11 @@
 								<div class="col-md-4 text-second-parallax">Business Partner</div>
 							</div>
 							<div class="row">
-								<div class="col-md-4"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
+								<div class="col-md-4 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
 								</div>
-								<div class="col-md-4"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
+								<div class="col-md-4 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
 								</div>
-								<div class="col-md-4"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
+								<div class="col-md-4 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
 								</div>
 							</div>
 						</div>
@@ -253,7 +246,8 @@
 			<div class="services-section my-5">
 				<div class="text-center mb-5">
 					<h2 class="our-services-text">Our Services</h2>
-					<h1 class="integrity-text">Integrity to make best products and only we can do</h1>
+					<h1 class="integrity-text">Committed to Bringing You Excellent Products Only We Can Create</h1>
+					<h5 class="embeded-text">Embedded in the essence of Sugity, as an affiliate of Toyota Autobody, is the unwavering commitment to QUALITY, SAFETY, AND DURABILITY—integral elements forming the DNA of every product we deliver</h5>
 				</div>
 			</div>
 			<ul class="nav nav-pills  style-nav-pills" id="pills-tab" role="tablist">
@@ -290,7 +284,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 ps-5 d-flex justify-content-center align-items-center style-content-image">
-							<img src="./asset/images/background/overlay/1-overlay-image-service-section.png" width="650"
+							<img src="./asset/images/background/overlay/1.1-overlay-image-service-section.png" width="650"
 								alt="">
 						</div>
 					</div>
@@ -309,6 +303,10 @@
 								<button class="btn btn-primary style-btn mb-5">Read More</button>
 							</div>
 						</div>
+						<div class="col-md-6 ps-5 d-flex justify-content-center align-items-center style-content-image">
+							<img src="./asset/images/background/overlay/2-overlay-image-service-section.png" width="650"
+								alt="">
+						</div>
 					</div>
 				</div>
 				<div class="tab-pane fade" id="pills-mold" role="tabpanel" aria-labelledby="pills-mold-tab"
@@ -324,6 +322,10 @@
 								</p>
 								<button class="btn btn-primary style-btn mb-5">Read More</button>
 							</div>
+						</div>
+						<div class="col-md-6 ps-5 d-flex justify-content-center align-items-center style-content-image">
+							<img src="./asset/images/background/overlay/3-overlay-image-service-section.jpg" width="650"
+								alt="">
 						</div>
 					</div>
 				</div>
@@ -469,22 +471,27 @@
 				<div class="owl-carousel owl-theme style-owl-client-slider py-5">
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/toyota.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/ani.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/2_daihatsu.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/boshoku.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/suzuki.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/daihatsu.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/hino.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/denso.png" class="style-image" alt="Clients">
+						</a>
+					</div>
+					<div class="item">
+						<a href="javascript:void(0)">
+							<img src="./asset/images/clients/hitachi.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
@@ -494,27 +501,22 @@
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/6_toyotaBS.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/suzuki.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/8_tcd.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/tcd.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/9_tsusho.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/toyota.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 					<div class="item">
 						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/10_denso.png" class="style-image" alt="Clients">
-						</a>
-					</div>
-					<div class="item">
-						<a href="javascript:void(0)">
-							<img src="./asset/images/clients/11_ani.png" class="style-image" alt="Clients">
+							<img src="./asset/images/clients/tsusho.png" class="style-image" alt="Clients">
 						</a>
 					</div>
 				</div>
@@ -534,9 +536,9 @@
 								Head Office / Cibitung Plant
 							</div>
 							<div class="style-description">
-								Kawasan Industri MM2100, Jl. Bali I Blok J No. 17.1 - 20,<br>
-								Cikarang Barat, Bekasi 17520<br>
-								Jawa Barat - Indonesia
+								Kawasan Industri, Jl. Bali I Jl. Mm 2100 No.17-20,<br/> 
+								Gandamekar, Cikarang Barat, Bekasi Regency, <br />
+								West Java 17530
 
 							</div>
 						</div>
@@ -548,9 +550,8 @@
 								Karawang Plant
 							</div>
 							<div class="style-description">
-								Kawasan Industri KIIC, Jl. Permata Raya LotDD,<br>
-								Telukjambe Timur, Karawang 41360<br>
-								Jawa Barat - Indonesia
+								Kawasan Industri KIIC, Jl. Permata 3, Telukjambe Timur, <br />
+								Puseurjaya, Telukjambe Timur, Karawang, <br />Jawa Barat 41361
 							</div>
 						</div>
 					</div>

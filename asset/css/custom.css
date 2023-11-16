@@ -468,8 +468,8 @@
 
 /* Client Slider =================== */
 .style-owl-client-slider .style-image {
-	object-fit: contain;
-	height: 100px;
+	object-fit: fill;
+	height: 200px;
 	width: auto;
 }
 
@@ -526,6 +526,7 @@
 	opacity: 0;
 	padding-top: 12px;
 	padding-bottom: 10px;
+	padding-right: 20px;
 	bottom: 0;
 	left: 10;
 	right: 10;
@@ -545,3 +546,76 @@
 }
 
 /* End Section Location =================== */
+
+/* responsive css */
+
+@media screen and (max-width: 450px) {
+	.logo-nav {
+		height: 35px !important;
+	}
+ }
+  
+
+ @media screen and (max-width: 550px) {
+	
+ }
+
+ @media screen and (max-width: 765px) {
+	.hide-txt-par-landing {
+		display: contents !important;
+		font-weight: 200;
+		font-size: 20px;
+	}
+	.text-second-parallax {
+		display: none !important;
+	}
+	.vec-line {
+		display: none !important;
+	}
+	.style-tab-content .style-content-image {
+		display: none !important;
+	}
+	.recent-news-section .px-5 {
+		padding-left: 10px !important;
+	}
+
+	.style-recent-news .col-md-9 {
+		padding-left: 10px !important;
+	}
+	.style-recent-news .col-md-3 {
+		padding-left: 10px !important;
+		padding-right: 0 !important;
+		padding-left: 10px !important;
+		padding-top: 20px !important;
+	}
+	.style-section-location .col-md-4 .style-content {
+		padding-bottom: 20px !important;
+	}
+	.style-content .style-title {
+		font-size: 25px !important;
+	}
+	.style-content .style-description {
+		font-size: 18px !important;
+		bottom: 15px !important;
+	}.style-section-location .justify-content-start {
+		display: flex !important; 
+		justify-content: center !important; 
+		align-items: end !important;
+	}
+ }
+  
+
+ @media screen and (max-width: 800px) {
+	
+ }
+
+ @media screen and (max-width: 1265px) {
+	.text-first-parallax {
+		font-size: 25px !important;
+		font-weight: 700 !important;
+	}
+	.sugity-creative-text {
+		font-size: 50px !important;
+	}
+ }
+/* end responsive css */
