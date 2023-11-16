@@ -11,7 +11,7 @@
     color: #000;
 }
 .president-speech {
-    width: 600px; 
+    width: 670px; 
     line-height: 25px !important; 
     font-weight: 100 !important; 
     /* color: #000 !important; */
@@ -65,4 +65,10 @@
 .title-on-slider {
     font-size: 80px;
     font-weight: 700;
+}
+.president-image {
+    height: 600px;
+}
+.text-content-about-us {
+    width: 500px;
 }

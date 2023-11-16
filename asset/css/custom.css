@@ -642,6 +642,12 @@
 	.title-on-slider {
 		font-size: 30px !important;
 	}
+	.president-image {
+		height: 250px !important;
+	}
+	.text-content-about-us {
+		width: 300px !important;
+	}
  }
 
  @media screen and (max-width: 550px) {
@@ -725,6 +731,12 @@
 	.president-speech {
 		width: auto !important;
 	}
+	.president-image {
+		height: 350px !important;
+	}
+	.text-content-about-us {
+		width: 300px !important;
+	}
  }
 
  @media screen and (max-width: 650px) and (min-width: 402px) {
@@ -738,6 +750,9 @@
 		width: 100% !important;
 		padding-left: 15px !important;
 		font-size: 30px !important;
+	}
+	.president-image {
+		height: 250px !important;
 	}
  }
   
