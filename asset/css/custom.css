@@ -155,6 +155,18 @@
 	transition: all 300ms linear;
 }
 
+.lang {
+    color: #ffffff;
+}
+
+.lang:hover {
+    color: #EE6D22;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
 /* .style-navbar .style-navbar-offcanvas .navbar-nav .nav-item:hover .style-sub-navbar-offcanvas-container {
 	height: 100%;
 	visibility: visible;
