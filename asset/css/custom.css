@@ -320,7 +320,7 @@
 
 .style-navbar .navbar-nav .nav-item .style-sub-navbar-container .nav-item .nav-link {
 	color: #4E4E4E;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	padding: 25px 30px;
 	position: relative;
@@ -582,6 +582,10 @@
 	background: linear-gradient(270deg, rgba(255, 255, 255, 0.75) 53.12%, rgba(255, 255, 255, 0.47) 85.36%, rgba(255, 255, 255, 0.00) 100%);
 }
 
+.h-500px {
+	height: 500px !important;
+}
+
 /* End Our Service =================== */
 
 
@@ -725,6 +729,7 @@
 	width: 100%;
 	min-height: 250px;
 	object-fit: cover;
+	object-position: 35% 50%;
 }
 
 .style-section-location .style-content .style-title {
@@ -1006,7 +1011,7 @@
 	}
 
 	.style-content .style-title {
-		font-size: 17px !important;
+		font-size: 16px !important;
 	}
 
 	.hide-txt-par-landing {
