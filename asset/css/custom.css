@@ -74,6 +74,7 @@
 }
 
 .style-navbar .navbar-nav .nav-item .style-sub-navbar-container {
+	list-style-type: none;
 	position: absolute;
 	visibility: hidden;
 	opacity: 0;
