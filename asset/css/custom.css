@@ -16,6 +16,227 @@
 	}
 }
 
+@keyframes styleAnimationFadeIn1 {
+	0% {
+		opacity: 0;
+	}
+
+	5% {
+		opacity: 1;
+	}
+
+	45% {
+		opacity: 1;
+	}
+
+	45% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes styleAnimationSlider1 {
+	0% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	20% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	30% {
+		top: 100px;
+		left: 100%;
+		opacity: 0;
+		z-index: 10;
+	}
+
+	35% {
+		top: 0;
+		left: 0;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	40% {
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	60% {
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	70% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	90% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	100% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+}
+
+@keyframes styleAnimationSlider2 {
+	0% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	20% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	30% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	50% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	55% {
+		top: 100px;
+		left: 100%;
+		opacity: 0;
+		z-index: 10;
+	}
+
+	60% {
+		top: 0;
+		left: 0;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	70% {
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	90% {
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	100% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+}
+
+@keyframes styleAnimationSlider3 {
+	0% {
+		top: 0px;
+		left: 0px;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	20% {
+		top: 0px;
+		left: 0px;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	30% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	50% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	60% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	80% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	85% {
+		top: 100px;
+		left: 100%;
+		opacity: 0;
+		z-index: 10;
+	}
+
+	90% {
+		top: 0;
+		left: 0;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+}
+
+
 .style-w-31 {
 	width: 31%;
 }
@@ -156,15 +377,15 @@
 }
 
 .lang {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .lang:hover {
-    color: #EE6D22;
+	color: #EE6D22;
 }
 
 .color-white {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 /* .style-navbar .style-navbar-offcanvas .navbar-nav .nav-item:hover .style-sub-navbar-offcanvas-container {
@@ -559,29 +780,253 @@
 
 /* End Section Location =================== */
 
+
+/* Company Profile History =================== */
+.style-history .style-custom-content {
+	position: relative;
+	height: 600px;
+	width: 100%;
+	z-index: 11;
+	background-color: #FFFFFF;
+}
+
+.style-history .style-custom-content .style-item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	z-index: 15;
+	opacity: 0;
+	background-color: #FFFFFF;
+	-webkit-animation: styleAnimationFadeIn1 10000ms linear;
+	-moz-animation: styleAnimationFadeIn1 10000ms linear;
+	-o-animation: styleAnimationFadeIn1 10000ms linear;
+	-ms-animation: styleAnimationFadeIn1 10000ms linear;
+	animation: styleAnimationFadeIn1 10000ms linear;
+	animation-iteration-count: infinite;
+}
+
+.style-history .style-custom-content .style-item.style-item-1 {
+	animation-delay: 0ms;
+}
+
+.style-history .style-custom-content .style-item.style-item-2 {
+	animation-delay: 2000ms;
+}
+
+.style-history .style-custom-content .style-item.style-item-3 {
+	animation-delay: 4000ms;
+}
+
+.style-history .style-custom-content .style-item.style-item-4 {
+	animation-delay: 6000ms;
+}
+
+.style-history .style-custom-content .style-item.style-item-5 {
+	animation-delay: 8000ms;
+}
+
+.style-history .style-custom-content .style-item.style-item-6 {
+	animation-delay: 10000ms;
+}
+
+.style-history .style-custom-content .style-item .style-title {
+	color: #000000;
+	font-size: 90px;
+	font-weight: 700;
+}
+
+.style-history .style-custom-content .style-item .style-description {
+	color: #000000;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+	.style-history .style-custom-content {
+		top: 100%;
+		height: 300px;
+	}
+
+	.style-history .style-custom-content .style-item .style-title {
+		font-size: 60px;
+	}
+
+	.style-history .style-custom-content .style-item .style-description {
+		font-size: 20px;
+	}
+}
+
+.style-history .style-custom-slider {
+	position: relative;
+	height: 600px;
+	width: 100%;
+	z-index: 1;
+}
+
+.style-history .style-custom-slider .style-item {
+	position: absolute;
+	height: 600px;
+	width: 85%;
+}
+
+.style-history .style-custom-slider .style-item img {
+	border-radius: 20px;
+}
+
+.style-history .style-custom-slider .style-item.style-item-1 {
+	animation-delay: 0ms;
+	opacity: 0;
+	z-index: 10;
+	left: 100px;
+	top: 100px;
+	-webkit-animation: styleAnimationSlider1 10000ms linear;
+	-moz-animation: styleAnimationSlider1 10000ms linear;
+	-o-animation: styleAnimationSlider1 10000ms linear;
+	-ms-animation: styleAnimationSlider1 10000ms linear;
+	animation: styleAnimationSlider1 10000ms linear;
+	animation-iteration-count: infinite;
+}
+
+.style-history .style-custom-slider .style-item.style-item-2 {
+	animation-delay: 0ms;
+	opacity: 0;
+	z-index: 5;
+	left: 50px;
+	top: 50px;
+	-webkit-animation: styleAnimationSlider2 10000ms linear;
+	-moz-animation: styleAnimationSlider2 10000ms linear;
+	-o-animation: styleAnimationSlider2 10000ms linear;
+	-ms-animation: styleAnimationSlider2 10000ms linear;
+	animation: styleAnimationSlider2 10000ms linear;
+	animation-iteration-count: infinite;
+}
+
+.style-history .style-custom-slider .style-item.style-item-3 {
+	animation-delay: 0ms;
+	opacity: 0;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	-webkit-animation: styleAnimationSlider3 10000ms linear;
+	-moz-animation: styleAnimationSlider3 10000ms linear;
+	-o-animation: styleAnimationSlider3 10000ms linear;
+	-ms-animation: styleAnimationSlider3 10000ms linear;
+	animation: styleAnimationSlider3 10000ms linear;
+	animation-iteration-count: infinite;
+}
+
+
+.style-carousel-history-slider .carousel-item {
+	position: relative;
+	display: block;
+	height: 500px;
+	opacity: 1;
+	z-index: 1;
+}
+
+.style-carousel-history-slider .carousel-item:has(+ * + .active) {
+	z-index: 2;
+}
+
+.style-carousel-history-slider .carousel-item:has(+ .active) {
+	z-index: 3;
+}
+
+.style-carousel-history-slider .carousel-item.active {
+	z-index: 4;
+}
+
+.style-carousel-history-slider .carousel-item.active+.carousel-item {
+	z-index: 3;
+}
+
+.style-carousel-history-slider.carousel-item.active+*+.carousel-item {
+	z-index: 2;
+}
+
+.style-carousel-history-slider .carousel-item img {
+	position: absolute;
+	width: 50% !important;
+	height: 400px;
+	/* top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0; */
+}
+
+.style-carousel-history-slider .carousel-item:has(+ * + .active) img {
+	top: 0;
+	left: 0;
+	right: 100px;
+	bottom: 100px;
+}
+
+.style-carousel-history-slider .carousel-item:has(+ .active) img {
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+}
+
+.style-carousel-history-slider .carousel-item.active img {
+	top: 100px;
+	left: 100px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.style-carousel-history-slider .carousel-item.active+.carousel-item img {
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+}
+
+.style-carousel-history-slider.carousel-item.active+*+.carousel-item img {
+	top: 0;
+	left: 0;
+	right: 100px;
+	bottom: 100px;
+}
+
+/* End Company Profile History =================== */
+
+
+
+
+
+
 /* responsive css */
 
 @media screen and (max-width: 400px) {
 	.logo-nav {
 		height: 35px !important;
 	}
+
 	.style-content .style-title {
 		font-size: 17px !important;
 	}
+
 	.hide-txt-par-landing {
 		display: contents !important;
 		font-weight: 200;
 		font-size: 20px;
 	}
+
 	.text-second-parallax {
 		display: none !important;
 	}
+
 	.vec-line {
 		display: none !important;
 	}
+
 	.style-tab-content .style-content-image {
 		display: none !important;
 	}
+
 	.recent-news-section .px-5 {
 		padding-left: 10px !important;
 	}
@@ -589,86 +1034,105 @@
 	.style-recent-news .col-md-9 {
 		padding-left: 10px !important;
 	}
+
 	.style-recent-news .col-md-3 {
 		padding-left: 10px !important;
 		padding-right: 0 !important;
 		padding-left: 10px !important;
 		padding-top: 20px !important;
 	}
+
 	.style-section-location .col-md-4 .style-content {
 		padding-bottom: 20px !important;
 	}
+
 	.style-content .style-description {
 		font-size: 18px !important;
 		bottom: 15px !important;
-	}.style-section-location .justify-content-start {
-		display: flex !important; 
-		justify-content: center !important; 
+	}
+
+	.style-section-location .justify-content-start {
+		display: flex !important;
+		justify-content: center !important;
 		align-items: end !important;
 	}
+
 	.style-content-animation .style-description {
 		font-size: 12px !important;
 	}
+
 	.style-content-text {
 		margin-left: 20px !important;
 	}
+
 	.style-paralax .row .px-5 {
 		padding-left: 15px !important;
-    	padding-right: 15px !important;
+		padding-right: 15px !important;
 	}
+
 	.footer-widgets-wrap .col-mb-50 {
 		padding-left: 15% !important;
 	}
+
 	/* responsive comp profile */
 	.divider-visi-misi {
 		display: none;
 	}
+
 	.parent-visi-misi {
-		display: grid; 
-		justify-content: center; 
+		display: grid;
+		justify-content: center;
 		align-items: end;
 	}
+
 	.text-visi-misi {
 		width: 100% !important;
 		padding-left: 15px !important;
 		font-size: 30px !important;
 	}
+
 	.president-message-text {
 		font-size: 20px !important;
 	}
+
 	.president-speech {
 		width: auto !important;
 	}
+
 	.title-on-slider {
 		font-size: 30px !important;
 	}
+
 	.president-image {
 		height: 250px !important;
 	}
+
 	.text-content-about-us {
 		width: 300px !important;
 	}
- }
+}
 
- @media screen and (max-width: 550px) {
-	
- }
+@media screen and (max-width: 550px) {}
 
- @media screen and (max-width: 765px) and (min-width: 401px) {
+@media screen and (max-width: 765px) and (min-width: 401px) {
 	.hide-txt-par-landing {
 		display: contents !important;
 		font-weight: 200;
 		font-size: 20px;
 	}
+
 	.text-second-parallax {
 		display: none !important;
 	}
+
 	.vec-line {
 		display: none !important;
 	}
+
 	.style-tab-content .style-content-image {
 		display: none !important;
 	}
+
 	.recent-news-section .px-5 {
 		padding-left: 10px !important;
 	}
@@ -676,32 +1140,41 @@
 	.style-recent-news .col-md-9 {
 		padding-left: 10px !important;
 	}
+
 	.style-recent-news .col-md-3 {
 		padding-left: 10px !important;
 		padding-right: 0 !important;
 		padding-left: 10px !important;
 		padding-top: 20px !important;
 	}
+
 	.style-section-location .col-md-4 .style-content {
 		padding-bottom: 20px !important;
 	}
+
 	.style-content .style-title {
 		font-size: 25px !important;
 	}
+
 	.style-content .style-description {
 		font-size: 18px !important;
 		bottom: 15px !important;
-	}.style-section-location .justify-content-start {
-		display: flex !important; 
-		justify-content: center !important; 
+	}
+
+	.style-section-location .justify-content-start {
+		display: flex !important;
+		justify-content: center !important;
 		align-items: end !important;
 	}
+
 	.style-content-animation .style-description {
 		font-size: 14px !important;
 	}
+
 	.footer-widgets-wrap .col-mb-50 {
 		padding-left: 20% !important;
 	}
+
 	.style-paralax .row .px-5 {
 		padding-left: 20px !important;
 		padding-right: 20px !important;
@@ -711,63 +1184,74 @@
 	.divider-visi-misi {
 		display: none;
 	}
+
 	.text-visi-misi {
 		font-size: 40px !important;
 	}
+
 	.parent-visi-misi {
-		display: flex; 
-		justify-content: center; 
+		display: flex;
+		justify-content: center;
 		align-items: end;
 	}
+
 	.title-on-slider {
 		font-size: 30px !important;
 	}
+
 	.parent-image-president {
 		padding-right: 0 !important;
 	}
+
 	.president-message-text {
 		font-size: 25px !important;
 	}
+
 	.president-speech {
 		width: auto !important;
 	}
+
 	.president-image {
 		height: 350px !important;
 	}
+
 	.text-content-about-us {
 		width: 300px !important;
 	}
- }
+}
 
- @media screen and (max-width: 650px) and (min-width: 402px) {
+@media screen and (max-width: 650px) and (min-width: 402px) {
+
 	/* responsive comp profile */
 	.parent-visi-misi {
-		display: grid; 
-		justify-content: center; 
+		display: grid;
+		justify-content: center;
 		align-items: end;
 	}
+
 	.text-visi-misi {
 		width: 100% !important;
 		padding-left: 15px !important;
 		font-size: 30px !important;
 	}
+
 	.president-image {
 		height: 250px !important;
 	}
- }
-  
+}
 
- @media screen and (max-width: 800px) {
-	
- }
 
- @media screen and (max-width: 1265px) {
+@media screen and (max-width: 800px) {}
+
+@media screen and (max-width: 1265px) {
 	.text-first-parallax {
 		font-size: 25px !important;
 		font-weight: 700 !important;
 	}
+
 	.sugity-creative-text {
 		font-size: 50px !important;
 	}
- }
+}
+
 /* end responsive css */
