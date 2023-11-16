@@ -5,4 +5,542 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
+/* Unitversal */
+@keyframes styleAnimationFadeIn {
+	0% {
+		opacity: 0;
+	}
 
+	100% {
+		opacity: 1;
+	}
+}
+
+.style-w-31 {
+	width: 31%;
+}
+
+.style-w-23 {
+	width: 23%;
+}
+
+.style-left-31 {
+	left: 31% !important;
+}
+
+/* Navbar =================== */
+.style-navbar {
+	background: linear-gradient(270deg, #282c35 33.33%, #b4b6b9 57.96%, rgba(254, 254, 255, 0.65) 82.18%) !important;
+}
+
+.style-navbar .offcanvas {
+	z-index: 1060;
+}
+
+.style-navbar .navbar-nav .nav-item .nav-link {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 25px 30px;
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+}
+
+.style-navbar .navbar-nav .nav-item .nav-link.style-dashed:before {
+	content: '';
+	left: 0;
+	top: 0;
+	bottom: 0;
+	height: 30px;
+	margin: auto;
+	position: absolute;
+	border-left: 1.5px dashed #676767;
+}
+
+.style-navbar .navbar-nav .nav-item .nav-link:hover {
+	background-color: #EE6D22;
+}
+
+.style-navbar .navbar-nav .nav-item .nav-link.style-dashed:hover:before {
+	border-left: 1.5px dashed transparent;
+}
+
+.style-navbar .navbar-nav .nav-item .style-sub-navbar-container {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	background-color: #FFFFFF;
+	box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
+	z-index: 399;
+	top: 100%;
+	left: 0;
+	min-width: 31%;
+	padding: 0;
+	-webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+.style-navbar .navbar-nav .nav-item:hover .style-sub-navbar-container {
+	visibility: visible;
+	opacity: 1;
+}
+
+.style-navbar .navbar-nav .nav-item .style-sub-navbar-container .nav-item .nav-link {
+	color: #4E4E4E;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 25px 30px;
+	position: relative;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+}
+
+.style-navbar .navbar-nav .nav-item .style-sub-navbar-container .nav-item .nav-link:hover {
+	color: #FFFFFF;
+	background-color: #EE6D22;
+}
+
+.style-navbar .style-navbar-offcanvas .navbar-nav .nav-item .nav-link {
+	color: #4E4E4E;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 20px 15px;
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+}
+
+.style-navbar .style-navbar-offcanvas .navbar-nav .nav-item .nav-link:hover {
+	color: #FFFFFF;
+	background-color: #EE6D22;
+}
+
+.style-navbar .style-navbar-offcanvas .navbar-nav .nav-item .style-sub-navbar-offcanvas-container {
+	position: relative;
+	list-style-type: none;
+	visibility: visible;
+	background-color: #FFFFFF;
+	/* box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05); */
+	z-index: 399;
+	/* height: 0; */
+	left: 0;
+	right: 0;
+	padding: 0;
+	-webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+/* .style-navbar .style-navbar-offcanvas .navbar-nav .nav-item:hover .style-sub-navbar-offcanvas-container {
+	height: 100%;
+	visibility: visible;
+} */
+
+.style-navbar .style-navbar-offcanvas .navbar-nav .nav-item .style-sub-navbar-offcanvas-container .nav-item .nav-link {
+	color: #4E4E4E;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 15px 30px;
+	position: relative;
+	-webkit-transition: background-color 500ms linear;
+	-moz-transition: background-color 500ms linear;
+	-o-transition: background-color 500ms linear;
+	-ms-transition: background-color 500ms linear;
+	transition: background-color 500ms linear;
+}
+
+.style-navbar .style-navbar-offcanvas .navbar-nav .nav-item .style-sub-navbar-offcanvas-container .nav-item .nav-link:hover {
+	color: #FFFFFF;
+	background-color: #EE6D22;
+}
+
+/* End Navbar =================== */
+
+/* Banner Slider =================== */
+.style-owl-banner-slider {
+	--owl-nav-sizes: 36px;
+	--owl-dots-gutters: 4px;
+	--owl-dots-sizes: 8px;
+	--owl-nav-bg: var(--themecolor, #FFFFFF);
+	--owl-nav-margin: calc(var(--owl-nav-sizes) / -2);
+	--owl-nav-with-dots: calc(var(--owl-nav-margin) - calc(calc(30px + var(--owl-dots-sizes)) / 2));
+}
+
+.style-owl-banner-slider .item {
+	position: relative;
+}
+
+.style-owl-banner-slider .style-banner-title {
+	color: rgba(255, 255, 255, 0.95);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 130px;
+	font-weight: 900;
+	opacity: 0;
+	z-index: 111;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+	top: 0;
+	bottom: 0;
+	left: 10vw;
+	-webkit-animation: styleAnimationFadeIn 1000ms linear;
+	-moz-animation: styleAnimationFadeIn 1000ms linear;
+	-o-animation: styleAnimationFadeIn 1000ms linear;
+	-ms-animation: styleAnimationFadeIn 1000ms linear;
+	animation: styleAnimationFadeIn 1000ms linear;
+	-webkit-transition: opacity 1500ms linear;
+	-moz-transition: opacity 1500ms linear;
+	-o-transition: opacity 1500ms linear;
+	-ms-transition: opacity 1500ms linear;
+	transition: opacity 1500ms linear;
+}
+
+.style-owl-banner-slider .owl-item.active .style-banner-title {
+	opacity: 1;
+}
+
+.style-owl-banner-slider .style-title-short {
+	font-size: 90px;
+}
+
+.style-owl-banner-slider .style-banner-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.style-owl-banner-slider .owl-dots {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+	.style-owl-banner-slider .style-banner-title {
+		margin-top: 80px;
+		background-size: auto 100%;
+		font-size: 90px;
+	}
+
+	.style-owl-banner-slider .style-title-short {
+		font-size: 70px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.style-owl-banner-slider .style-banner-title {
+		margin-top: 80px;
+		background-size: auto 100%;
+		font-size: 50px;
+	}
+
+	.style-owl-banner-slider .style-title-short {
+		font-size: 30px;
+	}
+}
+
+/* End Banner Slider =================== */
+
+/* Paralax =================== */
+.style-paralax {
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.style-paralax-bg-dark::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+/* End Paralax =================== */
+
+/* Our Service =================== */
+.style-nav-pills .nav-item .nav-link {
+	font-size: 16px;
+	font-weight: 500;
+	color: #C0BEBE;
+	background-color: #F7F7F7;
+	border-radius: 0;
+	-webkit-transition: all 500ms linear;
+	-moz-transition: all 500ms linear;
+	-o-transition: all 500ms linear;
+	-ms-transition: all 500ms linear;
+	transition: all 500ms linear;
+}
+
+.style-nav-pills .nav-item .nav-link.active,
+.style-nav-pills .nav-item .nav-link:hover {
+	color: #FFFFFF;
+	background-color: #EE6D22;
+}
+
+.style-tab-content {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: fill !important;
+	margin-top: -2px;
+	margin-left: -2px;
+	min-height: 420px;
+	display: flex;
+	align-items: center;
+}
+
+.style-tab-content .style-title {
+	color: #FFFFFF;
+}
+
+.style-tab-content .style-description {
+	color: #FFFFFF;
+}
+
+.style-tab-content .style-btn {
+	font-size: 20px;
+	font-weight: 500;
+	color: #FFFFFF;
+	background-color: #EE6D22;
+	padding: 8px 35px;
+	border-radius: 50px;
+	border: 0;
+}
+
+.style-tab-content .style-btn:hover {
+	background-color: #282c35;
+}
+
+.style-tab-content .style-content-image {
+	background: linear-gradient(270deg, rgba(255, 255, 255, 0.75) 53.12%, rgba(255, 255, 255, 0.47) 85.36%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+/* End Our Service =================== */
+
+
+/* Recent News  */
+.style-recent-news-section {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.style-recent-news .style-content {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: fill !important;
+	border-radius: 10px;
+}
+
+.style-recent-news .style-content-1 {
+	height: 360px;
+}
+
+.style-recent-news .style-content-2 {
+	height: 300px;
+}
+
+.style-recent-news .style-content-3 {
+	height: 220px;
+}
+
+.style-recent-news .style-content .style-content-text .style-title {
+	color: #FFFFFF;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.style-recent-news .style-content .style-content-text .style-date {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.style-recent-news .style-content.style-content-3 .style-content-text .style-title {
+	font-size: 18px;
+}
+
+.style-recent-news .style-content.style-content-3 .style-content-text .style-date {
+	font-size: 12px;
+}
+
+.style-recent-news .style-content .style-content-animation {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+	width: 100%;
+	visibility: hidden;
+	border-radius: 10px;
+	background: #4E4E4E;
+	-webkit-transition: all 500ms linear;
+	-moz-transition: all 500ms linear;
+	-o-transition: all 500ms linear;
+	-ms-transition: all 500ms linear;
+	transition: all 500ms linear;
+}
+
+.style-recent-news .style-content:hover .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+}
+
+.style-recent-news .style-content .style-content-animation .style-title {
+	color: #FFFFFF;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.style-recent-news .style-content .style-content-animation .style-date {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.style-recent-news .style-content .style-content-animation .style-description {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.style-recent-news .style-content .style-content-animation .style-btn {
+	padding-left: 0;
+	border: 0;
+	color: #EE6D22;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.style-recent-news .style-content.style-content-3 .style-content-animation .style-title {
+	font-size: 18px;
+}
+
+.style-recent-news .style-content.style-content-3 .style-content-animation .style-date {
+	font-size: 12px;
+}
+
+.style-recent-news .style-content.style-content-3 .style-content-animation .style-description {
+	font-size: 13px;
+}
+
+.style-recent-news .style-content.style-content-3 .style-content-animation .style-btn {
+	font-size: 13px;
+}
+
+/* End Recent News =================== */
+
+/* Client Slider =================== */
+.style-owl-client-slider .style-image {
+	object-fit: contain;
+	height: 100px;
+	width: auto;
+}
+
+/* End Client Slider =================== */
+
+
+/* Section Location =================== */
+.style-section-location {
+	position: relative;
+}
+
+.style-section-location .style-logo {
+	width: 300px;
+	object-fit: contain;
+	position: relative;
+}
+
+.style-section-location .style-content .style-image {
+	border-radius: 15px;
+	width: 100%;
+	min-height: 250px;
+	object-fit: cover;
+}
+
+.style-section-location .style-content .style-title {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.50);
+	font-size: 22px;
+	font-weight: 700;
+	top: 5px;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	-webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+.style-section-location .style-content:hover .style-title {
+	color: #FFFFFF;
+}
+
+.style-section-location .style-content .style-description {
+	background: rgba(255, 255, 255, 0.70);
+	position: absolute;
+	color: #000000;
+	font-size: 15px;
+	font-weight: 500;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	bottom: 0;
+	left: 10;
+	right: 10;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	-webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+.style-section-location .style-content:hover .style-description {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* End Section Location =================== */
