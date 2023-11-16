@@ -11,10 +11,25 @@
     color: #000;
 }
 .president-speech {
-    width: 400px !important; 
+    width: 600px !important; 
+    line-height: 25px !important; 
+    font-weight: 100 !important; 
+    /* color: #000 !important; */
+    font-size: 15px;
+}
+.president-signature {
+    width: 150px;
     line-height: 20px !important; 
-    font-weight: 400 !important; 
     color: #000 !important;
+    font-weight: 200 !important; 
+
+}
+.president-signature-sugity {
+    width: 300px !important;
+    line-height: 20px !important; 
+    color: #000 !important;
+    font-weight: 200 !important; 
+
 }
 .parallax.section-image {
     background-position: center center;
