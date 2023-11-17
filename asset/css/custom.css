@@ -1176,7 +1176,7 @@
 	.hide-txt-par-landing {
 		display: contents !important;
 		font-weight: 200;
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.text-second-parallax {
@@ -1273,6 +1273,30 @@
 
 	.text-content-about-us {
 		width: 300px !important;
+	}
+	.title-services {
+		margin-bottom: 10px !important;
+    	margin-top: 0 !important;
+	}
+	.desc-services {
+		margin-bottom: 20px !important;
+		font-size: 15px;
+	}
+	.sugity-creative-text {
+		font-size: 30px !important;
+	}
+	.text-first-parallax {
+		font-size: 25px !important;
+		font-weight: 700 !important;
+	}
+	.integrity-text {
+		font-size: 22px;
+	}
+	.embeded-text {
+		font-size: 10px;
+	}
+	.style-section-location .style-logo {
+		width: 170px;
 	}
 }
 
@@ -1382,9 +1406,22 @@
 	.text-content-about-us {
 		width: 300px !important;
 	}
+	.text-first-parallax {
+		font-size: 25px !important;
+		font-weight: 700 !important;
+	}
 }
 
 @media screen and (max-width: 650px) and (min-width: 402px) {
+	.integrity-text {
+		font-size: 22px;
+	}
+	.embeded-text {
+		font-size: 10px;
+	}
+	.sugity-creative-text {
+		font-size: 35px !important;
+	}
 
 	/* responsive comp profile */
 	.parent-visi-misi {
@@ -1402,19 +1439,22 @@
 	.president-image {
 		height: 250px !important;
 	}
+	.style-section-location .style-logo {
+		width: 170px;
+	}
 }
 
 
 @media screen and (max-width: 800px) {}
 
-@media screen and (max-width: 1265px) {
+@media screen and (max-width: 1265px) and (min-width: 651px) {
 	.text-first-parallax {
 		font-size: 25px !important;
 		font-weight: 700 !important;
 	}
 
 	.sugity-creative-text {
-		font-size: 50px !important;
+		font-size: 45px !important;
 	}
 }
 
