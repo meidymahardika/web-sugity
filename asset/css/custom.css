@@ -1298,6 +1298,12 @@
 	.style-section-location .style-logo {
 		width: 170px;
 	}
+	.style-history .style-custom-slider {
+		height: 300px;
+	}
+	.style-history .style-custom-content {
+		height: 300px;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1441,6 +1447,12 @@
 	}
 	.style-section-location .style-logo {
 		width: 170px;
+	}
+	.style-history .style-custom-slider {
+		height: 300px;
+	}
+	.style-history .style-custom-content {
+		height: 300px;
 	}
 }
 
