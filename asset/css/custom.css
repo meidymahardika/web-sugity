@@ -252,6 +252,7 @@
 /* Navbar =================== */
 .style-navbar {
 	background: linear-gradient(270deg, #282c35 33.33%, #b4b6b9 57.96%, rgba(254, 254, 255, 0.65) 82.18%) !important;
+	height: 75px;
 }
 
 .style-navbar .offcanvas {
@@ -414,6 +415,18 @@
 /* End Navbar =================== */
 
 /* Banner Slider =================== */
+@media only screen and (max-width: 575px) {
+	.style-owl-banner-slider {
+		padding-top: 75px;
+		--owl-nav-sizes: 36px;
+		--owl-dots-gutters: 4px;
+		--owl-dots-sizes: 8px;
+		--owl-nav-bg: var(--themecolor, #FFFFFF);
+		--owl-nav-margin: calc(var(--owl-nav-sizes) / -2);
+		--owl-nav-with-dots: calc(var(--owl-nav-margin) - calc(calc(30px + var(--owl-dots-sizes)) / 2));
+	}
+}
+
 .style-owl-banner-slider {
 	--owl-nav-sizes: 36px;
 	--owl-dots-gutters: 4px;
