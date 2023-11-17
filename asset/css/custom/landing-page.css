@@ -130,7 +130,7 @@ body {
 }
 
 .sugity-creative-text {
-    font-size: 70px !important;
+    font-size: 70px;
 }
 
 .text-first-parallax {
@@ -140,4 +140,19 @@ body {
 
 .text-second-parallax {
     font-size: 18px;
+}
+
+.hide-txt-par-landing {
+    display: none;
+}
+
+.embeded-text {
+    margin-top: -30px !important;
+    width: 70%;
+    margin-left: 15%;
+}
+@media only screen and (min-width: 575px) {
+    .text-second-parallax-3 {
+        padding-left: 65px !important;
+    }
 }
