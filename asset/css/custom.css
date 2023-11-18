@@ -1304,6 +1304,9 @@
 	.style-history .style-custom-content {
 		height: 300px;
 	}
+	.hide-mobile-width {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1416,6 +1419,9 @@
 		font-size: 25px !important;
 		font-weight: 700 !important;
 	}
+	.hide-mobile-width {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 650px) and (min-width: 402px) {
@@ -1453,6 +1459,9 @@
 	}
 	.style-history .style-custom-content {
 		height: 300px;
+	}
+	.hide-mobile-width {
+		display: none;
 	}
 }
 
