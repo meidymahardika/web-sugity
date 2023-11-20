@@ -586,7 +586,7 @@
 /* Banner Slider =================== */
 @media only screen and (max-width: 575px) {
 	.style-owl-banner-slider {
-		padding-top: 75px;
+		/* padding-top: 75px; */
 		--owl-nav-sizes: 36px;
 		--owl-dots-gutters: 4px;
 		--owl-dots-sizes: 8px;
@@ -641,6 +641,17 @@
 
 .style-owl-banner-slider .style-title-short {
 	font-size: 90px;
+}
+
+@media only screen and (max-width: 575px) {
+	.style-owl-banner-slider .style-banner-image {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 250% 100% !important;
+	}
 }
 
 .style-owl-banner-slider .style-banner-image {
@@ -892,6 +903,14 @@
 /* End Recent News =================== */
 
 /* Client Slider =================== */
+@media only screen and (max-width: 575px) {
+	.style-owl-client-slider .style-image {
+		object-fit: contain !important;
+		height: 175px !important;
+		width: 500px !important;
+	}
+}
+
 .style-owl-client-slider .style-image {
 	object-fit: fill;
 	height: 200px;
