@@ -72,3 +72,9 @@
 .text-content-about-us {
     width: 500px;
 }
+.is-mobile-hide {
+    display: block;
+}
+.is-mobile-show {
+    display: none;
+}

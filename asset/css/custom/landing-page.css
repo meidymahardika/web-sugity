@@ -130,7 +130,7 @@ body {
 }
 
 .sugity-creative-text {
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .text-first-parallax {
@@ -155,4 +155,11 @@ body {
     .text-second-parallax-3 {
         padding-left: 65px !important;
     }
+}
+.img-our-videos {
+    width: 70%;
+    cursor: pointer;
+}
+.parent-img-our-videos {
+    text-align: center;
 }

@@ -1154,6 +1154,10 @@ a.h-text-dark:hover {
   height: 100% !important;
 }
 
+.min-vh-80 {
+	min-height: 80vh !important;
+}
+
 .min-vh-75 {
   min-height: 75vh !important;
 }

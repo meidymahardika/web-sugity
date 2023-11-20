@@ -176,14 +176,36 @@
 
 		<!-- Banner Slider
 		============================================= -->
-		<div class="owl-carousel owl-theme style-owl-banner-slider">
-			<div class="item min-vh-40 min-vh-md-100">
+		<!-- <div class="owl-carousel owl-theme style-owl-banner-slider">
+			<div class="item min-vh-100 min-vh-md-100">
 				<video autoplay="" muted="" loop=""
-					style="object-fit: fill; height: 100vh; width: 100%; padding:0; margin:0; position:absolute">
+					style="object-fit: cover; height: 100vh; width: 100%; padding:0; margin:0; position:absolute">
 					<source src="./asset/videos/banner-video-profile.mov" type="video/mp4">
 				</video>
+				<div class="style-banner-image is-mobile-show"
+					style="background-image: url('./asset/images/banner/mobile/banner-comp-pro.png');">
+				</div>
 			</div>
-		</div><!-- #Banner Slider end -->
+		</div> -->
+		<!-- #Banner Slider end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="page-title-dark d-none d-sm-block" style="background-image: url('./asset/images/background/background-company-profile.png'); padding: 375px 0; background-size: cover;">
+
+			<div class="container clearfix text-center">
+				<h1 style="font-size: 80px;">Company Profile</h1>
+			</div>
+
+		</section>
+		<section id="page-title" class="page-title-dark d-block d-sm-none" style="background-image: url('./asset/images/background/background-company-profile.png'); padding: 325px 0; background-size: cover;">
+
+			<div class="container clearfix text-center">
+				<h1 style="font-size: 50px;">Company Profile</h1>
+			</div>
+
+		</section>
+		<!-- #page-title end -->
 
 		<!-- Content
 		============================================= -->
@@ -246,16 +268,17 @@
 				</div>
 			</div>
 			<!-- end president section -->
+
 			<!-- parallax -->
-			<div class="section style-paralax section-image m-0 border-0"
+			<div class="section style-paralax section-image m-0 border-0 d-none d-sm-block"
 				style="height: 700px; background-image: url('./asset/images/parallax/parallax-company-profile.png');"
 				data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -200px;">
 				<div class="row" style="height: 100%;">
-					<div class="col-md-5 px-5 pt-5"
+					<div class="col-md-8 col-lg-6 col-xl-5 px-5 pt-5"
 						style="display: flex; justify-content: center; align-items: center;">
 						<div class="container px-5" style="height: 100%;">
 							<h1 class="mt-0 about-us-text">About Us</h1>
-							<p style="line-height: 25px;" class="text-content-about-us">
+							<p style="line-height: 25px;">
 								Sugity Creatives is a leading manufacturer of automotive components. With a legacy
 								steeped in automotive excellence, our three-pillar business model encompasses Vehicle
 								Conversion, Part, and Mold Business.
@@ -272,12 +295,32 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="d-block d-sm-none">
+				<div class="container px-4" style="height: 100%;">
+					<h1 class="mt-0 about-us-text">About Us</h1>
+					<p style="line-height: 25px;">
+						Sugity Creatives is a leading manufacturer of automotive components. With a legacy
+						steeped in automotive excellence, our three-pillar business model encompasses Vehicle
+						Conversion, Part, and Mold Business.
+
+						As a distinguished subsidiary of TOYOTA AUTO BODY JAPAN, renowned for crafting iconic
+						vehicles, our commitment to innovation is woven into the fabric of our heritage.
+						Driven by a profound mission, we meticulously craft product that not only meet but
+						exceed customer expectations.
+
+						Join us on a journey where precision meets passion, shaping the future of automotive
+						creativity with integrity and innovation.
+					</p>
+				</div>
+				<div style="height: 300px; background-image: url('./asset/images/parallax/bg-about-us-mobile.png'); background-repeat: no-repeat; background-position: top; background-size: contain;"></div>
+			</div>
 			<!-- end parallax -->
 
 
 			<!-- section slider history company -->
-			<div class="row fluid-container style-history py-5 ps-md-5 mt-5">
-				<div class="col-md-7 ps-md-5 pe-5 pe-md-0">
+			<div class="row style-history py-5 ps-md-5 mt-5 mx-0">
+				<div class="col-7 ps-lg-5 pe-5">
 					<div class="style-custom-slider">
 						<div class="style-item style-item-1">
 							<img src="./asset/images/banner/banner-1-landing.png" alt="...">
@@ -288,46 +331,31 @@
 						<div class="style-item style-item-3">
 							<img src="./asset/images/banner/banner-3-landing.png" alt="...">
 						</div>
-						<div class="style-item style-item-1">
+						<div class="style-item style-item-4">
 							<img src="./asset/images/banner/banner-4-landing.png" alt="...">
-						</div>
-						<div class="style-item style-item-2">
-							<img src="./asset/images/banner/banner-5-landing.png" alt="...">
-						</div>
-						<div class="style-item style-item-3">
-							<img src="./asset/images/banner/banner-3-landing.png" alt="...">
 						</div>
 					</div>
 				</div>
-				<div class="col-md-5">
-					<div class="style-custom-content pt-md-5">
-						<div class="style-item px-5 style-item-1">
-							<p class="style-description m-0 pb-4">Where It All Began:<br>Our Founding Story</p>
+				<div class="col-5">
+					<div class="style-custom-content pt-5">
+						<div class="style-item px-2 px-md-5 style-item-1">
+							<p class="style-description m-0 pb-2 pb-md-4">Where It All Began:<br>Our Founding Story</p>
 							<h2 class="style-title m-0 p-0">1995</h2>
 						</div>
-						<div class="style-item px-5 style-item-2">
-							<p class="style-description m-0 pb-4">Dyna Assmbly,<br>Plastic Inj SVP<br>Kijang Krista
+						<div class="style-item px-2 px-md-5 style-item-2">
+							<p class="style-description m-0 pb-2 pb-md-4">Dyna Assmbly,<br>Plastic Inj SVP<br>Kijang
+								Krista
 								/<br>Rangga Conversion
 							</p>
 							<h2 class="style-title m-0 p-0">1996</h2>
 						</div>
-						<div class="style-item px-5 style-item-3">
-							<p class="style-description m-0 pb-4">Rubber Line SVP</p>
+						<div class="style-item px-2 px-md-5 style-item-3">
+							<p class="style-description m-0 pb-2 pb-md-4">Rubber Line SVP</p>
 							<h2 class="style-title m-0 p-0">1998</h2>
 						</div>
-						<div class="style-item px-5 style-item-4">
-							<p class="style-description m-0 pb-4">Resin Chrome<br> Plating Line SVP</p>
+						<div class="style-item px-2 px-md-5 style-item-4">
+							<p class="style-description m-0 pb-2 pb-md-4">Resin Chrome<br> Plating Line SVP</p>
 							<h2 class="style-title m-0 p-0">2000</h2>
-						</div>
-						<div class="style-item px-5 style-item-5">
-							<p class="style-description m-0 pb-4">Where It All Began:<br>Our Founding Story</p>
-							<h2 class="style-title m-0 p-0">1995</h2>
-						</div>
-						<div class="style-item px-5 style-item-6">
-							<p class="style-description m-0 pb-4">Dyna Assmbly,<br>Plastic Inj SVP<br>Kijang Krista
-								/<br>Rangga Conversion
-							</p>
-							<h2 class="style-title">1996</h2>
 						</div>
 					</div>
 				</div>
@@ -409,8 +437,7 @@
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="background-footer dark"
-			style="background-image: url('./asset/images/background/background-footer.png');">
+		<footer id="footer" class="background-footer dark" style="background-image: url('./asset/images/banner/banner-footer.png');">
 			<div class="container">
 
 				<!-- Footer Widgets
