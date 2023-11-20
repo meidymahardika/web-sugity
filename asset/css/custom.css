@@ -1331,6 +1331,15 @@
 		background-position: 48.5%;
 		background-image: url('../images/background/mobile/vehicle-business.png') !important;
 	}
+	.style-owl-banner-slider > div .parent-slider-comp-pro {
+		height: 600px;
+	}
+	.is-mobile-hide {
+		display: none !important;
+	}
+	.is-mobile-show {
+		display: block !important;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1510,6 +1519,15 @@
 	.tab-content.style-tab-content {
 		background-position: 48.5%;
 		background-image: url('../images/background/mobile/vehicle-business.png') !important;
+	}
+	.style-owl-banner-slider > div .parent-slider-comp-pro {
+		height: 600px;
+	}
+	.is-mobile-hide {
+		display: none !important;
+	}
+	.is-mobile-show {
+		display: block !important;
 	}
 }
 
