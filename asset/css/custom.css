@@ -1275,11 +1275,11 @@
 		width: 300px !important;
 	}
 	.title-services {
-		margin-bottom: 10px !important;
-    	margin-top: 0 !important;
+		margin-bottom: 15px !important;
+    	margin-top: -55px !important;
 	}
 	.desc-services {
-		margin-bottom: 20px !important;
+		margin-bottom: 45px !important;
 		font-size: 15px;
 	}
 	.sugity-creative-text {
@@ -1326,6 +1326,10 @@
 	}
 	.our-video-text {
     	font-size: 25px;
+	}
+	.tab-content.style-tab-content {
+		background-position: 48.5%;
+		background-image: url('../images/background/mobile/vehicle-business.png') !important;
 	}
 }
 
@@ -1502,6 +1506,10 @@
 	}
 	.img-our-videos {
 		width: 100% !important;
+	}
+	.tab-content.style-tab-content {
+		background-position: 48.5%;
+		background-image: url('../images/background/mobile/vehicle-business.png') !important;
 	}
 }
 
