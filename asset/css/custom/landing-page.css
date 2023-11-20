@@ -156,3 +156,10 @@ body {
         padding-left: 65px !important;
     }
 }
+.img-our-videos {
+    width: 70%;
+    cursor: pointer;
+}
+.parent-img-our-videos {
+    text-align: center;
+}
