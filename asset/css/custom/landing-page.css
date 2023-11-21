@@ -163,9 +163,11 @@ body {
 .parent-img-our-videos {
     text-align: center;
 }
-/* .our-services-text {
-    font-size: 25px;
+.parent-img-our-videos {
+    height: 500px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
-.integrity-text {
-    font-size: 30px;
-} */
+.fluid-width-video-wrapper {
+    height: 100%;
+}
