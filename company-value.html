@@ -32,83 +32,146 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
+		<!-- Navbar
 		============================================= -->
-		<header id="header" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="./asset/logo/logo-sugity-nav.png"><img src="./asset/logo/logo-sugity-nav.png" style="height: 60px;" alt="Logo Sugity"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="./asset/logo/logo-sugity-nav.png"><img src="./asset/logo/logo-sugity-nav.png" style="height: 60px;" alt="Logo Sugity"></a>
-						</div><!-- #logo end -->
-
-						<!-- header misc -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-
-							<ul class="menu-container">
-								<li class="menu-item">
-									<a class="menu-link" href="company-profile.html"><div>Company Profile</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="company-value.html"><div>Company Value</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="company-profile.html#president-message"><div>President Message</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Board of Director</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Company History</div></a>
-										</li>
-                    					<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Company Business</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Company Plant</div></a>
-										</li>
-									</ul>
+		<nav class="navbar navbar-dark navbar-expand-md fixed-top p-0 style-navbar">
+			<div class="container-fluid px-4">
+				<a class="navbar-brand" href="index.html"><img src="./asset/logo/logo-sugity-nav.png" class="logo-nav"
+						style="height: 55px;" alt="Canvas Logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-none d-md-block" id="navbarNav">
+					<ul class="navbar-nav col-12 col-md-12 col-lg-11 col-xxl-8 text-center ms-auto">
+						<li class="nav-item style-w-31">
+							<a class="nav-link" href="company-profile.html">
+								Company Profile
+							</a>
+							<ul class="style-sub-navbar-container">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Company Value</a>
 								</li>
-								<li class="menu-item">
-									<a class="menu-link" href="#"><div>Product</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Part Business</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Vehicle Business</div></a>
-										</li>
-                    					<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Mold Business</div></a>
-										</li>
-									</ul>
+								<li class="nav-item">
+									<a class="nav-link" href="company-profile.html#president-message">President Message</a>
 								</li>
-								<li class="menu-item mega-menu">
-									<a class="menu-link" href="#"><div>CSR</div></a>
+								<li class="nav-item">
+									<a class="nav-link" href="board-of-director.html">Board of Director</a>
 								</li>
-								<li class="menu-item mega-menu">
-									<a class="menu-link" href="#"><div>News</div></a>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company History</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company Plant</a>
 								</li>
 							</ul>
-
-						</nav><!-- #primary-menu end -->
-
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="#">
+								Product
+							</a>
+							<ul class="style-sub-navbar-container style-left-31">
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Part Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Vehicle Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Mold Business</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="coming-soon.html">
+								CSR
+							</a>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="coming-soon.html">
+								News
+							</a>
+						</li>
+					</ul>
+					<a class="lang ps-5">
+						EN
+					</a>
+					<div class="color-white px-2">
+						|
+					</div>
+					<a class="lang pe-5">
+						ID
+					</a>
+				</div>
+				<div class="offcanvas offcanvas-end style-navbar-offcanvas d-md-none" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<a class="navbar-brand" href="#"><img src="./asset/logo/logo-sugity-nav.png"
+								style="height: 30px;" alt="Canvas Logo"></a>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link" href="company-profile.html">
+									Company Profile
+								</a>
+								<ul class="style-sub-navbar-offcanvas-container">
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company Value</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="company-profile.html#president-message">President
+											Message</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Board of Director</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company History</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company Plant</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Product
+								</a>
+								<ul class="style-sub-navbar-offcanvas-container">
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Part Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Vehicle Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Mold Business</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="coming-soon.html">
+									CSR
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="coming-soon.html">
+									News
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
+		</nav><!-- #Navbar end -->
 
 		<!-- Page Title
 		============================================= -->
