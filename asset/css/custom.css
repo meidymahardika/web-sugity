@@ -1039,11 +1039,12 @@
 
 @media screen and (max-width: 400px) {
 	.logo-nav {
-		height: 35px !important;
+		height: 30px !important;
 	}
 
 	.style-content .style-title {
-		font-size: 16px !important;
+		font-size: 14px !important;
+		margin-bottom: 0.5rem !important;
 	}
 
 	.hide-txt-par-landing {
@@ -1096,6 +1097,11 @@
 
 	.style-content-animation .style-description {
 		font-size: 12px !important;
+		display: -webkit-box; 
+		-webkit-box-orient: vertical; 
+		-webkit-line-clamp: 3; 
+		overflow: hidden; 
+		text-overflow: ellipsis;
 	}
 
 	.style-content-text {
@@ -1456,6 +1462,18 @@
 
 	.footer-widgets-wrap .col-mb-50 {
 		padding-left: 2% !important;
+	}
+	.style-content .style-title {
+		font-size: 14px !important;
+		margin-bottom: 0.5rem !important;
+	}
+	.style-content-animation .style-description {
+		font-size: 12px !important;
+		display: -webkit-box; 
+		-webkit-box-orient: vertical; 
+		-webkit-line-clamp: 3; 
+		overflow: hidden; 
+		text-overflow: ellipsis;
 	}
 }
 
