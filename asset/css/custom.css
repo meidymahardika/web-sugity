@@ -1266,6 +1266,10 @@
 		padding-left: 2% !important;
 		padding-right: 2% !important;
 	}
+	.owl-carousel.owl-theme.style-owl-client-slider {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1514,6 +1518,10 @@
 		height: 200px !important;
 		padding-left: 1% !important;
 		padding-right: 1% !important;
+	}
+	.owl-carousel.owl-theme.style-owl-client-slider {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
 	}
 }
 
