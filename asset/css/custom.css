@@ -233,7 +233,7 @@
 /* Navbar =================== */
 .style-navbar {
 	background: linear-gradient(270deg, #282c35 33.33%, #b4b6b9 57.96%, rgba(254, 254, 255, 0.65) 82.18%) !important;
-	height: 75px;
+	height: 65px;
 }
 
 .style-navbar .offcanvas {
@@ -242,7 +242,7 @@
 
 .style-navbar .navbar-nav .nav-item .nav-link {
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 500;
 	padding: 25px 30px;
 	position: relative;
@@ -277,6 +277,7 @@
 }
 
 .style-navbar .navbar-nav .nav-item .style-sub-navbar-container {
+	width: 31%;
 	list-style-type: none;
 	position: absolute;
 	visibility: hidden;
@@ -302,7 +303,7 @@
 
 .style-navbar .navbar-nav .nav-item .style-sub-navbar-container .nav-item .nav-link {
 	color: #4E4E4E;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 500;
 	padding: 25px 30px;
 	position: relative;
@@ -320,7 +321,7 @@
 
 .style-navbar .style-navbar-offcanvas .navbar-nav .nav-item .nav-link {
 	color: #4E4E4E;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 500;
 	padding: 20px 15px;
 	position: relative;
@@ -1247,6 +1248,18 @@
 	.footer-widgets-wrap .col-mb-50 {
 		padding-left: 2% !important;
 	}
+	.style-navbar {
+		height: 50px;
+	}
+	.navbar-toggler-icon {
+		background-size: 75%;
+	}
+	.navbar-toggler {
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1474,6 +1487,21 @@
 		-webkit-line-clamp: 4; 
 		overflow: hidden; 
 		text-overflow: ellipsis;
+	}
+	.logo-nav {
+		height: 35px !important;
+	}
+	.style-navbar {
+		height: 50px;
+	}
+	.navbar-toggler-icon {
+		background-size: 75%;
+	}
+	.navbar-toggler {
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-top: 1px;
+		padding-bottom: 1px;
 	}
 }
 
