@@ -5,7 +5,7 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-/* Unitversal */
+/* Universal */
 @keyframes styleAnimationFadeIn {
 	0% {
 		opacity: 0;
@@ -17,113 +17,85 @@
 }
 
 @keyframes styleAnimationFadeIn1 {
-	0% {
-		opacity: 1;
-	}
 
+	0%,
 	20% {
 		opacity: 1;
 	}
 
-	22.5% {
-		opacity: 0;
-	}
-
-	97.5% {
-		opacity: 0;
-	}
-
+	22.5%,
 	100% {
-		opacity: 1;
+		opacity: 0;
 	}
 }
 
 @keyframes styleAnimationFadeIn2 {
-	0% {
-		opacity: 0;
-	}
 
+	0%,
 	22.5% {
 		opacity: 0;
 	}
 
-	25% {
-		opacity: 1;
-	}
-
+	25%,
 	45% {
 		opacity: 1;
 	}
 
-	47.5% {
-		opacity: 0;
-	}
-
+	47.5%,
 	100% {
 		opacity: 0;
 	}
 }
 
 @keyframes styleAnimationFadeIn3 {
-	0% {
-		opacity: 0;
-	}
 
+	0%,
 	47.5% {
 		opacity: 0;
 	}
 
-	50% {
-		opacity: 1;
-	}
-
+	50%,
 	70% {
 		opacity: 1;
 	}
 
-	72.5% {
-		opacity: 0;
-	}
-
+	72.5%,
 	100% {
 		opacity: 0;
 	}
 }
 
-@keyframes styleAnimationFadeIn4 {
-	0% {
+@keyframes styleAnimationSliderFadeIn {
+
+	0%,
+	6.66% {
 		opacity: 0;
 	}
 
-	72.5% {
+	8.32%,
+	14.98% {
 		opacity: 0;
 	}
 
-	75% {
+	16.64%,
+	24.10% {
+		opacity: 0;
+	}
+
+	24.96%,
+	31.62% {
 		opacity: 1;
 	}
 
-	95% {
-		opacity: 1;
-	}
-
-	97.5% {
-		opacity: 0;
-	}
-
+	32.50%,
 	100% {
 		opacity: 0;
 	}
 }
 
 @keyframes styleAnimationSlider1 {
-	0% {
-		top: 100px;
-		left: 100px;
-		opacity: 1;
-		z-index: 10;
-	}
 
+	0%,
 	20% {
 		top: 100px;
 		left: 100px;
@@ -131,71 +103,18 @@
 		z-index: 10;
 	}
 
-	25% {
+	25%,
+	100% {
 		top: 100px;
 		left: 100%;
 		opacity: 0;
-		z-index: 10;
-	}
-
-	26% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	45% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	50% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-
-	70% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-
-	75% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
-	}
-
-	95% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
-	}
-
-	100% {
-		top: 100px;
-		left: 100px;
-		opacity: 1;
 		z-index: 10;
 	}
 }
 
 @keyframes styleAnimationSlider2 {
-	0% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
-	}
 
+	0%,
 	20% {
 		top: 50px;
 		left: 50px;
@@ -203,13 +122,7 @@
 		z-index: 5;
 	}
 
-	25% {
-		top: 100px;
-		left: 100px;
-		opacity: 1;
-		z-index: 10;
-	}
-
+	25%,
 	45% {
 		top: 100px;
 		left: 100px;
@@ -217,57 +130,18 @@
 		z-index: 10;
 	}
 
-	50% {
+	50%,
+	100% {
 		top: 100px;
 		left: 100%;
 		opacity: 0;
 		z-index: 10;
-	}
-
-	51% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	70% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	75% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-
-	95% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-
-	100% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
 	}
 }
 
 @keyframes styleAnimationSlider3 {
-	0% {
-		top: 0px;
-		left: 0px;
-		opacity: 0.3;
-		z-index: 1;
-	}
 
+	0%,
 	20% {
 		top: 0px;
 		left: 0px;
@@ -275,13 +149,7 @@
 		z-index: 1;
 	}
 
-	25% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
-	}
-
+	25%,
 	45% {
 		top: 50px;
 		left: 50px;
@@ -289,13 +157,7 @@
 		z-index: 5;
 	}
 
-	50% {
-		top: 100px;
-		left: 100px;
-		opacity: 1;
-		z-index: 10;
-	}
-
+	50%,
 	70% {
 		top: 100px;
 		left: 100px;
@@ -303,99 +165,7 @@
 		z-index: 10;
 	}
 
-	75% {
-		top: 100px;
-		left: 100%;
-		opacity: 0;
-		z-index: 10;
-	}
-
-	76% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	95% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	100% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-}
-
-@keyframes styleAnimationSlider4 {
-	0% {
-		top: 100px;
-		left: 100%;
-		opacity: 0;
-		z-index: 10;
-	}
-
-	1% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	20% {
-		top: 0;
-		left: -100%;
-		opacity: 0;
-		z-index: 0;
-	}
-
-	25% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-
-	45% {
-		top: 0;
-		left: 0;
-		opacity: 0.3;
-		z-index: 1;
-	}
-
-	50% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
-	}
-
-	70% {
-		top: 50px;
-		left: 50px;
-		opacity: 0.6;
-		z-index: 5;
-	}
-
-	75% {
-		top: 100px;
-		left: 100px;
-		opacity: 1;
-		z-index: 10;
-	}
-
-	95% {
-		top: 100px;
-		left: 100px;
-		opacity: 1;
-		z-index: 10;
-	}
-
+	75%,
 	100% {
 		top: 100px;
 		left: 100%;
@@ -404,6 +174,48 @@
 	}
 }
 
+@keyframes styleAnimationSlider {
+
+	0%,
+	6.66% {
+		top: 0;
+		left: -100%;
+		opacity: 0;
+		z-index: 0;
+	}
+
+	8.32%,
+	14.98% {
+		top: 0;
+		left: 0;
+		opacity: 0.3;
+		z-index: 1;
+	}
+
+	16.64%,
+	23.30% {
+		top: 50px;
+		left: 50px;
+		opacity: 0.6;
+		z-index: 5;
+	}
+
+	24.96%,
+	31.62% {
+		top: 100px;
+		left: 100px;
+		opacity: 1;
+		z-index: 10;
+	}
+
+	33.28%,
+	100% {
+		top: 100px;
+		left: 100%;
+		opacity: 0;
+		z-index: 10;
+	}
+}
 
 
 .style-w-31 {
@@ -1013,13 +825,57 @@
 	background-color: #FFFFFF;
 }
 
+.style-history .style-item.style-delay-1 {
+	animation-delay: 2500ms !important;
+}
+
+.style-history .style-item.style-delay-2 {
+	animation-delay: 5000ms !important;
+}
+
+.style-history .style-item.style-delay-3 {
+	animation-delay: 7500ms !important;
+}
+
+.style-history .style-item.style-delay-4 {
+	animation-delay: 10000ms !important;
+}
+
+.style-history .style-item.style-delay-5 {
+	animation-delay: 12500ms !important;
+}
+
+.style-history .style-item.style-delay-6 {
+	animation-delay: 15000ms !important;
+}
+
+.style-history .style-item.style-delay-7 {
+	animation-delay: 17500ms !important;
+}
+
+.style-history .style-item.style-delay-8 {
+	animation-delay: 20000ms !important;
+}
+
+.style-history .style-item.style-delay-9 {
+	animation-delay: 22500ms !important;
+}
+
+.style-history .style-item.style-delay-10 {
+	animation-delay: 25000ms !important;
+}
+
+.style-history .style-item.style-delay-11 {
+	animation-delay: 27500ms !important;
+}
+
 .style-history .style-custom-content .style-item.style-item-1 {
 	-webkit-animation: styleAnimationFadeIn1 10000ms linear;
 	-moz-animation: styleAnimationFadeIn1 10000ms linear;
 	-o-animation: styleAnimationFadeIn1 10000ms linear;
 	-ms-animation: styleAnimationFadeIn1 10000ms linear;
 	animation: styleAnimationFadeIn1 10000ms linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: 1;
 }
 
 .style-history .style-custom-content .style-item.style-item-2 {
@@ -1028,7 +884,7 @@
 	-o-animation: styleAnimationFadeIn2 10000ms linear;
 	-ms-animation: styleAnimationFadeIn2 10000ms linear;
 	animation: styleAnimationFadeIn2 10000ms linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: 1;
 }
 
 .style-history .style-custom-content .style-item.style-item-3 {
@@ -1037,15 +893,15 @@
 	-o-animation: styleAnimationFadeIn3 10000ms linear;
 	-ms-animation: styleAnimationFadeIn3 10000ms linear;
 	animation: styleAnimationFadeIn3 10000ms linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: 1;
 }
 
-.style-history .style-custom-content .style-item.style-item-4 {
-	-webkit-animation: styleAnimationFadeIn4 10000ms linear;
-	-moz-animation: styleAnimationFadeIn4 10000ms linear;
-	-o-animation: styleAnimationFadeIn4 10000ms linear;
-	-ms-animation: styleAnimationFadeIn4 10000ms linear;
-	animation: styleAnimationFadeIn4 10000ms linear;
+.style-history .style-custom-content .style-item.style-item-fade {
+	-webkit-animation: styleAnimationSliderFadeIn 30000ms linear;
+	-moz-animation: styleAnimationSliderFadeIn 30000ms linear;
+	-o-animation: styleAnimationSliderFadeIn 30000ms linear;
+	-ms-animation: styleAnimationSliderFadeIn 30000ms linear;
+	animation: styleAnimationSliderFadeIn 30000ms linear;
 	animation-iteration-count: infinite;
 }
 
@@ -1082,7 +938,6 @@
 }
 
 .style-history .style-custom-slider .style-item.style-item-1 {
-	animation-delay: 0ms;
 	opacity: 0;
 	z-index: 10;
 	left: 100px;
@@ -1092,7 +947,7 @@
 	-o-animation: styleAnimationSlider1 10000ms linear;
 	-ms-animation: styleAnimationSlider1 10000ms linear;
 	animation: styleAnimationSlider1 10000ms linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: 1;
 }
 
 .style-history .style-custom-slider .style-item.style-item-2 {
@@ -1105,7 +960,7 @@
 	-o-animation: styleAnimationSlider2 10000ms linear;
 	-ms-animation: styleAnimationSlider2 10000ms linear;
 	animation: styleAnimationSlider2 10000ms linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: 1;
 }
 
 .style-history .style-custom-slider .style-item.style-item-3 {
@@ -1118,19 +973,19 @@
 	-o-animation: styleAnimationSlider3 10000ms linear;
 	-ms-animation: styleAnimationSlider3 10000ms linear;
 	animation: styleAnimationSlider3 10000ms linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: 1;
 }
 
-.style-history .style-custom-slider .style-item.style-item-4 {
+.style-history .style-custom-slider .style-item.style-item-slider {
 	opacity: 0;
 	z-index: 10;
 	left: 100%;
 	top: 100px;
-	-webkit-animation: styleAnimationSlider4 10000ms linear;
-	-moz-animation: styleAnimationSlider4 10000ms linear;
-	-o-animation: styleAnimationSlider4 10000ms linear;
-	-ms-animation: styleAnimationSlider4 10000ms linear;
-	animation: styleAnimationSlider4 10000ms linear;
+	-webkit-animation: styleAnimationSlider 30000ms linear;
+	-moz-animation: styleAnimationSlider 30000ms linear;
+	-o-animation: styleAnimationSlider 30000ms linear;
+	-ms-animation: styleAnimationSlider 30000ms linear;
+	animation: styleAnimationSlider 30000ms linear;
 	animation-iteration-count: infinite;
 }
 
@@ -1177,7 +1032,6 @@
 }
 
 /* End Company Profile History =================== */
-
 
 
 
@@ -1293,39 +1147,50 @@
 	.text-content-about-us {
 		width: 300px !important;
 	}
+
 	.title-services {
 		margin-bottom: 15px !important;
-    	margin-top: -55px !important;
+		margin-top: -55px !important;
 	}
+
 	.desc-services {
 		margin-bottom: 45px !important;
 		font-size: 15px;
 	}
+
 	.sugity-creative-text {
 		font-size: 30px !important;
 	}
+
 	.text-first-parallax {
 		font-size: 25px !important;
 		font-weight: 700 !important;
 	}
+
 	.integrity-text {
 		font-size: 22px;
 	}
+
 	.embeded-text {
 		font-size: 10px;
 	}
+
 	.style-section-location .style-logo {
 		width: 170px;
 	}
+
 	.style-history .style-custom-slider {
 		height: 300px;
 	}
+
 	.style-history .style-custom-content {
 		height: 300px;
 	}
+
 	.hide-mobile-width {
 		display: none;
 	}
+
 	.style-section-location .style-content .style-image {
 		border-radius: 15px;
 		width: 100%;
@@ -1333,36 +1198,46 @@
 		object-fit: cover;
 		object-position: 40% 50%;
 	}
+
 	.section-our-videos {
 		padding-left: 1rem !important;
 		padding-top: 1rem !important;
 	}
+
 	.parent-img-our-videos {
 		text-align: left !important;
 	}
+
 	.img-our-videos {
 		width: 100% !important;
 	}
+
 	.our-video-text {
-    	font-size: 25px;
+		font-size: 25px;
 	}
+
 	.tab-content.style-tab-content {
 		background-position: 48.5%;
 		background-image: url('../images/background/mobile/vehicle-business.png') !important;
 	}
-	.style-owl-banner-slider > div .parent-slider-comp-pro {
+
+	.style-owl-banner-slider>div .parent-slider-comp-pro {
 		height: 600px;
 	}
+
 	.is-mobile-hide {
 		display: none !important;
 	}
+
 	.is-mobile-show {
 		display: block !important;
 	}
+
 	#footer .footer-widgets-wrap {
 		position: relative;
 		padding: 35px 0;
 	}
+
 	.footer-widgets-wrap .col-mb-50 {
 		padding-left: 2% !important;
 	}
@@ -1474,20 +1349,25 @@
 	.text-content-about-us {
 		width: 300px !important;
 	}
+
 	.text-first-parallax {
 		font-size: 25px !important;
 		font-weight: 700 !important;
 	}
+
 	.hide-mobile-width {
 		display: none;
 	}
+
 	.section-our-videos {
 		padding-left: 1rem !important;
 		padding-top: 1rem !important;
 	}
+
 	.parent-img-our-videos {
 		text-align: left !important;
 	}
+
 	.img-our-videos {
 		width: 100% !important;
 	}
@@ -1497,9 +1377,11 @@
 	.integrity-text {
 		font-size: 22px;
 	}
+
 	.embeded-text {
 		font-size: 10px;
 	}
+
 	.sugity-creative-text {
 		font-size: 35px !important;
 	}
@@ -1520,45 +1402,58 @@
 	.president-image {
 		height: 250px !important;
 	}
+
 	.style-section-location .style-logo {
 		width: 170px;
 	}
+
 	.style-history .style-custom-slider {
 		height: 300px;
 	}
+
 	.style-history .style-custom-content {
 		height: 300px;
 	}
+
 	.hide-mobile-width {
 		display: none;
 	}
+
 	.section-our-videos {
 		padding-left: 1rem !important;
 		padding-top: 1rem !important;
 	}
+
 	.parent-img-our-videos {
 		text-align: left !important;
 	}
+
 	.img-our-videos {
 		width: 100% !important;
 	}
+
 	.tab-content.style-tab-content {
 		background-position: 48.5%;
 		background-image: url('../images/background/mobile/vehicle-business.png') !important;
 	}
-	.style-owl-banner-slider > div .parent-slider-comp-pro {
+
+	.style-owl-banner-slider>div .parent-slider-comp-pro {
 		height: 600px;
 	}
+
 	.is-mobile-hide {
 		display: none !important;
 	}
+
 	.is-mobile-show {
 		display: block !important;
 	}
+
 	#footer .footer-widgets-wrap {
 		position: relative;
 		padding: 35px 0;
 	}
+
 	.footer-widgets-wrap .col-mb-50 {
 		padding-left: 2% !important;
 	}
