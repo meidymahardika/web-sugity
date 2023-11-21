@@ -1359,6 +1359,13 @@
 	.is-mobile-show {
 		display: block !important;
 	}
+	#footer .footer-widgets-wrap {
+		position: relative;
+		padding: 35px 0;
+	}
+	.footer-widgets-wrap .col-mb-50 {
+		padding-left: 2% !important;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1547,6 +1554,13 @@
 	}
 	.is-mobile-show {
 		display: block !important;
+	}
+	#footer .footer-widgets-wrap {
+		position: relative;
+		padding: 35px 0;
+	}
+	.footer-widgets-wrap .col-mb-50 {
+		padding-left: 2% !important;
 	}
 }
 
