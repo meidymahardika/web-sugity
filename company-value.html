@@ -32,162 +32,237 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
+		<!-- Navbar
 		============================================= -->
-		<header id="header" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="./asset/logo/logo-sugity-nav.png"><img src="./asset/logo/logo-sugity-nav.png" style="height: 60px;" alt="Logo Sugity"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="./asset/logo/logo-sugity-nav.png"><img src="./asset/logo/logo-sugity-nav.png" style="height: 60px;" alt="Logo Sugity"></a>
-						</div><!-- #logo end -->
-
-						<!-- header misc -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-
-							<ul class="menu-container">
-								<li class="menu-item">
-									<a class="menu-link" href="company-profile.html"><div>Company Profile</div></a>
-									<ul class="sub-menu-container">
-										<li class="nav-item">
-											<a class="nav-link" href="company-value.html">Company Value</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="company-profile.html#president-message">President Message</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="board-of-director.html">Board of Director</a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Company History</div></a>
-										</li>
-                    					<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Company Business</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Company Plant</div></a>
-										</li>
-									</ul>
+		<nav class="navbar navbar-dark navbar-expand-md fixed-top p-0 style-navbar">
+			<div class="container-fluid px-4" style="height: 100%;">
+				<a class="navbar-brand" href="index.html"><img src="./asset/logo/logo-sugity-nav.png" class="logo-nav" style="height: 50px;"
+						alt="Canvas Logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-none d-md-block" id="navbarNav" style="height: 100%;">
+					<ul class="navbar-nav col-12 col-md-12 col-lg-11 col-xxl-7 text-center ms-auto" style="height: 100%;">
+						<li class="nav-item style-w-31">
+							<a class="nav-link" href="company-profile.html">
+								Company Profile
+							</a>
+							<ul class="style-sub-navbar-container">
+								<li class="nav-item">
+									<!-- <a class="nav-link" href="company-value.html">Company Value</a> -->
+									<a class="nav-link" href="coming-soon.html">Company Value</a>
 								</li>
-								<li class="menu-item">
-									<a class="menu-link" href="#"><div>Product</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Part Business</div></a>
-										</li>
-										<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Vehicle Business</div></a>
-										</li>
-                    					<li class="menu-item">
-											<a class="menu-link" href="coming-soon.html"><div>Mold Business</div></a>
-										</li>
-									</ul>
+								<li class="nav-item">
+									<a class="nav-link" href="company-profile.html#president-message">President Message</a>
+									<!-- <a class="nav-link" href="coming-soon.html">President Message</a> -->
 								</li>
-								<li class="menu-item mega-menu">
-									<a class="menu-link" href="#"><div>CSR</div></a>
+								<li class="nav-item">
+									<!-- <a class="nav-link" href="board-of-director.html">Board of Director</a> -->
+									<a class="nav-link" href="coming-soon.html">Board of Director</a>
 								</li>
-								<li class="menu-item mega-menu">
-									<a class="menu-link" href="#"><div>News</div></a>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company History</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company Plant</a>
 								</li>
 							</ul>
-
-						</nav><!-- #primary-menu end -->
-
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="#">
+								Product
+							</a>
+							<ul class="style-sub-navbar-container style-left-31">
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Part Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Vehicle Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Mold Business</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="coming-soon.html">
+								CSR
+							</a>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="coming-soon.html">
+								News
+							</a>
+						</li>
+					</ul>
+					<a class="lang ps-5">
+						EN
+					</a>
+					<div class="color-white px-2">
+						|
+					</div>
+					<a class="lang pe-5">
+						ID
+					</a>
+				</div>
+				<div class="offcanvas offcanvas-end style-navbar-offcanvas d-md-none" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<a class="navbar-brand" href="#"><img src="./asset/logo/logo-sugity-nav.png"
+								style="height: 30px;" alt="Canvas Logo"></a>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link" href="company-profile.html">
+									Company Profile
+								</a>
+								<ul class="style-sub-navbar-offcanvas-container">
+									<li class="nav-item">
+										<!-- <a class="nav-link" href="company-value.html">Company Value</a> -->
+										<a class="nav-link" href="coming-soon.html">Company Value</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="company-profile.html#president-message">President
+											Message</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Board of Director</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company History</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company Plant</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Product
+								</a>
+								<ul class="style-sub-navbar-offcanvas-container">
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Part Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Vehicle Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Mold Business</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="coming-soon.html">
+									CSR
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="coming-soon.html">
+									News
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
+		</nav><!-- #Navbar end -->
 
 		<!-- Page Title
 		============================================= -->
-      	<section class="page-title-dark mb-0" style="background-image: url('./asset/images/background/background-company-value.png');">
-			<div class="row mt-0" style="height: 100%;">
-				<div class="col-md-7 text-layer mt-0" style="display: flex; justify-content: center; align-items: center;">
-					<div class="container dark px-5">
-						<h1 style="text-transform: none;" class="mb-0">Our</h1>
-						<h1 style="text-transform: none; font-weight: 600;" class="display-2 mb-2 mt-0">Company Value</h1>
+      	<section class="page-title-dark mb-0" style="background-image: url('./asset/images/background/background-company-value.png'); height: 800px !important;">
+			<div class="row" style="height: 100%;">
+				<div class="col-md-7 text-layer" style="display: flex; justify-content: center; align-items: center;">
+					<div class="container dark pt-5">
+						<h1 style="text-transform: none; font-size: 75px;" class="mb-0">Our</h1>
+						<h1 style="text-transform: none; font-size: 80px; font-weight: 600;" class="display-2 mb-4 mt-0">Company Value</h1>
 						<p class="w-75" style="font-size: 20px;">
 							Lorem ipsum dolor sit amet. Ut quibusdam tempora et molestiae voluptas est tempora beatae quo vitae corporis non voluptas alias. Et adipisci unde quo porro optio ut laboriosam possimus non consequatur asperiores qui perspiciatis tenetur sit neque exercitationem?
 						</p>
 					</div>
 				</div>
-				<div class="col-md-5">
-					<img src="./asset/images/background/overlay/overlay-image-company-value.png" width="600" alt="">
+				<div class="col-md-5" style="display: flex; justify-content: center; align-items: center;">
+					<img class="pt-5" src="./asset/images/background/overlay/overlay-image-company-value.png" width="500" alt="">
 				</div>
 			</div>
 		</section><!-- #page-title end -->
-
+		
 		<!-- Content
 		============================================= -->
 		<section id="content">
+
 			<!-- section visi misi -->
-			<div class="row m-0" style="display: flex;
+			<div class="row m-0 row-section-visi-misi" style="display: flex;
 			width: 100%;
 			justify-content: space-between;
 			align-items: center;
 			flex-shrink: 0;">
-				<div class="col-md-6 text-visi-misi" style="width: 620px;
-				flex-shrink: 0; padding-left: 123px;">
+				<div class="col-md-6 text-visi-misi">
 					<div class="container">
-						Our Mission & Vision
+						Our Company Values
 					</div>
 				</div>
-				<div style="width: 1px; height: 650px; border-left: 1px solid #000;"></div>
-				<div class="col-md-6 p-5">
+				<div class="divider-visi-misi" style="width: 1px; height: 650px; border-left: 1px solid #000;"></div>
+				<div class="col-md-6 p-5 parent-visi-misi">
 					<!-- mission section -->
 					<div class="row">
-						<div class="col-md-6 p-2">
-							<h2 class="mb-2" style="font-weight: 600; color: #000;">Our Mission</h2>
-							<div class="card" style="width: 18rem;">
+						<div class="col-md-6 p-2 card-mission-1">
+							<div class="card" style="width: 18rem; height: 300px;">
 								<div class="card-body px-4 pb-0">
-									<h5 class="card-title"><img src="./asset/images/vector/visi-misi.png" alt="" height="125"></h5>
-									<h4 class="card-subtitle mb-2">Mission 1</h4>
-									<p style="line-height: 20px; font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<h5 class="card-title"><img src="./asset/images/vector/our-philosophy.png" alt=""
+											height="110"></h5>
+									<h4 class="card-subtitle mb-2">Our Philosophy</h4>
+									<p style="line-height: 20px; font-size: 14px;">Create continous collaboration
+										beetwen Indonesia and Japan by congtributing in various innovations for future
+										mobility technology.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 p-2">
-							<h2 class="mb-2" style="font-weight: 600; color: #000;">&nbsp;</h2>
-							<div class="card" style="width: 18rem;">
+						<div class="col-md-6 p-2 card-mission-2">
+							<div class="card" style="width: 18rem; height: 300px;">
 								<div class="card-body px-4 pb-0">
-									<h5 class="card-title"><img src="./asset/images/vector/visi-misi.png" alt="" height="125"></h5>
-									<h4 class="card-subtitle mb-2">Mission 2</h4>
-									<p style="line-height: 20px; font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<h5 class="card-title"><img src="./asset/images/vector/our-value.png" alt=""
+											height="110"></h5>
+									<h4 class="card-subtitle mb-2">Our Value</h4>
+									<p style="line-height: 20px; font-size: 22px; font-weight: 700; color: #EE6D22;">
+										SUGITY PRIDE</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- vision section -->
 					<div class="row mt-2">
-						<div class="col-md-6 p-2">
-							<h2 class="mb-2" style="font-weight: 600; color: #000;">Our Vision</h2>
-							<div class="card" style="width: 18rem;">
+						<div class="col-md-6 p-2 card-vision-1">
+							<div class="card" style="width: 18rem; height: 300px;">
 								<div class="card-body px-4 pb-0">
-									<h5 class="card-title"><img src="./asset/images/vector/visi-misi.png" alt="" height="125"></h5>
-									<h4 class="card-subtitle mb-2">Vision 1</h4>
-									<p style="line-height: 20px; font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<h5 class="card-title"><img src="./asset/images/vector/our-mission.png" alt=""
+											height="110"></h5>
+									<h4 class="card-subtitle mb-2">Our Mission</h4>
+									<p style="line-height: 20px; font-size: 14px;">Being a Sustainable Product Maker
+										Company that Provides Customer Satisfaction & Contributes to Society Growth</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 p-2">
-							<h2 class="mb-2" style="font-weight: 600; color: #000;">&nbsp;</h2>
-							<div class="card" style="width: 18rem;">
+						<div class="col-md-6 p-2 card-vision-2">
+							<div class="card" style="width: 18rem; height: 300px;">
 								<div class="card-body px-4 pb-0">
-									<h5 class="card-title"><img src="./asset/images/vector/visi-misi.png" alt="" height="125"></h5>
-									<h4 class="card-subtitle mb-2">Vision 2</h4>
-									<p style="line-height: 20px; font-size: 14px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<h5 class="card-title"><img src="./asset/images/vector/our-vision.png" alt=""
+											height="110"></h5>
+									<h4 class="card-subtitle mb-2">Our Vision</h4>
+									<p class="mb-1"
+										style="line-height: 20px; font-size: 16px; font-weight: 700; color: #EE6D22;">
+										LEADING with PRIDE</p>
+									<p style="line-height: 20px; font-size: 14px;">Become a Model of Automotive
+										Manufacturing Company that Leads the industrial ecosystem development.</p>
 								</div>
 							</div>
 						</div>
@@ -195,17 +270,18 @@
 				</div>
 			</div>
 			<!-- end section visi misi -->
-			<!-- our philosophy -->
-			<div class="philosophy-section my-5">
+
+			<!-- our value -->
+			<div class="value-section my-5">
 				<div class="text-center mb-5">
-					<h2 class="our-philosophy-text">Our Philosophy</h2>
-					<h1 class="integrity-text">Professional • Integrity • Development</h1>
+					<h2 class="our-value-text">Our Value</h2>
+					<h1 class="integrity-text" style="font-size: 42px;">Professional • Integrity • Development</h1>
 				</div>
 			</div>
 			<div class="row mb-5 px-5">
 				<div class="col-md-4 text-center px-5 py-5">
 					<div style="background-image: url('./asset/images/card-image/comp-value-1.png'); height: 420px;">
-						<div class="container dark text-start item-text-overlay-philosophy pb-3">
+						<div class="container dark text-start item-text-overlay-value pb-3">
 							<div>
 								<h3 class="mb-0">Professional</h3>
 								<p style="line-height: 15px; font-size: 14px; font-weight: 400;">
@@ -217,7 +293,7 @@
 				</div>
 				<div class="col-md-4 text-center px-5 py-5">
 					<div style="background-image: url('./asset/images/card-image/comp-value-2.png'); height: 420px;">
-						<div class="container dark text-start item-text-overlay-philosophy pb-3">
+						<div class="container dark text-start item-text-overlay-value pb-3">
 							<div>
 								<h3 class="mb-0">Integrity</h3>
 								<p style="line-height: 15px; font-size: 14px; font-weight: 400;">
@@ -229,7 +305,7 @@
 				</div>
 				<div class="col-md-4 text-center px-5 py-5">
 					<div style="background-image: url('./asset/images/card-image/comp-value-3.png'); height: 420px;">
-						<div class="container dark text-start item-text-overlay-philosophy pb-3">
+						<div class="container dark text-start item-text-overlay-value pb-3">
 							<div>
 								<h3 class="mb-0">Development</h3>
 								<p style="line-height: 15px; font-size: 14px; font-weight: 400;">
@@ -240,12 +316,13 @@
 					</div>
 				</div>
 			</div>
-			<!-- end our philosophy -->
+			<!-- end our value -->
 		</section><!-- #content end -->
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="background-footer dark" style="background-image: url('./asset/images/background/background-footer.png');">
+		<footer id="footer" class="background-footer dark"
+			style="background-image: url('./asset/images/banner/banner-footer.png');">
 			<div class="container">
 
 				<!-- Footer Widgets
@@ -266,16 +343,24 @@
 
 										<div class="row">
 											<div class="col-12">
-												<i class="icon-envelope"></i> info@sugity.co.id
+												<a href = "mailto: info@sugity.co.id">
+													<i class="icon-envelope"></i> info@sugity.co.id
+												</a>
 											</div>
 											<div class="col-12">
-												<i class="icon-phone"></i> (021) 898 0307
+												<a href="tel:(021) 898 0307">
+													<i class="icon-phone"></i> (021) 898 0307
+												</a>
 											</div>
 											<div class="col-12">
-												<i class="icon-youtube"></i> Sugity Creatives
+												<a href="https://www.youtube.com/@sugitycreatives8335" target="_blank">
+													<i class="icon-youtube"></i> Sugity Creatives
+												</a>
 											</div>
 											<div class="col-12">
-												<i class="icon-instagram"></i> ptsugitycreatives
+												<a href="https://www.instagram.com/ptsugitycreatives/" target="_blank">
+													<i class="icon-instagram"></i> ptsugitycreatives
+												</a>
 											</div>
 										</div>
 
@@ -286,7 +371,7 @@
 								<div class="col-md-4">
 
 									<div class="widget widget_links clearfix">
-										
+
 										<a href="company-profile.html">
 											<h3 class="entry-title">Company Profile</h3>
 										</a>
@@ -313,7 +398,7 @@
 								<div class="col-md-4">
 
 									<div class="widget widget_links clearfix">
-										
+
 										<a href="coming-soon.html">
 											<h3 class="entry-title">Product</h3>
 										</a>
@@ -346,31 +431,31 @@
 										<div class="row">
 											<div class="col-lg-6 bottommargin-sm">
 												<div class="widget widget_links clearfix">
-										
+
 													<a href="coming-soon.html">
 														<h3 class="entry-title">CSR</h3>
 													</a>
-			
-													<div class="row">
+
+													<!-- <div class="row">
 														<div class="col-12">
 															<a href="coming-soon.html">Tree Planting</a>
 														</div>
 														<div class="col-12">
 															<a href="coming-soon.html">Story Book (Ehon)</a>
 														</div>
-													</div>
-			
+													</div> -->
+
 												</div>
 											</div>
 
 											<div class="col-lg-6 bottommargin-sm">
 												<div class="widget widget_links clearfix">
-										
+
 													<a href="coming-soon.html">
 														<h3 class="entry-title">News</h3>
 													</a>
-			
-													<div class="row">
+
+													<!-- <div class="row">
 														<div class="col-12">
 															<a href="coming-soon.html">Achievement</a>
 														</div>
@@ -383,8 +468,8 @@
 														<div class="col-12">
 															<a href="coming-soon.html">Other Information</a>
 														</div>
-													</div>
-			
+													</div> -->
+
 												</div>
 											</div>
 										</div>
