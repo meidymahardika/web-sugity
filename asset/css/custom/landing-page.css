@@ -163,3 +163,11 @@ body {
 .parent-img-our-videos {
     text-align: center;
 }
+.parent-img-our-videos {
+    height: 500px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.fluid-width-video-wrapper {
+    height: 100%;
+}
