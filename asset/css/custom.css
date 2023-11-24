@@ -759,7 +759,7 @@
 	color: rgba(255, 255, 255, 0.50);
 	font-size: 22px;
 	font-weight: 700;
-	top: 5px;
+	top: 18px;
 	left: 0;
 	right: 0;
 	display: flex;
@@ -1185,9 +1185,9 @@
 		font-size: 10px;
 	}
 
-	.style-section-location .style-logo {
+	/* .style-section-location .style-logo {
 		width: 170px;
-	}
+	} */
 
 	.style-history .style-custom-slider {
 		height: 300px;
@@ -1528,7 +1528,13 @@
 }
 
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+	.parent-img-our-videos {
+		height: 300px !important;
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+	}
+}
 
 @media screen and (max-width: 1265px) and (min-width: 651px) {
 	.text-first-parallax {
