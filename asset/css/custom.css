@@ -736,6 +736,8 @@
 /* Section Location =================== */
 .style-section-location {
 	position: relative;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
 }
 
 .style-section-location .style-logo {

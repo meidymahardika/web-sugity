@@ -12593,7 +12593,7 @@ body:not(.device-touch) .social-icon i {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin: 0;
-	border-bottom: 1px solid #DDD;
+	border-bottom: 0px solid #DDD;
 	list-style: none;
 	padding: 0 15px;
 }
