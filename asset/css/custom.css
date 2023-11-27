@@ -588,7 +588,7 @@
 	background: linear-gradient(270deg, rgba(255, 255, 255, 0.75) 53.12%, rgba(255, 255, 255, 0.47) 85.36%, rgba(255, 255, 255, 0.00) 100%);
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 768px) {
 	.h-bg-our-services {
 		height: 650px !important;
 	}
@@ -602,6 +602,13 @@
 
 
 /* Recent News  */
+
+@media only screen and (max-width: 768px) {
+	.style-recent-news .col-12 {
+		width: 100%;
+	}
+}
+
 .style-recent-news-section {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -759,7 +766,7 @@
 	color: rgba(255, 255, 255, 0.50);
 	font-size: 22px;
 	font-weight: 700;
-	top: 5px;
+	top: 18px;
 	left: 0;
 	right: 0;
 	display: flex;
@@ -1040,7 +1047,7 @@
 
 /* responsive css */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
 	.logo-nav {
 		height: 30px !important;
 	}
@@ -1185,9 +1192,9 @@
 		font-size: 10px;
 	}
 
-	.style-section-location .style-logo {
+	/* .style-section-location .style-logo {
 		width: 170px;
-	}
+	} */
 
 	.style-history .style-custom-slider {
 		height: 300px;
@@ -1272,11 +1279,15 @@
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;
 	}
+	.style-section-product-overview .px-5 {
+		padding-right: 0 !important;
+		padding-left: 7rem !important;
+	}
 }
 
 @media screen and (max-width: 550px) {}
 
-@media screen and (max-width: 765px) and (min-width: 401px) {
+@media screen and (max-width: 768px) and (min-width: 401px) {
 	.hide-txt-par-landing {
 		display: contents !important;
 		font-weight: 200;
@@ -1316,7 +1327,7 @@
 	}
 
 	.style-content .style-title {
-		font-size: 25px !important;
+		font-size: 20px !important;
 	}
 
 	.style-content .style-description {
@@ -1335,12 +1346,12 @@
 	}
 
 	.footer-widgets-wrap .col-mb-50 {
-		padding-left: 20% !important;
+		padding-left: 2% !important;
 	}
 
 	.style-paralax .row .px-5 {
-		padding-left: 20px !important;
-		padding-right: 20px !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
 	}
 
 	/* responsive company profile */
@@ -1528,7 +1539,13 @@
 }
 
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+	.parent-img-our-videos {
+		height: 300px !important;
+		padding-left: 1% !important;
+		padding-right: 1% !important;
+	}
+}
 
 @media screen and (max-width: 1265px) and (min-width: 651px) {
 	.text-first-parallax {

@@ -93,3 +93,15 @@
 .is-mobile-show {
     display: none;
 }
+
+/* responsive part */
+
+/* tablet width */
+@media screen and (max-width: 768px) and (min-width: 401px) {
+	.parent-president-message .container {
+        max-width: 100% !important;
+    }
+}
+/* end tablet width */
+
+/* end responsive part */
