@@ -1283,6 +1283,9 @@
 		padding-right: 0 !important;
 		padding-left: 7rem !important;
 	}
+	.border-thick {
+		border-right: 0!important;
+	}
 }
 
 @media screen and (max-width: 550px) {}
@@ -1559,3 +1562,25 @@
 }
 
 /* end responsive css */
+
+/* company value */
+.title-values {
+    color: #EE6D22;
+    font-weight: 700 !important;
+}
+
+.desc-values {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5 !important;
+}
+
+.border-thick {
+    border-right: 1px solid #C0BEBE;
+}
+
+.row-section-visi-misi .text-center {
+	height: 315px;
+}
+/* end company value */

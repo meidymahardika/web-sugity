@@ -21,9 +21,9 @@
     transition: filter 0.5s;
 }
 
-.director-image:hover {
+/* .director-image:hover {
     filter: drop-shadow(20px 4px 4px #2F7649);
-}
+} */
 
 @media screen and (max-width: 400px) {
 	.style-nav-pills-bod .nav-item .nav-link {
