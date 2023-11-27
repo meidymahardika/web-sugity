@@ -151,7 +151,7 @@ body {
     width: 70%;
     margin-left: 15%;
 }
-@media only screen and (min-width: 575px) {
+@media only screen and (min-width: 768px) {
     .text-second-parallax-3 {
         padding-left: 65px !important;
     }
