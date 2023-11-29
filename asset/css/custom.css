@@ -740,7 +740,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 	.style-owl-client-slider .style-image {
 		object-fit: contain !important;
 		height: 150px !important;
