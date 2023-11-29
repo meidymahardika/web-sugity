@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 /* Facility =========== */
 .style-carousel-facility {
     position: relative;

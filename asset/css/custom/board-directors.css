@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .style-nav-pills-bod .nav-item .nav-link.active, .style-nav-pills .nav-item .nav-link:hover {
     color: #EE6D22;
     border-radius: 10px;
@@ -21,11 +25,20 @@
     transition: filter 0.5s;
 }
 
+.desc-shareholder {
+    font-size: 1.5rem !important;
+    font-weight: 500;
+} 
+
 /* .director-image:hover {
     filter: drop-shadow(20px 4px 4px #2F7649);
 } */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+    .desc-shareholder {
+        font-size: 0.7rem !important;
+    } 
+
 	.style-nav-pills-bod .nav-item .nav-link {
         width: 100% !important;
     }
