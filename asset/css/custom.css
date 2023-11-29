@@ -231,9 +231,18 @@
 }
 
 /* Navbar =================== */
-.style-navbar {
-	background: linear-gradient(270deg, #282c35 52.33%, #b4b6b9 69.96%, rgba(254, 254, 255, 0.65) 82.18%) !important;
-	height: 65px;
+@media only screen and (max-width: 991px) {
+	.style-navbar {
+		background: linear-gradient(270deg, #282c35 20%, #b4b6b9 60%, rgba(254, 254, 255, 0.65) 82.18%) !important;
+		height: 65px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.style-navbar {
+		background: linear-gradient(270deg, #282c35 52.33%, #b4b6b9 69.96%, rgba(254, 254, 255, 0.65) 82.18%) !important;
+		height: 65px;
+	}
 }
 
 .style-navbar .offcanvas {
@@ -588,14 +597,14 @@
 	background: linear-gradient(270deg, rgba(255, 255, 255, 0.75) 53.12%, rgba(255, 255, 255, 0.47) 85.36%, rgba(255, 255, 255, 0.00) 100%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 	.h-bg-our-services {
 		height: 650px !important;
 	}
 }
 
 .h-bg-our-services {
-	height: 500px;
+	height: 575px;
 }
 
 /* End Our Service =================== */
@@ -603,7 +612,7 @@
 
 /* Recent News  */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 	.style-recent-news .col-12 {
 		width: 100%;
 	}
@@ -727,6 +736,14 @@
 	.style-owl-client-slider .style-image {
 		object-fit: contain !important;
 		height: 175px !important;
+		width: 500px !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.style-owl-client-slider .style-image {
+		object-fit: contain !important;
+		height: 150px !important;
 		width: 500px !important;
 	}
 }
@@ -1419,7 +1436,7 @@
 	}
 }
 
-@media screen and (max-width: 650px) and (min-width: 402px) {
+@media screen and (max-width: 991px) and (min-width: 426px) {
 	.integrity-text {
 		font-size: 22px;
 	}
@@ -1531,9 +1548,9 @@
 		padding-bottom: 1px;
 	}
 	.parent-img-our-videos {
-		height: 200px !important;
-		padding-left: 1% !important;
-		padding-right: 1% !important;
+		height: 250px !important;
+		padding-left: 15% !important;
+		padding-right: 15% !important;
 	}
 	.owl-carousel.owl-theme.style-owl-client-slider {
 		padding-top: 0 !important;
@@ -1542,7 +1559,7 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 992px) {
 	.parent-img-our-videos {
 		height: 300px !important;
 		padding-left: 1% !important;
