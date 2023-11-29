@@ -1353,8 +1353,8 @@
 	}
 
 	.style-paralax .row .px-5 {
-		padding-left: 0px !important;
-		padding-right: 0px !important;
+		padding-left: 16px !important;
+		padding-right: 16px !important;
 	}
 
 	/* responsive company profile */
