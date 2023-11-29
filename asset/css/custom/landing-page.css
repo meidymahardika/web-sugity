@@ -155,7 +155,26 @@ body {
     .text-second-parallax-3 {
         padding-left: 65px !important;
     }
+
+    .text-second-parallax i{
+        font-size: 14px; 
+        position: absolute; 
+        left: 3.5rem;
+        top: 0px;
+    }
+
 }
+
+@media only screen and (min-width: 1080px) {
+    .text-second-parallax i{
+        font-size: 14px; 
+        position: absolute; 
+        top: -10px;
+        left: 6.5rem;
+    }
+
+}
+
 .img-our-videos {
     width: 70%;
     cursor: pointer;
