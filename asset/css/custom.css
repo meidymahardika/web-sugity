@@ -833,6 +833,13 @@
 
 
 /* Company Profile History =================== */
+
+@media screen and (max-width: 991px) and (min-width: 576px) {
+	.style-history {
+		margin-bottom: 12rem !important;
+	}
+}
+
 .style-history .style-custom-content {
 	position: relative;
 	height: 600px;
@@ -1305,7 +1312,9 @@
 	}
 }
 
-@media screen and (max-width: 550px) {}
+@media screen and (max-width: 550px) {
+
+}
 
 @media screen and (max-width: 768px) and (min-width: 401px) {
 	.hide-txt-par-landing {
@@ -1463,7 +1472,7 @@
 	}
 
 	.president-image {
-		height: 250px !important;
+		height: 350px !important;
 	}
 
 	.style-section-location .style-logo {
@@ -1556,14 +1565,25 @@
 		padding-top: 0 !important;
 		padding-bottom: 0 !important;
 	}
+	.border-thick {
+		border-right: 0!important;
+	}
 }
 
 
 @media screen and (min-width: 992px) {
 	.parent-img-our-videos {
 		height: 300px !important;
-		padding-left: 1% !important;
-		padding-right: 1% !important;
+		padding-left: 15% !important;
+		padding-right: 15% !important;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.parent-img-our-videos {
+		height: 450px !important;
+		padding-left: 20% !important;
+		padding-right: 20% !important;
 	}
 }
 
@@ -1596,8 +1616,15 @@
 .border-thick {
     border-right: 1px solid #C0BEBE;
 }
+@media screen and (max-width: 991px) and (min-width: 576px) {
+	.row-section-visi-misi {
+		margin-top: 12rem !important;
+	}
+}
 
 .row-section-visi-misi .text-center {
 	height: 315px;
 }
+
+
 /* end company value */
