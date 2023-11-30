@@ -482,7 +482,7 @@
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 .style-owl-banner-slider .owl-dots {
@@ -1311,7 +1311,7 @@
 
 	.style-section-product-overview .px-5 {
 		padding-right: 0 !important;
-		padding-left: 7rem !important;
+		padding-left: 6rem !important;
 	}
 
 	.border-thick {
