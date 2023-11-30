@@ -1216,9 +1216,9 @@
 		font-size: 10px;
 	}
 
-	/* .style-section-location .style-logo {
-		width: 170px;
-	} */
+	.style-section-location .style-logo {
+		width: 220px;
+	}
 
 	.style-history .style-custom-slider {
 		height: 300px;
@@ -1235,9 +1235,9 @@
 	.style-section-location .style-content .style-image {
 		border-radius: 15px;
 		width: 100%;
-		min-height: 250px;
+		min-height: 200px;
 		object-fit: cover;
-		object-position: 40% 50%;
+		object-position: 30% 50%;
 	}
 
 	.section-our-videos {
