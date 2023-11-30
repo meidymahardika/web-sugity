@@ -1637,6 +1637,12 @@
 	}
 }
 
+@media screen and (max-width: 991px) and (min-width: 576px) {
+	.row-section-visi-misi {
+		margin-top: 12rem !important;
+	}
+}
+
 .row-section-visi-misi .text-center {
 	height: 315px;
 }
