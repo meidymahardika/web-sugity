@@ -1573,9 +1573,17 @@
 
 @media screen and (min-width: 992px) {
 	.parent-img-our-videos {
-		height: 500px !important;
+		height: 300px !important;
 		padding-left: 15% !important;
 		padding-right: 15% !important;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.parent-img-our-videos {
+		height: 450px !important;
+		padding-left: 20% !important;
+		padding-right: 20% !important;
 	}
 }
 
