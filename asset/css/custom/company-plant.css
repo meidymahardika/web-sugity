@@ -57,6 +57,9 @@
     color: #EE6D22;
 }
 
+.style-facility-desc {
+    transition: all 0.5s linear;
+}
 
 /* Facility =========== */
 .style-carousel-facility {
@@ -152,4 +155,34 @@
     color: white;
 }
 
+.style-plant-carousel .carousel-caption {
+    left: 0;
+    top: 0;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    position: relative;
+}
+
+.style-plant-carousel .carousel-caption p {
+    margin: 0;
+}
+
+.style-plant-carousel button {
+    padding-top: 100px;
+    color: #179B34;
+    font-size: 30px !important;
+}
+
+.style-plant-carousel button:hover {
+    color: #179B34;
+}
+
 /* End Facility =========== */
+
+@media only screen and (max-width: 576px) {
+    #page-title h1 {
+        font-size: 50px !important;
+    }
+}

@@ -58,7 +58,8 @@
 									<a class="nav-link" href="company-value.html">Company Value</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="company-profile.html#president-message">President Message</a>
+									<a class="nav-link" href="company-profile.html#president-message">President
+										Message</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="board-of-director.html">Board of Director</a>
@@ -289,32 +290,42 @@
 			</div>
 
 			<div class="container-fluid float-left px-3 py-5 p-md-5">
-				<div class="d-flex justify-content-center mb-3">
+				<div class="d-flex justify-content-center mb-md-3">
 					<h2 class="fs-1 m-0 text-black text-center">Facility</h2>
 				</div>
-				<div class="d-flex justify-content-center mb-2">
-					<p class="fs-4 mb-0 text-dark text-center">An-Nur Mosque, Sugity Creatives</p>
+				<div class="d-flex justify-content-center d-none d-md-block mb-2">
+					<p class="style-facility-desc fs-4 mb-0 text-dark text-center">An-Nur Mosque, Sugity Creatives
+					</p>
+					<p class="style-facility-desc fs-4 mb-0 text-dark text-center">Canteen, Sugity Creatives
+					</p>
+					<p class="style-facility-desc fs-4 mb-0 text-dark text-center">Facility Employee Parking
+						Lot, Sugity Creatives</p>
+					<p class="style-facility-desc fs-4 mb-0 text-dark text-center">Factory 4, Sugity
+						Creatives</p>
+					<p class="style-facility-desc fs-4 mb-0 text-dark text-center">Facility Lobby, Sugity
+						Creatives
+					</p>
 				</div>
-				<div class="style-carousel-facility">
+				<div class="style-carousel-facility d-none d-md-block">
 					<div class="style-item">
 						<div class="style-carousel-item item-1 active">
-							<img src="./asset/images/company-plant/1 An-Nur Mosque.png" alt="">
+							<img src="./asset/images/company-plant/4 Lobby Sugity.png" alt="">
 							<div class="style-carousel-overlay"></div>
 						</div>
 						<div class="style-carousel-item item-2 active">
-							<img src="./asset/images/company-plant/2 Kantin.png" alt="">
+							<img src="./asset/images/company-plant/5 Education Center.png" alt="">
 							<div class="style-carousel-overlay"></div>
 						</div>
 						<div class="style-carousel-item item-3 active">
-							<img src="./asset/images/company-plant/3 Parking Lot Employee.png" alt="">
+							<img src="./asset/images/company-plant/1 An-Nur Mosque.png" alt="">
 							<div class="style-carousel-overlay"></div>
 						</div>
 						<div class="style-carousel-item item-4 active">
-							<img src="./asset/images/company-plant/4 Mold Making.png" alt="">
+							<img src="./asset/images/company-plant/2 Kantin.png" alt="">
 							<div class="style-carousel-overlay"></div>
 						</div>
 						<div class="style-carousel-item item-5 active">
-							<img src="./asset/images/company-plant/5 Education Center.png" alt="">
+							<img src="./asset/images/company-plant/3 Parking Lot Employee.png" alt="">
 							<div class="style-carousel-overlay"></div>
 						</div>
 					</div>
@@ -322,6 +333,55 @@
 						<button class="style-carousel-prev"><i class="bi bi-arrow-left"></i></button>
 						<button class="style-carousel-next"><i class="bi bi-arrow-right"></i></button>
 					</div>
+				</div>
+
+				<div id="carouselExample" class="carousel slide style-plant-carousel px-5 d-block d-md-none">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="carousel-caption">
+								<p>An-Nur Mosque, Sugity Creatives</p>
+							</div>
+							<img src="./asset/images/company-plant/1 An-Nur Mosque.png" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<p>Canteen, Sugity Creatives</p>
+							</div>
+							<img src="./asset/images/company-plant/2 Kantin.png" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<p>Facility Employee Parking Lot, Sugity Creatives</p>
+							</div>
+							<img src="./asset/images/company-plant/3 Parking Lot Employee.png" class="d-block w-100"
+								alt="...">
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<p>Factory 4, Sugity Creatives</p>
+							</div>
+							<img src="./asset/images/company-plant/4 Lobby Sugity.png" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<p>Facility Lobby, Sugity Creatives</p>
+							</div>
+							<img src="./asset/images/company-plant/5 Education Center.png" class="d-block w-100"
+								alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+						data-bs-slide="prev">
+						<i class="bi bi-arrow-left"></i>
+						<!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span> -->
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+						data-bs-slide="next">
+						<i class="bi bi-arrow-right"></i>
+						<!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span> -->
+					</button>
 				</div>
 			</div>
 
@@ -621,14 +681,21 @@
 				'left': leftPositionFourth + 'px',
 				'height': '300px',
 			});
+			$('.style-facility-desc').eq(0).show();
+			$('.style-facility-desc').eq(1).hide();
+			$('.style-facility-desc').eq(2).hide();
+			$('.style-facility-desc').eq(3).hide();
+			$('.style-facility-desc').eq(4).hide();
 		})
 
 		$('.style-carousel-prev').on("click", function () {
 			clearInterval(intervalFacilityId);
 			$('.style-carousel-prev').attr('disabled', 'disabled');
 			var maxWidth = $('.style-item').width();
+			var itemDescElement = $('.style-facility-desc');
 			var itemElement = $('.style-carousel-item');
 			for (i = 0; i < itemElement.length; i++) {
+				var rowitemDescElement = itemDescElement.eq(i);
 				var rowItemElement = itemElement.eq(i);
 				var widthElement = Math.round(rowItemElement.width());
 				var leftElement = Math.round(parseFloat(rowItemElement.css("left").replace("px", "")));
@@ -645,6 +712,7 @@
 						'height': '300px',
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				} else if (leftElement == leftPositionSecond) {
 					rowItemElement.css({
 						'z-index': '1',
@@ -652,6 +720,7 @@
 						'height': '300px',
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				} else if (leftElement == leftPositionMiddle) {
 					rowItemElement.css({
 						'z-index': '5',
@@ -659,6 +728,7 @@
 						'height': '350px',
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				} else if (leftElement == leftPositionThird) {
 					rowItemElement.css({
 						'z-index': '10',
@@ -666,6 +736,7 @@
 						'height': '450px',
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0)')
+					rowitemDescElement.show();
 				} else if (leftElement == leftPositionFourth) {
 					rowItemElement.css({
 						'z-index': '5',
@@ -673,6 +744,7 @@
 						'height': '350px',
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				}
 			}
 			setTimeout(function () {
@@ -687,8 +759,10 @@
 			clearInterval(intervalFacilityId);
 			$('.style-carousel-next').attr('disabled', 'disabled');
 			var maxWidth = $('.style-item').width();
+			var itemDescElement = $('.style-facility-desc');
 			var itemElement = $('.style-carousel-item');
 			for (i = 0; i < itemElement.length; i++) {
+				var rowitemDescElement = itemDescElement.eq(i);
 				var rowItemElement = itemElement.eq(i);
 				var widthElement = Math.round(rowItemElement.width());
 				var leftElement = Math.round(parseFloat(rowItemElement.css("left").replace("px", "")));
@@ -705,6 +779,7 @@
 						'height': '350px'
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				} else if (leftElement == leftPositionSecond) {
 					rowItemElement.css({
 						'z-index': '10',
@@ -712,6 +787,7 @@
 						'height': '450px',
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0)')
+					rowitemDescElement.show();
 				} else if (leftElement == leftPositionMiddle) {
 					rowItemElement.css({
 						'z-index': '5',
@@ -719,6 +795,7 @@
 						'height': '350px'
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				} else if (leftElement == leftPositionThird) {
 					rowItemElement.css({
 						'z-index': '1',
@@ -726,6 +803,7 @@
 						'height': '300px'
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				} else if (leftElement > leftPositionThird) {
 					rowItemElement.css({
 						'z-index': '1',
@@ -733,6 +811,7 @@
 						'height': '300px'
 					});
 					rowItemElement.find('.style-carousel-overlay').css('background-color', 'rgba(0,0,0,0.65)')
+					rowitemDescElement.hide();
 				}
 			}
 			setTimeout(function () {
