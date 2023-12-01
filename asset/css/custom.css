@@ -1629,12 +1629,21 @@
 
 .border-thick {
 	border-right: 1px solid #C0BEBE;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 991px) and (min-width: 576px) {
 	.row-section-visi-misi {
 		margin-top: 12rem !important;
 	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 576px) {
+	.row-section-visi-misi {
+		margin-top: 12rem !important;
+	}
+=======
+>>>>>>> bb26dc3 (fix conflict)
 }
 
 @media screen and (max-width: 991px) and (min-width: 576px) {
