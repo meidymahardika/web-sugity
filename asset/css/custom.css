@@ -1629,21 +1629,6 @@
 
 .border-thick {
 	border-right: 1px solid #C0BEBE;
-<<<<<<< HEAD
-}
-
-@media screen and (max-width: 991px) and (min-width: 576px) {
-	.row-section-visi-misi {
-		margin-top: 12rem !important;
-	}
-}
-
-@media screen and (max-width: 991px) and (min-width: 576px) {
-	.row-section-visi-misi {
-		margin-top: 12rem !important;
-	}
-=======
->>>>>>> bb26dc3 (fix conflict)
 }
 
 @media screen and (max-width: 991px) and (min-width: 576px) {
@@ -1658,3 +1643,29 @@
 
 
 /* end company value */
+
+/* product */
+
+@media screen and (max-width: 575px) {
+	.tabs-bb .tab-nav li {
+		margin: 0 8px !important;
+	}
+
+	.tab-nav li a {
+		padding: 0 5px !important;
+		font-size: 20px !important;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.tabs-bb .tab-nav li {
+		margin: 0 20px !important;
+	}
+
+	.tab-nav li a {
+		padding: 0 5px !important;
+		font-size: 24px !important;
+	}
+}
+
+/* end product */
