@@ -241,16 +241,16 @@
 								</div>
 								<div class="col-md-3 text-first-parallax text-second-parallax-3">31
 									<span class="hide-txt-par-landing text-second-parallax-3">CUSTOMER 
-										<i style="font-size: 12px;">
+										<!-- <i style="font-size: 12px;">
 											<a href="index.html#client" style="color:white">(Click for Details)</a>
-										</i>
+										</i> -->
 									</span>
 								</div>
 								<div class="col-md-3 text-first-parallax text-second-parallax-3">153
 									<span class="hide-txt-par-landing text-second-parallax-3">SUPPLY CHAIN 
-										<i style="font-size: 12px;">
+										<!-- <i style="font-size: 12px;">
 											<a href="index.html#supply-chain" style="color:white">(Click for Details)</a>
-										</i>
+										</i> -->
 									</span>
 								</div>
 							</div>
@@ -264,25 +264,28 @@
 									Professional Employees
 								</div>
 								<div class="col-md-3 text-second-parallax text-second-parallax-3">
-									<i><a href="index.html#client" style="color:white">Click for Details</a></i><br>
-									CUSTOMER
+									<!-- <i><a href="index.html#client" style="color:white">Click for Details</a></i><br> -->
+									<br>
+									<a href="index.html#client" class="text-link">
+										CUSTOMER
+									</a>
 								</div>
 								<div class="col-md-3 text-second-parallax text-second-parallax-3">
-									<i><a href="index.html#supply-chain" style="color:white">Click for Details</a></i><br>
-									SUPPLY CHAIN
+									<!-- <i><a href="index.html#supply-chain" style="color:white">Click for Details</a></i><br> -->
+									<br>
+									<a href="index.html#supply-chain" class="text-link">
+										SUPPLY CHAIN
+									</a>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-3 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg"
-										alt="">
+								<div class="col-md-3 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
 								</div>
-								<div class="col-md-3 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg"
-										alt="">
+								<div class="col-md-3 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
 								</div>
-								<div class="col-md-3 vec-line text-second-parallax-3"><img
-										src="./asset/images/vector/vector-bottom-line.svg" alt="">
+								<div class="col-md-3 vec-line text-second-parallax-3"><img src="./asset/images/vector/vector-bottom-line.svg" alt="">
 								</div>
-								<div class="col-md-3 vec-line"><img src="./asset/images/vector/vector-bottom-line.svg"
+								<div class="col-md-3 vec-line text-second-parallax-3"><img src="./asset/images/vector/vector-bottom-line.svg"
 										alt="">
 								</div>
 							</div>
@@ -695,7 +698,7 @@
 					<h3 class="our-client-text">Our Supplier</h3>
 					<h2 class="we-build-text">Synergizing Excellence, Uniting Supply</h2>
 				</div>
-				<div class="owl-carousel owl-theme style-owl-client-slider py-2">
+				<div class="owl-carousel owl-theme style-owl-supplier-slider py-2">
 					<div class="item">
 						<a href="javascript:void(0)">
 							<img src="./asset/images/supply-chain/1. rpt.png" class="style-image" alt="Supply Chain">
@@ -1136,6 +1139,33 @@
 		});
 
 		$('.style-owl-client-slider').owlCarousel({
+			rtl: false,
+			loop: true,
+			margin: 40,
+			nav: false,
+			dots: false,
+			autoplay: true,
+			slideTransition: 'linear',
+			autoplayTimeout: 2000,
+			autoplaySpeed: 2000,
+			autoplayHoverPause: false,
+			animateOut: 'slideOutLeft',
+			animateIn: 'slideInRight',
+			responsive: {
+				0: {
+					items: 2
+				},
+				600: {
+					items: 4
+				},
+				1000: {
+					items: 6
+				}
+			}
+
+		});
+
+		$('.style-owl-supplier-slider').owlCarousel({
 			rtl: false,
 			loop: true,
 			margin: 40,
