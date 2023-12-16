@@ -39,6 +39,15 @@ body {
     transition-delay: 0.1s;
 }
 
+.text-link {
+    color: #fff;
+}
+
+.text-link:hover {
+    transition: 0.5s;
+    color: #EE6D22 !important;
+}
+
 .image-container:hover>.text-overlay {
     color: #fff;
 }

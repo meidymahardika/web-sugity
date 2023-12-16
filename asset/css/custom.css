@@ -749,13 +749,37 @@
 }
 
 .style-owl-client-slider .style-image {
-	object-fit: fill;
+	object-fit: contain;
 	height: 200px;
 	width: auto;
 }
-
 /* End Client Slider =================== */
 
+/* Supplier Slider =================== */
+@media only screen and (max-width: 575px) {
+	.style-owl-supplier-slider .style-image {
+		object-fit: contain !important;
+		height: 125px !important;
+		width: 300px !important;
+		background: red;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.style-owl-supplier-slider .style-image {
+		object-fit: contain !important;
+		height: 100px !important;
+		width: 300px !important;
+		background: green;
+	}
+}
+
+.style-owl-supplier-slider .style-image {
+	object-fit: contain;
+	height: 120px;
+	width: auto;
+}
+/* End Supplier Slider =================== */
 
 /* Section Location =================== */
 .style-section-location {
@@ -1309,6 +1333,11 @@
 		padding-bottom: 0 !important;
 	}
 
+	.owl-carousel.owl-theme.style-owl-supplier-slider {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
 	.style-section-product-overview .px-5 {
 		padding-right: 0 !important;
 		padding-left: 6rem !important;
@@ -1579,6 +1608,11 @@
 		padding-bottom: 0 !important;
 	}
 
+	.owl-carousel.owl-theme.style-owl-supplier-slider {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
 	.border-thick {
 		border-right: 0 !important;
 	}
@@ -1653,18 +1687,20 @@
 
 	.tab-nav li a {
 		padding: 0 5px !important;
-		font-size: 20px !important;
+		font-size: 18px !important;
+		font-weight: 500 !important;
 	}
 }
 
 @media screen and (min-width: 576px) {
 	.tabs-bb .tab-nav li {
-		margin: 0 20px !important;
+		margin: 0 40px !important;
 	}
 
 	.tab-nav li a {
 		padding: 0 5px !important;
-		font-size: 24px !important;
+		font-size: 22px !important;
+		font-weight: 500 !important;
 	}
 }
 
