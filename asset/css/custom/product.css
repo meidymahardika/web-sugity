@@ -29,7 +29,7 @@ body {
 
 .style-carousel-discover .style-item .style-carousel-item {
     width: 50%;
-    height: 350px;
+    height: 400px;
     /* left: 0;
     right: 0;
     margin: auto; */
@@ -121,12 +121,12 @@ body {
 @media only screen and (max-width: 992px) {
 
     .style-carousel-discover .style-item {
-        height: 300px;
+        height: 350px;
     }
 
     .style-carousel-discover .style-item .style-carousel-item {
         width: 60%;
-        height: 200px;
+        height: 250px;
     }
 
     .style-carousel-discover .style-nav button {
