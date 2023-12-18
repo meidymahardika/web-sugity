@@ -15976,7 +15976,7 @@ body:not(.device-touch) #gotoTop {
 #footer {
 	position: relative;
 	background-color: #EEE;
-	border-top: 5px solid rgba(0, 0, 0, 0.2);
+	/* border-top: 5px solid rgba(0, 0, 0, 0.2); */
 }
 
 @media (min-width: 992px) {
