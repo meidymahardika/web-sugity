@@ -9,7 +9,9 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link rel="stylesheet" href="./asset/css/bootstrap.css" type="text/css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="./asset/css/bootstrap.css" type="text/css" /> -->
 	<link rel="stylesheet" href="./asset/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/swiper.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/dark.css" type="text/css" />
@@ -19,6 +21,7 @@
 
 	<link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/custom/company-history.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- Document Title
@@ -150,10 +153,10 @@
 								</a>
 								<ul class="style-sub-navbar-offcanvas-container">
 									<li class="nav-item">
-										<a class="nav-link" href="product-vehicle-business.html">Vehicle Business</a>
+										<a class="nav-link" href="product-part-business.html">Part Business</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="product-part-business.html">Part Business</a>
+										<a class="nav-link" href="product-vehicle-business.html">Vehicle Business</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="product-mold-business.html">Mold Business</a>
@@ -181,10 +184,10 @@
 		<section id="content">
 			<!-- parallax -->
 			<div class="section style-paralax section-image m-0 border-0 d-none d-sm-block"
-				style="height: 700px; background-image: url('./asset/images/parallax/parallax-company-profile.png');"
+				style="height: 700px; background-image: url('./asset/images/parallax/parallax-company-profile.png'); z-index: 10;"
 				data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -200px;">
 				<div class="row" style="height: 100%;">
-					<div class="col-md-10 col-lg-8 col-xl-6 col-xxl-5 px-5 pt-5"
+					<div class="col-md-10 col-lg-8 col-xl-6 px-5 pt-5"
 						style="display: flex; justify-content: center; align-items: center;">
 						<div class="container px-5" style="height: 100%;">
 							<h1 class="mt-0 title-text">Sugity Creatives</h1>
@@ -207,7 +210,7 @@
 				</div>
 			</div>
 
-			<div class="d-block d-sm-none">
+			<div class="d-block d-sm-none" style="z-index: 10;">
 				<div class="container px-4" style="height: 100%;">
 					<h1 class="mt-0 title-text pt-6">Sugity Creatives</h1>
 					<p style="line-height: 25px;">
@@ -225,14 +228,219 @@
 					</p>
 				</div>
 				<div
-					style="height: 300px; background-image: url('./asset/images/parallax/bg-about-us-mobile.png'); background-repeat: no-repeat; background-position: top; background-size: contain;">
+					style="height: 300px; background-image: url('./asset/images/parallax/bg-about-us-mobile.png'); background-repeat: no-repeat; background-position: top; background-size: contain;z-index: 10;">
 				</div>
 			</div>
 			<!-- end parallax -->
 
 
-			<!-- section slider history company -->
-			<div class="row style-history style-bg-dot-orange py-5 ps-md-5 mt-5 mx-0">
+			<!-- section new slider history -->
+			<div class="container-fluid py-5 px-5 my-5 mx-0" style="position: relative;">
+				<div class="style-bg-dot-slider"></div>
+				<div class="style-slider-history">
+					<div class="style-slider-header mb-4 mb-lg-5">
+						<button class="style-item-header-button style-carousel-prev ms-auto" style="opacity: 0;"><i
+								class="bi bi-arrow-left"></i></button>
+						<div class="style-item-header-content">
+							<div class="style-item-title">
+								<h2>1995</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>1996</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>1998</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2000</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2001</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2004</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2005</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2011</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2012</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2013</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2017</h2>
+							</div>
+							<div class="style-item-title">
+								<h2>2019</h2>
+							</div>
+						</div>
+						<button class="style-item-header-button style-carousel-next me-auto"><i
+								class="bi bi-arrow-right"></i></button>
+					</div>
+					<div class="style-slider-content">
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/1995 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">Sugity Establish</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="owl-carousel style-owl-carousel-history owl-theme" style="width: 90vw;">
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 1.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Dyna</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 2.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Dyna</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 3.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Kijang SCM</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 4.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Kijang SCM</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 5.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Resin Painting</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 6.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Resin Painting</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 7.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Resin Painting</h3>
+								</div>
+								<div class="item">
+									<img src="./asset/images/company-history/slider-history/1996 8.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Vehicle Assembly Resin Painting</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/1998 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">Factory 3 Finished</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2000 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">Automotive Part Plating</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-5 col-lg-4 pt-2 pb-4">
+									<img src="./asset/images/company-history/slider-history/2001 1.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Factory 4 Finished</h3>
+								</div>
+								<div class="col-md-5 col-lg-4 pt-2 pb-4">
+									<img src="./asset/images/company-history/slider-history/2001 2.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Factory 4 Finished</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-5 col-lg-4 pt-2 pb-4">
+									<img src="./asset/images/company-history/slider-history/2004 1.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Mold Making</h3>
+								</div>
+								<div class="col-md-5 col-lg-4 pt-2 pb-4">
+									<img src="./asset/images/company-history/slider-history/2004 2.jpg" alt="...">
+									<h3 class="mt-2 m-0" align="center">Mold Making</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2005 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">TTEC Establish</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-8 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2011 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">Sugity Plant 2<br>@ TMMIN Karawang</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2012 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">NAV1 Production</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2013 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">RPT Establish</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2017 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">Hia-Ace Conversion</h3>
+								</div>
+							</div>
+						</div>
+						<div class="style-item-content row d-flex justify-content-center align-items-center m-0">
+							<div class="col-md-10 col-lg-7 row d-flex justify-content-center align-items-center m-0">
+								<div class="col-md-8">
+									<img src="./asset/images/company-history/slider-history/2019 1.jpg" alt="...">
+								</div>
+								<div class="col-md-4 pt-2 pb-4">
+									<h3 class="m-0" align="center">Education Center Establish</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- end section slider history -->
+
+	<!-- section slider history company -->
+	<!-- <div class="row style-history style-bg-dot-orange py-5 ps-md-5 mt-5 mx-0">
 				<div class="col-7 ps-lg-5 pe-5">
 					<div class="style-custom-slider">
 						<div class="style-item style-item-1">
@@ -347,129 +555,129 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- end section slider history company -->
+			</div> -->
+	<!-- end section slider history company -->
 
-		</section><!-- #content end -->
+	</section><!-- #content end -->
 
-		<!-- Footer
+	<!-- Footer
 		============================================= -->
-		<footer id="footer" class="background-footer dark"
-			style="background-image: url('./asset/images/banner/banner-footer.png'); z-index: 10;">
-			<div class="container-fluid container-md">
+	<footer id="footer" class="background-footer dark"
+		style="background-image: url('./asset/images/banner/banner-footer.png'); z-index: 10;">
+		<div class="container-fluid container-md">
 
-				<!-- Footer Widgets
+			<!-- Footer Widgets
 				============================================= -->
-				<div class="footer-widgets-wrap">
+			<div class="footer-widgets-wrap">
 
-					<div class="row col-mb-30">
-						<div class="col-lg-8">
+				<div class="row col-mb-30">
+					<div class="col-lg-8">
 
-							<div class="row col-mb-50">
-								<div class="col-sm-4">
+						<div class="row col-mb-50">
+							<div class="col-sm-4">
 
-									<div class="widget widget_links clearfix">
+								<div class="widget widget_links clearfix">
 
-										<a href="coming-soon.html">
-											<h3 class="entry-title">Contact Us</h3>
-										</a>
+									<a href="coming-soon.html">
+										<h3 class="entry-title">Contact Us</h3>
+									</a>
 
-										<div class="row">
-											<div class="col-12">
-												<a href = "mailto: info@sugity.co.id">
-													<i class="icon-envelope"></i> info@sugity.co.id
-												</a>
-											</div>
-											<div class="col-12">
-												<a href="tel:(021) 898 0307">
-													<i class="icon-phone"></i> (021) 898 0307
-												</a>
-											</div>
-											<div class="col-12">
-												<a href="https://www.youtube.com/@sugitycreatives8335" target="_blank">
-													<i class="icon-youtube"></i> Sugity Creatives
-												</a>
-											</div>
-											<div class="col-12">
-												<a href="https://www.instagram.com/ptsugitycreatives/" target="_blank">
-													<i class="icon-instagram"></i> ptsugitycreatives
-												</a>
-											</div>
+									<div class="row">
+										<div class="col-12">
+											<a href="mailto: info@sugity.co.id">
+												<i class="icon-envelope"></i> info@sugity.co.id
+											</a>
 										</div>
-
+										<div class="col-12">
+											<a href="tel:(021) 898 0307">
+												<i class="icon-phone"></i> (021) 898 0307
+											</a>
+										</div>
+										<div class="col-12">
+											<a href="https://www.youtube.com/@sugitycreatives8335" target="_blank">
+												<i class="icon-youtube"></i> Sugity Creatives
+											</a>
+										</div>
+										<div class="col-12">
+											<a href="https://www.instagram.com/ptsugitycreatives/" target="_blank">
+												<i class="icon-instagram"></i> ptsugitycreatives
+											</a>
+										</div>
 									</div>
 
 								</div>
 
-								<div class="col-sm-4">
-
-									<div class="widget widget_links clearfix">
-
-										<a href="company-profile.html">
-											<h3 class="entry-title">Company Profile</h3>
-										</a>
-
-										<div class="row">
-											<div class="col-12">
-												<a href="company-profile.html#president-message">President Message</a>
-											</div>
-											<div class="col-12">
-												<a href="coming-soon.html">Company Info</a>
-											</div>
-											<div class="col-12">
-												<a href="coming-soon.html">Brief History</a>
-											</div>
-											<div class="col-12">
-												<a href="coming-soon.html">Core Business</a>
-											</div>
-										</div>
-
-									</div>
-
-								</div>
-
-								<div class="col-sm-4">
-
-									<div class="widget widget_links clearfix">
-
-										<a href="product.html">
-											<h3 class="entry-title">Product</h3>
-										</a>
-
-										<div class="row">
-											<div class="col-12">
-												<a href="coming-soon.html">Vehicle Business</a>
-											</div>
-											<div class="col-12">
-												<a href="coming-soon.html">Part Business</a>
-											</div>
-											<div class="col-12">
-												<a href="coming-soon.html">Mold Business</a>
-											</div>
-										</div>
-
-									</div>
-
-								</div>
 							</div>
 
+							<div class="col-sm-4">
+
+								<div class="widget widget_links clearfix">
+
+									<a href="company-profile.html">
+										<h3 class="entry-title">Company Profile</h3>
+									</a>
+
+									<div class="row">
+										<div class="col-12">
+											<a href="company-profile.html#president-message">President Message</a>
+										</div>
+										<div class="col-12">
+											<a href="coming-soon.html">Company Info</a>
+										</div>
+										<div class="col-12">
+											<a href="coming-soon.html">Brief History</a>
+										</div>
+										<div class="col-12">
+											<a href="coming-soon.html">Core Business</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-sm-4">
+
+								<div class="widget widget_links clearfix">
+
+									<a href="product.html">
+										<h3 class="entry-title">Product</h3>
+									</a>
+
+									<div class="row">
+										<div class="col-12">
+											<a href="coming-soon.html">Part Business</a>
+										</div>
+										<div class="col-12">
+											<a href="coming-soon.html">Vehicle Business</a>
+										</div>
+										<div class="col-12">
+											<a href="coming-soon.html">Mold Business</a>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
 						</div>
 
-						<div class="col-lg-4">
+					</div>
 
-							<div class="row">
-								<div class="col-md-4 col-lg-12">
-									<div class="widget clearfix pt-5 ps-2 pt-md-0 ps-md-0" style="margin-bottom: -20px;">
+					<div class="col-lg-4">
 
-										<div class="row">
-											<div class="col-lg-6 bottommargin-sm">
-												<div class="widget widget_links clearfix">
+						<div class="row">
+							<div class="col-md-4 col-lg-12">
+								<div class="widget clearfix pt-5 ps-2 pt-md-0 ps-md-0" style="margin-bottom: -20px;">
 
-													<a href="coming-soon.html">
-														<h3 class="entry-title">CSR</h3>
-													</a>
+									<div class="row">
+										<div class="col-lg-6 bottommargin-sm">
+											<div class="widget widget_links clearfix">
 
-													<!-- <div class="row">
+												<a href="coming-soon.html">
+													<h3 class="entry-title">CSR</h3>
+												</a>
+
+												<!-- <div class="row">
 														<div class="col-12">
 															<a href="coming-soon.html">Tree Planting</a>
 														</div>
@@ -478,17 +686,17 @@
 														</div>
 													</div> -->
 
-												</div>
 											</div>
+										</div>
 
-											<div class="col-lg-6 bottommargin-sm">
-												<div class="widget widget_links clearfix">
+										<div class="col-lg-6 bottommargin-sm">
+											<div class="widget widget_links clearfix">
 
-													<a href="coming-soon.html">
-														<h3 class="entry-title">News</h3>
-													</a>
+												<a href="coming-soon.html">
+													<h3 class="entry-title">News</h3>
+												</a>
 
-													<!-- <div class="row">
+												<!-- <div class="row">
 														<div class="col-12">
 															<a href="coming-soon.html">Achievement</a>
 														</div>
@@ -503,14 +711,14 @@
 														</div>
 													</div> -->
 
-												</div>
 											</div>
 										</div>
-
 									</div>
-								</div>
 
-								<!-- <div class="col-md-5 col-lg-12">
+								</div>
+							</div>
+
+							<!-- <div class="col-md-5 col-lg-12">
 									<div class="widget subscribe-widget clearfix">
 										<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
 										<div class="widget-subscribe-form-result"></div>
@@ -547,16 +755,16 @@
 									</div>
 								</div> -->
 
-							</div>
-
 						</div>
+
 					</div>
+				</div>
 
-				</div><!-- .footer-widgets-wrap end -->
+			</div><!-- .footer-widgets-wrap end -->
 
-			</div>
+		</div>
 
-		</footer><!-- #footer end -->
+	</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
 
@@ -568,21 +776,136 @@
 	============================================= -->
 	<script src="./asset/js/jquery.js"></script>
 	<script src="./asset/js/plugins.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="./asset/js/functions.js"></script>
 	<script>
-		$('.style-owl-banner-slider').owlCarousel({
+		$('.style-owl-carousel-history').owlCarousel({
 			loop: false,
-			margin: 0,
-			nav: false,
-			items: 1,
-			autoplay: false,
-			autoplayTimeout: 5000,
-			autoplayHoverPause: false,
-			animateOut: 'slideOutLeft',
-			animateIn: 'slideInRight',
+			margin: 10,
+			nav: true,
+			dots: false,
+			touchDrag: false,
+			mouseDrag: false,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 3
+				},
+				1000: {
+					items: 5
+				}
+			}
+		})
+	</script>
+
+	<!-- Slider History -->
+	<script>
+		let intervalHistoryId = null;
+
+		let active = 0;
+		let zIndexHistory = 3;
+		let showSideHistory = 1;
+
+		function checkWidthHistory() {
+			let widthBody = $('body').width();
+			if (widthBody <= 576) {
+				showSideHistory = 0;
+			} else {
+				showSideHistory = 1;
+			}
+		}
+
+		$(window).resize(function () {
+			if (this.resizeTO) clearTimeout(this.resizeTO);
+			clearInterval(intervalHistoryId);
+			this.resizeTO = setTimeout(function () {
+				checkWidthHistory();
+				loadShowHistory();
+			}, 300);
+		});
+
+		function loadShowHistory() {
+			clearInterval(intervalHistoryId);
+			$('.style-carousel-prev').attr('disabled', 'disabled');
+			$('.style-carousel-next').attr('disabled', 'disabled');
+
+			let items = document.querySelectorAll('.style-item-title');
+			let itemElement = $('.style-item-title');
+			let widthElement = Math.round(itemElement.width());
+			let itemElementContent = document.querySelectorAll('.style-item-content');
+
+			if (active == 0) {
+				$('.style-carousel-prev').css("opacity", "0");
+			} else {
+				$('.style-carousel-prev').css("opacity", "1");
+			}
+
+			if (active == items.length - 1) {
+				$('.style-carousel-next').css("opacity", "0");
+			} else {
+				$('.style-carousel-next').css("opacity", "1");
+			}
+
+			items[active].style.transform = `none`;
+			items[active].style.zIndex = 10;
+			items[active].style.opacity = 1;
+			itemElementContent[active].style.opacity = 1;
+			itemElementContent[active].style.zIndex = 10;
+
+			// show after
+			let stt = 0;
+			for (var i = active + 1; i < items.length; i++) {
+				stt++;
+				items[i].style.transform = `translateX(${stt > showSideHistory + 1 ? 0 : widthElement * stt}px) scale(${1 - 0.4 * stt}) perspective(16px)`;
+				items[i].style.zIndex = zIndexHistory - stt;
+				items[i].style.opacity = stt > showSideHistory ? 0 : 0.4;
+				itemElementContent[i].style.opacity = 0;
+				itemElementContent[i].style.zIndex = 1;
+			}
+			stt = 0;
+			for (var i = (active - 1); i >= 0; i--) {
+				stt++;
+				items[i].style.transform = `translateX(${stt > showSideHistory + 1 ? 0 : -widthElement * stt}px) scale(${1 - 0.4 * stt}) perspective(16px)`;
+				items[i].style.zIndex = zIndexHistory - stt;
+				items[i].style.opacity = stt > showSideHistory ? 0 : 0.4;
+				itemElementContent[i].style.opacity = 0;
+				itemElementContent[i].style.zIndex = 1;
+			}
+
+			setTimeout(function () {
+				$('.style-carousel-prev').removeAttr('disabled');
+				if (active < items.length - 1) {
+					$('.style-carousel-next').removeAttr('disabled');
+				}
+				intervalHistoryId = setInterval(function () {
+					$('.style-carousel-next').removeAttr('disabled');
+					$('.style-carousel-next').trigger('click');
+				}, active == items.length - 1 ? 12000 : 8000);
+			}, 300);
+
+		}
+
+		checkWidthHistory();
+		loadShowHistory();
+		$('.style-carousel-prev').on("click", function (event) {
+			active = active > 0 ? active - 1 : active;
+			loadShowHistory();
+		});
+		$('.style-carousel-next').on("click", function (event) {
+			let items = document.querySelectorAll('.style-item-title');
+			if (active + 2 > items.length) {
+				location.reload(true);
+			} else {
+				active = active + 1 < items.length ? active + 1 : active;
+				loadShowHistory();
+			}
 		});
 	</script>
 
