@@ -31,6 +31,11 @@ body {
     font-weight: 500;
 }
 
+.wrap-shareholders {
+    display: flex;
+    align-items: center !important;
+}
+
 /* .director-image:hover {
     filter: drop-shadow(20px 4px 4px #2F7649);
 } */
@@ -38,6 +43,11 @@ body {
 @media screen and (max-width: 500px) {
     .desc-shareholder {
         font-size: 0.7rem !important;
+    }
+
+    .wrap-shareholders {
+        display: inline-flex;
+        align-items: center;
     }
 
     .style-nav-pills-bod .nav-item .nav-link {
