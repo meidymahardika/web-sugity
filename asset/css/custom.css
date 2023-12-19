@@ -761,7 +761,6 @@
 		object-fit: contain !important;
 		height: 125px !important;
 		width: 300px !important;
-		background: red;
 	}
 }
 
@@ -770,7 +769,6 @@
 		object-fit: contain !important;
 		height: 100px !important;
 		width: 300px !important;
-		background: green;
 	}
 }
 
@@ -827,15 +825,16 @@
 	background: rgba(255, 255, 255, 0.70);
 	position: absolute;
 	color: #000000;
-	font-size: 15px;
+	font-size: 15px !important;
 	font-weight: 500;
 	width: 100%;
 	visibility: hidden;
 	opacity: 0;
-	padding-top: 12px;
-	padding-bottom: 10px;
-	padding-right: 20px;
-	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 40px;
+	padding-left: 10px;
+	bottom: 0 !important;
 	left: 10;
 	right: 10;
 	display: flex;
