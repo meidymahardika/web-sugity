@@ -761,7 +761,6 @@
 		object-fit: contain !important;
 		height: 125px !important;
 		width: 300px !important;
-		background: red;
 	}
 }
 
@@ -770,7 +769,6 @@
 		object-fit: contain !important;
 		height: 100px !important;
 		width: 300px !important;
-		background: green;
 	}
 }
 
