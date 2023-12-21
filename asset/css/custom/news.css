@@ -106,3 +106,27 @@
     align-items: flex-start;
     gap: 19px;
 }
+
+.zoomable-image {
+	transition: transform 0.3s ease-in-out;
+}
+  
+.card:hover .zoomable-image {
+	transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+
+.parent-header-card {
+	position: relative;
+}
+
+.date-card {
+	font-size: 12px;
+	font-weight: 600;
+	position: absolute; 
+	height: 30px; 
+	width: 115px; 
+	bottom: 0px;
+	right: 0px; 
+	border-radius: 10px 0px 0px 0px;
+	background: #FEA875;
+}
