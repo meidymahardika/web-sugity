@@ -634,15 +634,40 @@
 }
 
 .style-recent-news .style-content-1 {
-	height: 360px;
+	/* height: 360px; */
+	height: 300px;
+	position: relative;
+	overflow: hidden;
 }
 
 .style-recent-news .style-content-2 {
-	height: 300px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
 }
 
 .style-recent-news .style-content-3 {
 	height: 220px;
+	position: relative;
+	overflow: hidden;
+}
+
+.style-recent-news .style-content-1-menu {
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+}
+
+.style-recent-news .style-content-2-menu {
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.style-recent-news .style-content-3-menu {
+	height: 220px;
+	position: relative;
+	overflow: hidden;
 }
 
 .style-recent-news .style-content .style-content-text .style-title {
@@ -665,7 +690,19 @@
 	font-size: 12px;
 }
 
-.style-recent-news .style-content .style-content-animation {
+.style-recent-news .style-content.style-content-3-menu .style-content-text .style-title {
+	font-size: 18px;
+}
+
+.style-recent-news .style-content.style-content-3-menu .style-content-text .style-date {
+	font-size: 12px;
+}
+
+
+
+/* adjust animation per content */
+/* content 1 animate appear from right to left */
+.style-recent-news .style-content-1 .style-content-animation {
 	position: absolute;
 	top: 0;
 	right: 0px;
@@ -675,33 +712,151 @@
 	visibility: hidden;
 	border-radius: 10px;
 	background: #4E4E4E;
-	-webkit-transition: all 500ms linear;
-	-moz-transition: all 500ms linear;
-	-o-transition: all 500ms linear;
-	-ms-transition: all 500ms linear;
-	transition: all 500ms linear;
+	transform: translateX(100%); /* adjust animation for news landing page */
+    transition: transform 0.4s ease-in-out; /* adjust animation for news landing page */
 }
 
-.style-recent-news .style-content:hover .style-content-animation {
+.style-recent-news .style-content-1:hover .style-content-animation {
 	opacity: 1;
 	visibility: visible;
+	transform: translateX(0); /* adjust animation for news landing page */
 }
+
+/* adjust animation for news landing page */
+.style-recent-news .style-content-1:not(:hover) .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(100%); /* adjust animation for news landing page */
+}
+
+
+/* content 2 animate from bottom to top */
+.style-recent-news .style-content-2 .style-content-animation {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+	width: 100%;
+	visibility: hidden;
+	border-radius: 10px;
+	background: #4E4E4E;
+	transform: translateY(100%); /* adjust animation for news landing page */
+    transition: transform 0.3s ease-in-out; /* adjust animation for news landing page */
+}
+
+.style-recent-news .style-content-2:hover .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0); /* adjust animation for news landing page */
+}
+
+/* adjust animation for news landing page */
+.style-recent-news .style-content-2:not(:hover) .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(100%); /* adjust animation for news landing page */
+}
+
+/* menu news */
+.style-recent-news .style-content-1-menu .style-content-animation {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+	width: 100%;
+	visibility: hidden;
+	border-radius: 10px;
+	background: #4E4E4E;
+	transform: translateX(100%); /* adjust animation for news landing page */
+    transition: transform 0.4s ease-in-out; /* adjust animation for news landing page */
+}
+
+.style-recent-news .style-content-1-menu:hover .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(0); /* adjust animation for news landing page */
+}
+
+/* adjust animation for news landing page */
+.style-recent-news .style-content-1-menu:not(:hover) .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(100%); /* adjust animation for news landing page */
+}
+
+.style-recent-news .style-content-2-menu .style-content-animation {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+	width: 100%;
+	visibility: hidden;
+	border-radius: 10px;
+	background: #4E4E4E;
+	transform: translateY(100%); /* adjust animation for news landing page */
+    transition: transform 0.4s ease-in-out; /* adjust animation for news landing page */
+}
+
+.style-recent-news .style-content-2-menu:hover .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0); /* adjust animation for news landing page */
+}
+
+/* adjust animation for news landing page */
+.style-recent-news .style-content-2-menu:not(:hover) .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(100%); /* adjust animation for news landing page */
+}
+
+.style-recent-news .style-content-3-menu .style-content-animation {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	height: 100%;
+	opacity: 0;
+	width: 100%;
+	visibility: hidden;
+	border-radius: 10px;
+	background: #4E4E4E;
+	transform: translateX(100%); /* adjust animation for news landing page */
+    transition: transform 0.4s ease-in-out; /* adjust animation for news landing page */
+}
+
+.style-recent-news .style-content-3-menu:hover .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(0); /* adjust animation for news landing page */
+}
+
+/* adjust animation for news landing page */
+.style-recent-news .style-content-3-menu:not(:hover) .style-content-animation {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(100%); /* adjust animation for news landing page */
+}
+
+/* end adjust animation per content */
 
 .style-recent-news .style-content .style-content-animation .style-title {
 	color: #FFFFFF;
-	font-size: 26px;
+	font-size: 15px;
 	font-weight: 700;
 }
 
 .style-recent-news .style-content .style-content-animation .style-date {
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 400;
 }
 
 .style-recent-news .style-content .style-content-animation .style-description {
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 400;
 }
 
@@ -709,12 +864,12 @@
 	padding-left: 0;
 	border: 0;
 	color: #EE6D22;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
 }
 
 .style-recent-news .style-content.style-content-3 .style-content-animation .style-title {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .style-recent-news .style-content.style-content-3 .style-content-animation .style-date {
@@ -726,7 +881,23 @@
 }
 
 .style-recent-news .style-content.style-content-3 .style-content-animation .style-btn {
+	font-size: 14px;
+}
+
+.style-recent-news .style-content.style-content-3-menu .style-content-animation .style-title {
+	font-size: 15px;
+}
+
+.style-recent-news .style-content.style-content-3-menu .style-content-animation .style-date {
+	font-size: 12px;
+}
+
+.style-recent-news .style-content.style-content-3-menu .style-content-animation .style-description {
 	font-size: 13px;
+}
+
+.style-recent-news .style-content.style-content-3-menu .style-content-animation .style-btn {
+	font-size: 14px;
 }
 
 /* End Recent News =================== */
@@ -1095,6 +1266,14 @@
 /* responsive css */
 
 @media screen and (max-width: 425px) {
+	.style-recent-news .style-content-1 {
+		height: 360px;
+	}
+	
+	.style-recent-news .style-content-2 {
+		height: 320px;
+	}
+	
 	.logo-nav {
 		height: 30px !important;
 	}
@@ -1744,3 +1923,59 @@
 	font-size: 12px;
 }
 /* end news */
+
+/* relayout small news on landing page */
+.scroll-news-landing {
+	overflow-y: scroll; 
+	max-height: 100%; 
+	height: 580px;
+}
+/* For Webkit-based browsers (Chrome, Safari) */
+.scroll-news-landing::-webkit-scrollbar {
+	width: 10px; /* Adjust the width as needed */
+}
+  
+.scroll-news-landing::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+	background: #EE6D22;
+	height: 50px;
+}
+  
+.scroll-news-landing::-webkit-scrollbar-track {
+	background-color: #fff; /* Scrollbar track color */
+}
+
+.img-small-news {
+	height: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.title-small-news {
+	color: #000;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.date-small-news {
+	color: #000;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.readmore-small-news {
+	color: #F18120;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	cursor: pointer;
+}
+/* end relayout small news on landing page */
