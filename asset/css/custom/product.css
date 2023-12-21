@@ -20,7 +20,7 @@ body {
 }
 
 .style-carousel-discover .style-item {
-    height: 500px;
+    height: 550px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 
 .style-carousel-discover .style-item .style-carousel-item {
     width: 50%;
-    height: 400px;
+    height: 450px;
     /* left: 0;
     right: 0;
     margin: auto; */

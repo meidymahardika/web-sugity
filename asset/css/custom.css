@@ -380,6 +380,10 @@
 	color: #ffffff;
 }
 
+.color-black {
+	color: #000000;
+}
+
 /* .style-navbar .style-navbar-offcanvas .navbar-nav .nav-item:hover .style-sub-navbar-offcanvas-container {
 	height: 100%;
 	visibility: visible;
@@ -968,7 +972,7 @@
 	width: 100%;
 	min-height: 250px;
 	object-fit: cover;
-	object-position: 35% 50%;
+	object-position: 40% 50%;
 }
 
 .style-section-location .style-content .style-title {
@@ -1257,6 +1261,14 @@
 	.style-history .style-custom-slider .style-item img {
 		height: 150px;
 	}
+
+	.style-section-location .style-content .style-image {
+		border-radius: 15px;
+		width: 100%;
+		min-height: 200px;
+		object-fit: cover;
+		object-position: 45% 50%;
+	}
 }
 
 /* End Company Profile History =================== */
@@ -1432,14 +1444,6 @@
 
 	.hide-mobile-width {
 		display: none;
-	}
-
-	.style-section-location .style-content .style-image {
-		border-radius: 15px;
-		width: 100%;
-		min-height: 200px;
-		object-fit: cover;
-		object-position: 30% 50%;
 	}
 
 	.section-our-videos {
@@ -1655,6 +1659,14 @@
 	.img-our-videos {
 		width: 100% !important;
 	}
+
+	.style-section-location .style-content .style-image {
+		border-radius: 15px;
+		width: 100%;
+		min-height: 200px;
+		object-fit: cover;
+		object-position: 45% 50%;
+	}
 }
 
 @media screen and (max-width: 991px) and (min-width: 426px) {
@@ -1846,6 +1858,14 @@
 @media screen and (max-width: 991px) and (min-width: 576px) {
 	.row-section-visi-misi {
 		margin-top: 12rem !important;
+	}
+
+	.style-section-location .style-content .style-image {
+		border-radius: 15px;
+		width: 100%;
+		min-height: 200px;
+		object-fit: cover;
+		object-position: 45% 50%;
 	}
 }
 
