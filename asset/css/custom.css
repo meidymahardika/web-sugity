@@ -531,6 +531,22 @@
 	background-size: cover;
 }
 
+.style-paralax-2 {
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.style-paralax-3 {
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: 15%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .style-paralax-bg-dark::before {
 	content: "";
 	position: absolute;
