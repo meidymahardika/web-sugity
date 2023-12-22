@@ -98,11 +98,25 @@
 /* responsive part */
 
 /* tablet width */
-@media screen and (max-width: 768px) and (min-width: 401px) {
+@media screen and (max-width: 992px) and (min-width: 576px) {
 	.parent-president-message .container {
         max-width: 100% !important;
+    }
+
+    .img-bg-about-us {
+        height: 500px !important; 
+        background-repeat: no-repeat; 
+        background-position: bottom; 
+        background-size: contain;
     }
 }
 /* end tablet width */
 
 /* end responsive part */
+
+.img-bg-about-us {
+    height: 250px; 
+    background-repeat: no-repeat; 
+    background-position: bottom; 
+    background-size: contain;
+}
