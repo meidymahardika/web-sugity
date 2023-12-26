@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" style="scroll-behavior: smooth;">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<!-- <meta name="sugity-creatives" content="SemiColonWeb" /> -->
+	<link rel="icon" type="image/x-icon" href="./asset/logo/favicon.png">
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="./asset/css/bootstrap.css" type="text/css" /> -->
+	<link rel="stylesheet" href="./asset/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/custom/landing-page.css" type="text/css" />
+	<link rel="stylesheet" href="./asset/css/custom/detail-news.css" type="text/css" />
+
+	<!-- AOS (Animate on Scroll) -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Sugity Creatives</title>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Navbar
+		============================================= -->
+		<nav class="navbar navbar-dark navbar-expand-lg fixed-top p-0 style-navbar">
+			<div class="container-fluid px-4" style="height: 100%;">
+				<a class="navbar-brand" href="index.html"><img src="./asset/logo/logo-sugity-nav.png" class="logo-nav"
+						style="height: 50px;" alt="Canvas Logo"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav" style="height: 100%;">
+					<ul class="navbar-nav col-12 col-md-12 col-lg-11 col-xxl-7 text-center ms-auto"
+						style="height: 100%;">
+						<li class="nav-item style-w-31">
+							<a class="nav-link" href="company-profile.html">
+								Company Profile
+							</a>
+							<ul class="style-sub-navbar-container">
+								<li class="nav-item">
+									<a class="nav-link" href="company-value.html">Company Value</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="company-profile.html#president-message">President
+										Message</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="board-of-director.html">Board of Director</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="company-history.html">Company History</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="coming-soon.html">Company Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="company-plant.html">Company Plant</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="product.html">
+								Product
+							</a>
+							<ul class="style-sub-navbar-container style-left-31">
+								<li class="nav-item">
+									<a class="nav-link" href="product-vehicle-business.html">Vehicle Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="product-part-business.html">Part Business</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="product-mold-business.html">Mold Business</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="coming-soon.html">
+								CSR
+							</a>
+						</li>
+						<li class="nav-item style-w-23">
+							<a class="nav-link style-dashed" href="news.html">
+								News
+							</a>
+						</li>
+					</ul>
+					<a class="lang ps-xl-2 ps-xxl-5">
+						EN
+					</a>
+					<div class="color-white px-2">
+						|
+					</div>
+					<a class="lang pe-5">
+						ID
+					</a>
+				</div>
+				<div class="offcanvas offcanvas-end style-navbar-offcanvas d-lg-none" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<a class="navbar-brand" href="index.html"><img src="./asset/logo/logo-sugity-nav.png"
+								style="height: 30px;" alt="Canvas Logo"></a>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link" href="company-profile.html">
+									Company Profile
+								</a>
+								<ul class="style-sub-navbar-offcanvas-container">
+									<li class="nav-item">
+										<a class="nav-link" href="company-value.html">Company Value</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="company-profile.html#president-message">President
+											Message</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="board-of-director.html">Board of Director</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="company-history.html">Company History</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="coming-soon.html">Company Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="company-plant.html">Company Plant</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="product.html">
+									Product
+								</a>
+								<ul class="style-sub-navbar-offcanvas-container">
+									<li class="nav-item">
+										<a class="nav-link" href="product-vehicle-business.html">Vehicle Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="product-part-business.html">Part Business</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="product-mold-business.html">Mold Business</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="coming-soon.html">
+									CSR
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="news.html">
+									News
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav><!-- #Navbar end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="pt-5">
+            <div class="container-button-back px-4 px-md-5 pt-5">
+                <a href="#" class="px-2 btn-back">
+                    <img src="./asset/icon/back.png" height="22" alt=""> &nbsp;back
+                </a>
+            </div>
+			<!-- recent news section -->
+			<div data-scroll class="recent-news-section style-recent-news-section pt-2 pb-2 pb-md-5">
+				<div data-aos="fade-in" data-aos-duration="1000" class="px-5 pt-3 pt-md-4">
+                    <!-- spacer -->
+				</div>
+
+				<div data-aos="fade-in" data-aos-duration="1000" class="style-recent-news row m-0 pb-5 px-lg-4" style="width: 100%;">
+					<div class="col-12 col-md-9" style="overflow-y: scroll; max-height: 100%; height: 800px;">
+                        <div class="container-big-img px-4 pb-3">
+                            <img src="./asset/images/detail-news/big-img.png" alt="">
+                        </div>
+                        <div class="container-content-news px-4 pt-4">
+                            <h2 class="title-detail-news m-0 pb-1" style="color: #000;">
+                                Penanaman 45.000 Pohon Mangrove di Muara Gembong
+                            </h2>
+                            <h5 class="date-detail-news pb-2">
+                                11 November 2023
+                            </h5>
+                            <div class="desc-detail-news">
+                                Dilatarbelakangi dari isu Global besar saat ini yaitu emisi gas CO2 yang terus meningkat, serta isu lingkungan lokal yakni abrasi di wilayah pesisir Bekasi, diperlukan bentuk kegiatan nyata yang dapat membantu Lingkungan, Biodiversitas, serta Sosial Ekonomi masyarakat sekitar. Salah satu bentuk aktivitas dilakukan dari TAB Group Indonesia (SUGITY, TTEC, RPT) yang melanjutkan penanaman pohon mangrove di Kampung Beting, Desa Pantai Bahagia, Kecamatan Muaragembong.
+                                
+                                <br>
+                                <br>
+                                
+                                Muara Gembong Mangrove Forest adalah program jangka panjang selama 3 tahun, dengan jumlah penanaman 45.000 pohon mangrove ( 15.000/tahun ). Pada tahun 2023 ini, aktivitas ceremony dihadiri oleh tamu dari TAB yaitu Kimura – san dan Kino –san dan beliau memberikan pesan :Kegiatan Trees Planting penting dilanjutkan sebagai kontribusi melawan Pemanasan Global.Mulailah melakukan hal – hal kecil yang bisa anda lakukan untuk melestarikan lingkungan.
+
+                                <br>
+                                <br>
+                                
+                                Semoga dengan kegiatan CSR bersama ini, dapat bermanfaat bagi seluruh pihak, baik untuk pemerintah, masyarakat sekitar, juga keberlangsungan Perusahaan SUGITY kita bersama
+                            </div>
+                            <div class="image-slider-detail-news d-flex align-items-center flex-column justify-content-center pt-5">
+                                <div class="owl-carousel owl-theme style-owl-banner-slider" data-scroll style="width: 60%;">
+                                    <div class="item min-vh-40 min-vh-md-40">
+                                        <div class="style-banner-image" style="background-image: url('./asset/images/banner/banner-2-v3.png');">
+                                        </div>
+                                    </div>
+                                    <div class="item min-vh-40 min-vh-md-40">
+                                        <div class="style-banner-image" style="background-image: url('./asset/images/banner/banner-3-v3.png');">
+                                        </div>
+                                    </div>
+                                    <div class="item min-vh-40 min-vh-md-40">
+                                        <div class="style-banner-image" style="background-image: url('./asset/images/banner/banner-4-v4.png');">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="title-aside pt-3">
+                            <h4 class="m-0">Recent News</h4>
+                            <p class="divider-aside mt-2"></p>
+                        </div>
+                        <div class="small-recent-news">
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-1.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Ehon Storytelling Frame</div>
+                                    <div class="date-small-detail-news pb-3">January 21, 2023</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-2.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Muara Gembong Mangrove Forest</div>
+                                    <div class="date-small-detail-news pb-3">December 17, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-3.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Sugity Creative CSR in Muara Gembong</div>
+                                    <div class="date-small-detail-news pb-3">December 17, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title-aside pt-2">
+                            <h4 class="m-0">Most Popular</h4>
+                            <p class="divider-aside mt-2"></p>
+                        </div>
+                        <div class="small-recent-news popular">
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-1.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Ehon Storytelling Frame</div>
+                                    <div class="date-small-detail-news pb-3">January 21, 2023</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-2.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Muara Gembong Mangrove Forest</div>
+                                    <div class="date-small-detail-news pb-3">December 17, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-3.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Sugity Creative CSR in Muara Gembong</div>
+                                    <div class="date-small-detail-news pb-3">December 17, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-4.png');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Pemda Bekasi and Sugity Creatives Tree Planting Event</div>
+                                    <div class="date-small-detail-news pb-3">December 17, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-5.jpg');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Donation for Cianjur Earthquake Victims</div>
+                                    <div class="date-small-detail-news pb-3">December 9, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0 pb-3">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-6.JPG');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Aid Shipment for Cianjur Earthquake Victims</div>
+                                    <div class="date-small-detail-news pb-3">December 9, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="col-md-6 img-small-detail-news" style="background-image: url('./asset/images/news/small-card-7.jpg');">
+                                </div>
+                                <div class="col-6 col-md-6 d-flex flex-column justify-content-center">
+                                    <div class="title-small-detail-news pb-2">Early Childhood Literacy Space</div>
+                                    <div class="date-small-detail-news pb-3">December 9, 2022</div>
+                                    <div class="readmore-small-detail-news">Read More -></div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="background-footer dark"
+			style="background-image: url('./asset/images/banner/banner-footer.png');">
+			<div class="container-fluid container-md">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-30">
+						<div class="col-lg-8">
+
+							<div class="row col-mb-50">
+								<div class="col-sm-4">
+
+									<div class="widget widget_links clearfix">
+
+										<!-- <a href="#"> -->
+											<h3 class="entry-title mb-1">Contact Us</h3>
+										<!-- </a> -->
+
+										<div class="row mb-3">
+											<div class="col-12">
+												<a href="mailto: info@sugity.co.id">
+													<i class="icon-envelope"></i> info@sugity.co.id
+												</a>
+											</div>
+											<div class="col-12">
+												<a href="tel:(021) 898 0307">
+													<i class="icon-phone"></i> (021) 898 0307
+												</a>
+											</div>
+										</div>
+
+										<a href="#">
+											<h3 class="entry-title mb-1">Social Media</h3>
+										</a>
+
+										<div class="row">
+											<div class="col-12">
+												<a href="https://www.youtube.com/@sugitycreatives8335" target="_blank">
+													<i class="icon-youtube"></i> Sugity Creatives
+												</a>
+											</div>
+											<div class="col-12">
+												<a href="https://www.instagram.com/ptsugitycreatives/" target="_blank">
+													<i class="icon-instagram"></i> ptsugitycreatives
+												</a>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="col-sm-4">
+
+									<div class="widget widget_links clearfix">
+
+										<h3 class="entry-title">
+											<a href="company-profile.html">
+												Company Profile
+											</a>
+										</h3>
+
+										<div class="row">
+											<div class="col-12">
+												<a href="company-profile.html#president-message">President Message</a>
+											</div>
+											<div class="col-12">
+												<a href="coming-soon.html">Company Info</a>
+											</div>
+											<div class="col-12">
+												<a href="coming-soon.html">Brief History</a>
+											</div>
+											<div class="col-12">
+												<a href="coming-soon.html">Core Business</a>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="col-sm-4">
+
+									<div class="widget widget_links clearfix">
+
+										<h3 class="entry-title">
+											<a href="product.html">
+												Product
+											</a>
+										</h3>
+
+										<div class="row">
+											<div class="col-12">
+												<a href="product-vehicle-business.html">Vehicle Business</a>
+											</div>
+											<div class="col-12">
+												<a href="product-part-business.html">Part Business</a>
+											</div>
+											<div class="col-12">
+												<a href="product-mold-business.html">Mold Business</a>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+
+							<div class="row">
+								<div class="col-md-4 col-lg-12">
+									<div class="widget clearfix pt-5 ps-2 pt-md-0 ps-md-0" style="margin-bottom: -20px;">
+
+										<div class="row">
+											<div class="col-lg-6 bottommargin-sm">
+												<div class="widget widget_links clearfix">
+
+													<h3 class="entry-title">
+														<a href="coming-soon.html">
+															CSR
+														</a>
+													</h3>
+
+													<!-- <div class="row">
+														<div class="col-12">
+															<a href="coming-soon.html">Tree Planting</a>
+														</div>
+														<div class="col-12">
+															<a href="coming-soon.html">Story Book (Ehon)</a>
+														</div>
+													</div> -->
+
+												</div>
+											</div>
+
+											<div class="col-lg-6 bottommargin-sm">
+												<div class="widget widget_links clearfix">
+
+													<h3 class="entry-title">
+														<a href="news.html">
+															News
+														</a>
+													</h3>	
+
+													<!-- <div class="row">
+														<div class="col-12">
+															<a href="coming-soon.html">Achievement</a>
+														</div>
+														<div class="col-12">
+															<a href="coming-soon.html">Product & Exhibition</a>
+														</div>
+														<div class="col-12">
+															<a href="coming-soon.html">Internal Event</a>
+														</div>
+														<div class="col-12">
+															<a href="coming-soon.html">Other Information</a>
+														</div>
+													</div> -->
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+								<!-- <div class="col-md-5 col-lg-12">
+									<div class="widget subscribe-widget clearfix">
+										<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+										<div class="widget-subscribe-form-result"></div>
+										<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
+											<div class="input-group mx-auto">
+												<div class="input-group-text"><i class="icon-email2"></i></div>
+												<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+												<button class="btn btn-success" type="submit">Subscribe</button>
+											</div>
+										</form>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-lg-12">
+									<div class="widget clearfix" style="margin-bottom: -20px;">
+
+										<div class="row">
+											<div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+												<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+											</div>
+											<div class="col-6 col-md-12 col-lg-6 clearfix">
+												<a href="#" class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
+													<i class="icon-rss"></i>
+													<i class="icon-rss"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+											</div>
+										</div>
+
+									</div>
+								</div> -->
+
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+	<!-- JavaScripts
+	============================================= -->
+	<script src="./asset/js/jquery.js"></script>
+	<script src="./asset/js/plugins.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	
+	<!-- AOS (Animate on Scroll) -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- smooth scroll -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+
+
+	<script>
+		AOS.init();
+
+		// Initialize Smooth Scroll
+		var scroll = new SmoothScroll('[data-scroll]', {
+			speed: 100, // Adjust the scrolling speed as needed
+		});
+	</script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="./asset/js/functions.js"></script>
+	<script src="./asset/js/custom/landing-page.js"></script>
+
+	<script>
+
+		setInterval(function () {
+			if ($('#pills-vehicle-tab').hasClass('active')) {
+				$('#pills-parts-tab').trigger('click');
+			} else if ($('#pills-parts-tab').hasClass('active')) {
+				$('#pills-mold-tab').trigger('click');
+			} else if ($('#pills-mold-tab').hasClass('active')) {
+				$('#pills-vehicle-tab').trigger('click');
+			}
+		}, 5000);
+
+		$('.style-owl-banner-slider').owlCarousel({
+			loop: true,
+			margin: 0,
+			nav: true,
+			items: 1,
+			autoplay: true,
+			autoplayTimeout: 5000,
+			autoplayHoverPause: false,
+			animateOut: 'slideOutLeft',
+			animateIn: 'slideInRight',
+		});
+
+		$('.owl-dot').on('click', function () {
+			$('.style-owl-banner-slider').trigger('stop.owl.autoplay');
+			$('.style-owl-banner-slider').trigger('refresh.owl.carousel');
+		});
+	</script>
+
+</body>
+
+</html>

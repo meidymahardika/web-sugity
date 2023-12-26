@@ -1990,9 +1990,26 @@
 	border-radius: 10px 10px 10px 10px;
 }
 
+.img-small-detail-news {
+	height: 80px;
+	width: 80px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+	border-radius: 10px 10px 10px 10px;
+}
+
 .title-small-news {
 	color: #000;
 	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.title-small-detail-news {
+	color: #000;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
@@ -2006,9 +2023,26 @@
 	line-height: normal;
 }
 
+.date-small-detail-news {
+	color: #000;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
 .readmore-small-news {
 	color: #F18120;
 	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	cursor: pointer;
+}
+
+.readmore-small-detail-news {
+	color: #F18120;
+	font-size: 10px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -2024,3 +2058,46 @@
 }
 
 /* end relayout small news on landing page */
+
+/* detail news */
+.btn-back:hover {
+	color: #EE6D22;
+}
+
+.date-detail-news {
+	font-weight: 300;
+}
+
+.desc-detail-news {
+	line-height: 35px;
+	color: #000;
+	font-size: 18px;
+}
+
+.divider-aside {
+	height: 1px;
+	width: 100%;
+	border-radius: 20px;
+	background: #EE6D22;
+}
+
+.small-recent-news.popular {
+	height: 300px;
+	overflow-y: scroll;
+}
+
+/* For Webkit-based browsers (Chrome, Safari) */
+.small-recent-news::-webkit-scrollbar {
+	width: 4px; /* Adjust the width as needed */
+}
+  
+.small-recent-news::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+	background: #EE6D22;
+	height: 50px;
+}
+  
+.small-recent-news::-webkit-scrollbar-track {
+	background-color: #fff; /* Scrollbar track color */
+}
+/* end detail news */
