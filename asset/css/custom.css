@@ -2014,4 +2014,13 @@
 	line-height: normal;
 	cursor: pointer;
 }
+
+.dark .footer-widgets-wrap a {
+	color: #fff;
+}
+
+.dark .footer-widgets-wrap a:hover {
+	color: #EE6D22;
+}
+
 /* end relayout small news on landing page */
