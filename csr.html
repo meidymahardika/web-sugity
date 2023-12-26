@@ -18,10 +18,9 @@
 	<link rel="stylesheet" href="./asset/css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
 	<link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
-	<link rel="stylesheet" href="./asset/css/custom/landing-page.css" type="text/css" />
-	<link rel="stylesheet" href="./asset/css/custom/news.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/custom/csr.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -98,7 +97,7 @@
 							</a>
 						</li>
 						<li class="nav-item style-w-23">
-							<a class="nav-link style-dashed" href="news.html">
+							<a class="nav-link style-dashed" href="coming-soon.html">
 								News
 							</a>
 						</li>
@@ -170,7 +169,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="news.html">
+								<a class="nav-link" href="coming-soon.html">
 									News
 								</a>
 							</li>
@@ -184,23 +183,33 @@
 		============================================= -->
 		<div class="owl-carousel owl-theme style-owl-banner-slider">
 			<div class="item min-vh-75 min-vh-md-75">
-				<p class="style-date-slider">December 17, 2022</p>
-				<p class="style-title-slider">Literasi Dini Ehon</p>
-				<p class="style-desc-slider">Lorem ipsum dolor sit amet consectetur. Rhoncus accumsan ipsum at <br>interdum quam.</p>
+				<div class="style-banner-content">
+					<p class="style-date-slider">December 17, 2022</p>
+					<p class="style-title-slider">Literasi Dini Ehon</p>
+					<p class="style-desc-slider">Lorem ipsum dolor sit amet consectetur. Rhoncus accumsan ipsum at
+						interdum quam.</p>
+				</div>
 				<div class="style-banner-image" style="background-image: url('./asset/images/slider/csr/1.png');">
 				</div>
 			</div>
 			<div class="item min-vh-75 min-vh-md-75">
-				<p class="style-date-slider">December 17, 2022</p>
-				<p class="style-title-slider">Tree Planting Mangrove</p>
-				<p class="style-desc-slider">Lorem ipsum dolor sit amet consectetur. Rhoncus accumsan ipsum at <br>interdum quam.</p>
+				<div class="style-banner-content">
+					<p class="style-date-slider">December 17, 2022</p>
+					<p class="style-title-slider">Tree Planting Mangrove</p>
+					<p class="style-desc-slider">Lorem ipsum dolor sit amet consectetur. Rhoncus accumsan ipsum at
+						interdum quam.</p>
+				</div>
 				<div class="style-banner-image" style="background-image: url('./asset/images/slider/csr/2.png');">
 				</div>
 			</div>
 			<div class="item min-vh-75 min-vh-md-75">
-				<p class="style-date-slider">December 17, 2022</p>
-				<p class="style-title-slider">Pelatihan Storybook Ehon</p>
-				<p class="style-desc-slider">Lorem ipsum dolor sit amet consectetur. Rhoncus accumsan ipsum at <br>interdum quam.</p>
+				<div class="style-banner-content">
+					<p class="style-date-slider">December 17, 2022</p>
+					<p class="style-title-slider">Pelatihan Storybook Ehon</p>
+					<p class="style-desc-slider">Lorem ipsum dolor sit amet consectetur. Rhoncus accumsan ipsum at
+						interdum
+						quam.</p>
+				</div>
 				<div class="style-banner-image" style="background-image: url('./asset/images/slider/csr/3.png');">
 				</div>
 			</div>
@@ -208,39 +217,304 @@
 
 		<!-- Content
 		============================================= -->
-		<section id="content pt-md-5">
-			<!-- recent news section -->
-			<div class="recent-news-section style-recent-news-section px-4">
-				<div class="services-section my-5 pt-md-5">
-                    <div class="text-center mb-5 pt-md-4">
-                        <p style="color: #000; font-size: 45px; font-weight: 700;">Discover Our Latest Event</p>
-                    </div>
-                </div>
-
-				<div class="style-recent-news m-0 pb-5 px-lg-4" style="width: 100%;">
-					<div class="row parent-content-event px-5">
-						<div class="col-6 parent-desc-event">
-							<div class="container-desc-event">
-								<p class="title-event">
-									Penanaman Mangrove
-								</p>
-								<p class="desc-event-text">
-									Lorem ipsum dolor sit amet consectetur. Turpis platea tortor dictum varius tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant. Vitae in sodales dolor interdum in nibh. Lorem ipsum dolor sit amet consectetur. Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et dictum non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit amet consectetur. Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et dictum non magna rhoncus ultricies id duis iaculis at...
-								</p>
-								<p class="read-more-event">
-									Read More >
-								</p>
+		<section id="content">
+			<!-- latest event section -->
+			<div class="style-latest-event-section style-background-csr-1 py-5">
+				<div class="text-center py-4 py-md-5">
+					<h2 class="style-header m-0">Discover Our Latest Event</h2>
+				</div>
+				<div class="container">
+					<div id="carouselLatestEvent" class="carousel slide style-carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row m-0 style-carousel-item">
+									<div class="col-md-6 p-4" style="z-index: 11;">
+										<div class="style-carousel-content">
+											<img class="img-fluid d-block d-md-none" src="asset/images/csr/event_1.jpg"
+												alt="...">
+											<div class="p-4 p-md-0">
+												<h3 class="style-title pb-2 pe-xl-5 m-0">Penanaman Mangrove</h3>
+												<p class="style-subtitle pb-4 pe-xl-5 mb-2">Lorem ipsum dolor sit amet
+													consectetur.
+													Turpis
+													platea
+													tortor dictum varius
+													tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant.
+													Vitae in
+													sodales dolor interdum in nibh. Lorem ipsum dolor sit amet
+													consectetur.
+													Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et
+													dictum
+													non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit
+													amet
+													consectetur. Egestas adipiscing justo arcu ut blandit sit mauris
+													pulvinar
+													in. Et dictum non magna rhoncus ultricies id duis iaculis at...</p>
+												<a href="#" class="style-button">Read More <i
+														class="bi bi-chevron-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 p-0">
+										<img class="style-carousel-image d-none d-md-block"
+											src="asset/images/csr/event_1.jpg" alt="...">
+										<div class="style-carousel-nav mx-auto mx-md-0">
+											<button class="carousel-control-prev" type="button"
+												data-bs-target="#carouselLatestEvent" data-bs-slide="prev">
+												<i class="bi bi-arrow-left"></i>
+											</button>
+											<button class="carousel-control-next" type="button"
+												data-bs-target="#carouselLatestEvent" data-bs-slide="next">
+												<i class="bi bi-arrow-right"></i>
+											</button>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-6 parent-img-event" style="position: relative;">
-							<div class="bg-img-event">
+							<div class="carousel-item">
+								<div class="row m-0 style-carousel-item">
+									<div class="col-md-6 p-4" style="z-index: 11;">
+										<div class="style-carousel-content">
+											<img class="img-fluid d-block d-md-none" src="asset/images/csr/event_2.jpg"
+												alt="...">
+											<div class="p-4 p-md-0">
+												<h3 class="style-title pb-2 pe-xl-5 m-0">Penanaman Mangrove</h3>
+												<p class="style-subtitle pb-4 pe-xl-5 mb-2">Lorem ipsum dolor sit amet
+													consectetur.
+													Turpis
+													platea
+													tortor dictum varius
+													tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant.
+													Vitae in
+													sodales dolor interdum in nibh. Lorem ipsum dolor sit amet
+													consectetur.
+													Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et
+													dictum
+													non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit
+													amet
+													consectetur. Egestas adipiscing justo arcu ut blandit sit mauris
+													pulvinar
+													in. Et dictum non magna rhoncus ultricies id duis iaculis at...</p>
+												<a href="#" class="style-button">Read More <i
+														class="bi bi-chevron-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 p-0">
+										<img class="style-carousel-image d-none d-md-block"
+											src="asset/images/csr/event_2.jpg" alt="...">
+										<div class="style-carousel-nav mx-auto mx-md-0">
+											<button class="carousel-control-prev" type="button"
+												data-bs-target="#carouselLatestEvent" data-bs-slide="prev">
+												<i class="bi bi-arrow-left"></i>
+											</button>
+											<button class="carousel-control-next" type="button"
+												data-bs-target="#carouselLatestEvent" data-bs-slide="next">
+												<i class="bi bi-arrow-right"></i>
+											</button>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="bg-color-img"></div>
+							<div class="carousel-item">
+								<div class="row m-0 style-carousel-item">
+									<div class="col-md-6 p-4" style="z-index: 11;">
+										<div class="style-carousel-content">
+											<img class="img-fluid d-block d-md-none" src="asset/images/csr/event_3.jpg"
+												alt="...">
+											<div class="p-4 p-md-0">
+												<h3 class="style-title pb-2 pe-xl-5 m-0">Penyerahan Bibit Mangrove</h3>
+												<p class="style-subtitle pb-4 pe-xl-5 mb-2">Lorem ipsum dolor sit amet
+													consectetur.
+													Turpis
+													platea
+													tortor dictum varius
+													tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant.
+													Vitae in
+													sodales dolor interdum in nibh. Lorem ipsum dolor sit amet
+													consectetur.
+													Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et
+													dictum
+													non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit
+													amet
+													consectetur. Egestas adipiscing justo arcu ut blandit sit mauris
+													pulvinar
+													in. Et dictum non magna rhoncus ultricies id duis iaculis at...</p>
+												<a href="#" class="style-button">Read More <i
+														class="bi bi-chevron-right"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 p-0">
+										<img class="style-carousel-image d-none d-md-block"
+											src="asset/images/csr/event_3.jpg" alt="...">
+										<div class="style-carousel-nav mx-auto mx-md-0">
+											<button class="carousel-control-prev" type="button"
+												data-bs-target="#carouselLatestEvent" data-bs-slide="prev">
+												<i class="bi bi-arrow-left"></i>
+											</button>
+											<button class="carousel-control-next" type="button"
+												data-bs-target="#carouselLatestEvent" data-bs-slide="next">
+												<i class="bi bi-arrow-right"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- end recent news section -->
+			<!-- end lates event section -->
+
+			<!-- csr activity section -->
+			<div class="style-csr-activity-section style-background-csr-2 pb-5">
+				<div class="text-center py-4 py-md-5">
+					<h2 class="style-header m-0">CSR Activity in Sugity Creatives</h2>
+				</div>
+				<div class="container">
+					<div id="carouselCsrActivity" class="carousel slide style-carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row flex-column-reverse flex-md-row m-0 style-carousel-item">
+									<div class="col-md-6 p-0">
+										<img class="style-carousel-image d-none d-md-block"
+											src="asset/images/csr/activity_1.jpg" alt="...">
+										<div class="style-carousel-nav mx-auto ms-md-auto me-md-0">
+											<button class="carousel-control-prev" type="button"
+												data-bs-target="#carouselCsrActivity" data-bs-slide="prev">
+												<i class="bi bi-arrow-left"></i>
+											</button>
+											<button class="carousel-control-next" type="button"
+												data-bs-target="#carouselCsrActivity" data-bs-slide="next">
+												<i class="bi bi-arrow-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="col-md-6 p-4" style="z-index: 11;">
+										<div class="style-carousel-content">
+											<img class="img-fluid d-block d-md-none"
+												src="asset/images/csr/activity_1.jpg" alt="...">
+											<div class="p-4 p-md-0">
+												<h3 class="style-title pb-2 pe-xl-5 m-0">Penyerahan Hadiah Literasi</h3>
+												<p class="style-subtitle pb-4 pe-xl-5 mb-2">Lorem ipsum dolor sit amet
+													consectetur.
+													Turpis
+													platea
+													tortor dictum varius
+													tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant.
+													Vitae in
+													sodales dolor interdum in nibh. Lorem ipsum dolor sit amet
+													consectetur.
+													Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et
+													dictum
+													non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit
+													amet
+													consectetur. Egestas adipiscing justo arcu ut blandit sit mauris
+													pulvinar
+													in. Et dictum non magna rhoncus ultricies id duis iaculis at...</p>
+												<a href="#" class="style-button">Read More <i
+														class="bi bi-chevron-right"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row flex-column-reverse flex-md-row m-0 style-carousel-item">
+									<div class="col-md-6 p-0">
+										<img class="style-carousel-image d-none d-md-block"
+											src="asset/images/csr/activity_2.jpg" alt="...">
+										<div class="style-carousel-nav mx-auto ms-md-auto me-md-0">
+											<button class="carousel-control-prev" type="button"
+												data-bs-target="#carouselCsrActivity" data-bs-slide="prev">
+												<i class="bi bi-arrow-left"></i>
+											</button>
+											<button class="carousel-control-next" type="button"
+												data-bs-target="#carouselCsrActivity" data-bs-slide="next">
+												<i class="bi bi-arrow-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="col-md-6 p-4" style="z-index: 11;">
+										<div class="style-carousel-content">
+											<img class="img-fluid d-block d-md-none"
+												src="asset/images/csr/activity_2.jpg" alt="...">
+											<div class="p-4 p-md-0">
+												<h3 class="style-title pb-2 pe-xl-5 m-0">Kegiatan Baca Buku</h3>
+												<p class="style-subtitle pb-4 pe-xl-5 mb-2">Lorem ipsum dolor sit amet
+													consectetur.
+													Turpis
+													platea
+													tortor dictum varius
+													tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant.
+													Vitae in
+													sodales dolor interdum in nibh. Lorem ipsum dolor sit amet
+													consectetur.
+													Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et
+													dictum
+													non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit
+													amet
+													consectetur. Egestas adipiscing justo arcu ut blandit sit mauris
+													pulvinar
+													in. Et dictum non magna rhoncus ultricies id duis iaculis at...</p>
+												<a href="#" class="style-button">Read More <i
+														class="bi bi-chevron-right"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row flex-column-reverse flex-md-row m-0 style-carousel-item">
+									<div class="col-md-6 p-0">
+										<img class="style-carousel-image d-none d-md-block"
+											src="asset/images/csr/activity_3.jpg" alt="...">
+										<div class="style-carousel-nav mx-auto ms-md-auto me-md-0">
+											<button class="carousel-control-prev" type="button"
+												data-bs-target="#carouselCsrActivity" data-bs-slide="prev">
+												<i class="bi bi-arrow-left"></i>
+											</button>
+											<button class="carousel-control-next" type="button"
+												data-bs-target="#carouselCsrActivity" data-bs-slide="next">
+												<i class="bi bi-arrow-right"></i>
+											</button>
+										</div>
+									</div>
+									<div class="col-md-6 p-4" style="z-index: 11;">
+										<div class="style-carousel-content">
+											<img class="img-fluid d-block d-md-none"
+												src="asset/images/csr/activity_3.jpg" alt="...">
+											<div class="p-4 p-md-0">
+												<h3 class="style-title pb-2 pe-xl-5 m-0">Operet Buku Literasi</h3>
+												<p class="style-subtitle pb-4 pe-xl-5 mb-2">Lorem ipsum dolor sit amet
+													consectetur.
+													Turpis
+													platea
+													tortor dictum varius
+													tortor. Nulla arcu amet scelerisque sed nisl eget nam habitant.
+													Vitae in
+													sodales dolor interdum in nibh. Lorem ipsum dolor sit amet
+													consectetur.
+													Egestas adipiscing justo arcu ut blandit sit mauris pulvinar in. Et
+													dictum
+													non magna rhoncus ultricies id duis iaculis at.Lorem ipsum dolor sit
+													amet
+													consectetur. Egestas adipiscing justo arcu ut blandit sit mauris
+													pulvinar
+													in. Et dictum non magna rhoncus ultricies id duis iaculis at...</p>
+												<a href="#" class="style-button">Read More <i
+														class="bi bi-chevron-right"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end lates event section -->
 		</section><!-- #content end -->
 
 		<!-- Footer
@@ -261,9 +535,9 @@
 
 									<div class="widget widget_links clearfix">
 
-										<!-- <a href="#"> -->
+										<a href="#">
 											<h3 class="entry-title mb-1">Contact Us</h3>
-										<!-- </a> -->
+										</a>
 
 										<div class="row mb-3">
 											<div class="col-12">
@@ -303,11 +577,9 @@
 
 									<div class="widget widget_links clearfix">
 
-										<h3 class="entry-title">
-											<a href="company-profile.html">
-												Company Profile
-											</a>
-										</h3>
+										<a href="company-profile.html">
+											<h3 class="entry-title">Company Profile</h3>
+										</a>
 
 										<div class="row">
 											<div class="col-12">
@@ -332,21 +604,19 @@
 
 									<div class="widget widget_links clearfix">
 
-										<h3 class="entry-title">
-											<a href="product.html">
-												Product
-											</a>
-										</h3>
+										<a href="product.html">
+											<h3 class="entry-title">Product</h3>
+										</a>
 
 										<div class="row">
 											<div class="col-12">
-												<a href="product-vehicle-business.html">Vehicle Business</a>
+												<a href="coming-soon.html">Vehicle Business</a>
 											</div>
 											<div class="col-12">
-												<a href="product-part-business.html">Part Business</a>
+												<a href="coming-soon.html">Part Business</a>
 											</div>
 											<div class="col-12">
-												<a href="product-mold-business.html">Mold Business</a>
+												<a href="coming-soon.html">Mold Business</a>
 											</div>
 										</div>
 
@@ -361,17 +631,16 @@
 
 							<div class="row">
 								<div class="col-md-4 col-lg-12">
-									<div class="widget clearfix pt-5 ps-2 pt-md-0 ps-md-0" style="margin-bottom: -20px;">
+									<div class="widget clearfix pt-5 ps-2 pt-md-0 ps-md-0"
+										style="margin-bottom: -20px;">
 
 										<div class="row">
 											<div class="col-lg-6 bottommargin-sm">
 												<div class="widget widget_links clearfix">
 
-													<h3 class="entry-title">
-														<a href="coming-soon.html">
-															CSR
-														</a>
-													</h3>
+													<a href="coming-soon.html">
+														<h3 class="entry-title">CSR</h3>
+													</a>
 
 													<!-- <div class="row">
 														<div class="col-12">
@@ -388,11 +657,9 @@
 											<div class="col-lg-6 bottommargin-sm">
 												<div class="widget widget_links clearfix">
 
-													<h3 class="entry-title">
-														<a href="news.html">
-															News
-														</a>
-													</h3>	
+													<a href="coming-soon.html">
+														<h3 class="entry-title">News</h3>
+													</a>
 
 													<!-- <div class="row">
 														<div class="col-12">
@@ -481,20 +748,8 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="./asset/js/functions.js"></script>
-	<script src="./asset/js/custom/landing-page.js"></script>
 
 	<script>
-
-		setInterval(function () {
-			if ($('#pills-vehicle-tab').hasClass('active')) {
-				$('#pills-parts-tab').trigger('click');
-			} else if ($('#pills-parts-tab').hasClass('active')) {
-				$('#pills-mold-tab').trigger('click');
-			} else if ($('#pills-mold-tab').hasClass('active')) {
-				$('#pills-vehicle-tab').trigger('click');
-			}
-		}, 5000);
-
 		$('.style-owl-banner-slider').owlCarousel({
 			loop: true,
 			margin: 0,
@@ -508,64 +763,24 @@
 			animateIn: 'slideInRight',
 		});
 
-		$('.owl-dot').on('click', function () {
+		$('.owl-prev').on('click', function () {
 			$('.style-owl-banner-slider').trigger('stop.owl.autoplay');
 			$('.style-owl-banner-slider').trigger('refresh.owl.carousel');
 		});
 
-		$('.style-owl-client-slider').owlCarousel({
-			rtl: false,
-			loop: true,
-			margin: 40,
-			nav: false,
-			dots: false,
-			autoplay: true,
-			slideTransition: 'linear',
-			autoplayTimeout: 2000,
-			autoplaySpeed: 2000,
-			autoplayHoverPause: false,
-			animateOut: 'slideOutLeft',
-			animateIn: 'slideInRight',
-			responsive: {
-				0: {
-					items: 2
-				},
-				600: {
-					items: 4
-				},
-				1000: {
-					items: 6
-				}
-			}
-
+		$('.owl-next').on('click', function () {
+			$('.style-owl-banner-slider').trigger('stop.owl.autoplay');
+			$('.style-owl-banner-slider').trigger('refresh.owl.carousel');
 		});
 
-		$('.style-owl-supplier-slider').owlCarousel({
-			rtl: false,
-			loop: true,
-			margin: 40,
-			nav: false,
-			dots: false,
-			autoplay: true,
-			slideTransition: 'linear',
-			autoplayTimeout: 2000,
-			autoplaySpeed: 2000,
-			autoplayHoverPause: false,
-			animateOut: 'slideOutLeft',
-			animateIn: 'slideInRight',
-			responsive: {
-				0: {
-					items: 2
-				},
-				600: {
-					items: 4
-				},
-				1000: {
-					items: 6
-				}
-			}
-
+		$('.owl-dot').on('click', function () {
+			$('.style-owl-banner-slider').trigger('stop.owl.autoplay');
+			$('.style-owl-banner-slider').trigger('refresh.owl.carousel');
 		});
+	</script>
+
+	<script>
+
 	</script>
 
 </body>
