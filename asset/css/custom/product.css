@@ -1,3 +1,7 @@
+/* Import Montserrat from Google Fonts CDN directly in your CSS file */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -185,4 +189,77 @@ body {
 .vector-background {
     background-image: url("../../images/background/vector-product-bg.png");
     z-index: 10;
+}
+
+.style-owl-banner-slider .style-banner-content.slide-1 {
+	opacity: 1;
+	z-index: 111;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: end;
+    bottom: 5vh;
+	left: 6vw;
+	right: 2vw;
+}
+
+.style-owl-banner-slider .style-banner-content.slide-2 {
+	opacity: 1;
+	z-index: 111;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+	bottom: 5vh;
+	left: 6vw;
+	right: 8vw;
+}
+
+.style-owl-banner-slider .style-banner-content.slide-3 {
+	opacity: 1;
+	z-index: 111;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: end;
+	top: 6vw;
+	left: 6vw;
+	right: 8vw;
+}
+
+/* first text */
+.style-banner-content .first-text-slider-product {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* secind text */
+.style-banner-content .second-text-slider-product {
+    color: #FFF;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.50);
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+@media only screen and (max-width: 576px) {
+    .style-banner-content .first-text-slider-product {
+        font-size: 20px;
+    }
+
+    .style-banner-content .second-text-slider-product {
+        font-size: 26px;
+    }
+
+    .style-owl-banner-slider .style-banner-content.slide-3 {
+        top: 20vw;
+    }
 }
