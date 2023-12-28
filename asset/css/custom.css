@@ -1964,7 +1964,7 @@
 .scroll-news-landing {
 	overflow-y: scroll; 
 	max-height: 100%; 
-	height: 580px;
+	height: 567px;
 }
 /* For Webkit-based browsers (Chrome, Safari) */
 .scroll-news-landing::-webkit-scrollbar {

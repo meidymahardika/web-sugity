@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./asset/css/magnific-popup.css" type="text/css" />
 
     <link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
-    <link rel="stylesheet" href="./asset/css/custom/company-business" type="text/css" />
+    <link rel="stylesheet" href="./asset/css/custom/company-business.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -182,22 +182,25 @@
         <!-- Page Title
 		============================================= -->
         <section id="page-title" class="page-title-dark"
-            style="background-image: url('./asset/images/background/background-company-plant.png'); padding: 300px 0; background-size: cover; background-position:0px -70px; background-repeat: no-repeat;">
+            style="background-image: url('./asset/images/background/background-company-business.png'); padding: 50vh 0; background-size: cover; background-repeat: no-repeat; min-height: 100vh;">
             <div class="container clearfix text-center">
-                <h1 style="font-size: 80px;">Company Business</h1>
+                <h1 style="font-size: 100px; font-weight: 700;">Company Business</h1>
             </div>
         </section><!-- #page-title end -->
 
         <!-- Content
 		============================================= -->
         <section id="content">
-            <div class="container float-left px-3 py-5 px-md-0">
-                <div class="row">
+            <div class="container px-3 py-5 px-md-0">
+                <div class="row justify-content-center" style="align-items: center;">
                     <div class="col-md-2">
-                        <h2 class="style-text-business-title">OUR CORE BUSINESS</h2>
+                        <h2 class="style-text-business-title m-0">OUR CORE BUSINESS</h2>
                     </div>
-                    <div class="col-md-10">
-                        <p class="style-text-business-description">As a leading manufacturer of automotive components,
+                    <div class="col-md-1">
+                        <div class="vl"></div>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="style-text-business-description m-0">As a leading manufacturer of automotive components,
                             our three core businesses—Vehicle Conversion, Part, and Mold—reflect our commitment to
                             innovation and excellence.</p>
                     </div>
@@ -206,17 +209,18 @@
 
             <div class="container float-left px-3 pb-5 px-md-0">
                 <div class="row">
-                    <div class="nav flex-column nav-pills col-md-4" id="v-pills-tab" role="tablist"
-                        aria-orientation="vertical">
-                        <button class="nav-link active" id="v-pills-vehicle-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-vehicle" type="button" role="tab" aria-controls="v-pills-vehicle"
-                            aria-selected="true">Vehicle Assembly</button>
-                        <button class="nav-link" id="v-pills-automotive-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-automotive" type="button" role="tab"
-                            aria-controls="v-pills-automotive" aria-selected="false">Automotive Parts</button>
-                        <button class="nav-link" id="v-pills-mold-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-mold" type="button" role="tab" aria-controls="v-pills-mold"
-                            aria-selected="false">Mold Making</button>
+                    <div class="col-md-4">
+                        <div class="nav flex-column nav-pills style-nav-pills-business" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-vehicle-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-vehicle" type="button" role="tab" aria-controls="v-pills-vehicle"
+                                aria-selected="true">Vehicle Assembly</button>
+                            <button class="nav-link" id="v-pills-automotive-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-automotive" type="button" role="tab"
+                                aria-controls="v-pills-automotive" aria-selected="false">Automotive Parts</button>
+                            <button class="nav-link" id="v-pills-mold-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-mold" type="button" role="tab" aria-controls="v-pills-mold"
+                                aria-selected="false">Mold Making</button>
+                        </div>
                     </div>
                     <div class="tab-content col-md-8" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-vehicle" role="tabpanel"
