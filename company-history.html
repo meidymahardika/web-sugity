@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="en-US" style="scroll-behavior: smooth;">
 
 <head>
 
@@ -22,6 +22,10 @@
 	<link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/custom/company-history.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+	<!-- AOS (Animate on Scroll) -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- Document Title
@@ -189,7 +193,7 @@
 				<div class="row" style="height: 100%;">
 					<div class="col-md-10 col-lg-8 col-xl-6 col-xxl-5 px-5 pt-5"
 						style="display: flex; justify-content: center; align-items: center;">
-						<div class="container px-5" style="height: 100%;">
+						<div data-aos="fade-right" data-aos-duration="1000" class="container px-5" style="height: 100%;">
 							<h1 class="mt-0 title-text">Sugity Creatives</h1>
 							<p style="line-height: 25px;">
 								Sugity, founded in 1995 as a collaborative venture between Superior Coach and Toyota
@@ -211,7 +215,7 @@
 			</div>
 
 			<div class="d-block d-lg-none" style="z-index: 10;">
-				<div class="container px-4" style="height: 100%;">
+				<div data-aos="fade-right" data-aos-duration="1000" class="container px-4" style="height: 100%;">
 					<h1 class="mt-0 title-text pt-6">Sugity Creatives</h1>
 					<p style="line-height: 25px;">
 						Sugity, founded in 1995 as a collaborative venture between Superior Coach and Toyota Auto Body,
@@ -815,6 +819,20 @@
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
 
+	<!-- AOS (Animate on Scroll) -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- smooth scroll -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+
+	<script>
+		AOS.init();
+
+		// Initialize Smooth Scroll
+		var scroll = new SmoothScroll('[data-scroll]', {
+			speed: 100, // Adjust the scrolling speed as needed
+		});
+	</script>
+		
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="./asset/js/functions.js"></script>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="ltr" lang="en-US" style="scroll-behavior: smooth;">
 
 <head>
 
@@ -22,6 +22,10 @@
 
 	<link rel="stylesheet" href="./asset/css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="./asset/css/custom/csr.css" type="text/css" />
+
+	<!-- AOS (Animate on Scroll) -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<!-- Document Title
@@ -220,12 +224,12 @@
 		<section id="content">
 			<!-- latest event section -->
 			<div class="style-latest-event-section style-background-csr-1 py-5">
-				<div class="text-center py-4 py-md-5">
+				<div data-aos="fade-in" data-aos-duration="1000" class="text-center py-4 py-md-5">
 					<h2 class="style-header m-0">Discover Our Latest Event</h2>
 				</div>
 				<div class="container">
 					<div id="carouselLatestEvent" class="carousel slide style-carousel">
-						<div class="carousel-inner">
+						<div data-aos="fade-in" data-aos-duration="1000" class="carousel-inner">
 							<div class="carousel-item active">
 								<div class="row m-0 style-carousel-item">
 									<div class="col-md-6 p-4" style="z-index: 11;">
@@ -369,12 +373,12 @@
 
 			<!-- csr activity section -->
 			<div class="style-csr-activity-section style-background-csr-2 pb-5">
-				<div class="text-center py-4 py-md-5">
+				<div data-aos="fade-in" data-aos-duration="1000" class="text-center py-4 py-md-5">
 					<h2 class="style-header m-0">CSR Activity in Sugity Creatives</h2>
 				</div>
 				<div class="container">
 					<div id="carouselCsrActivity" class="carousel slide style-carousel">
-						<div class="carousel-inner">
+						<div data-aos="fade-in" data-aos-duration="1000" class="carousel-inner">
 							<div class="carousel-item active">
 								<div class="row flex-column-reverse flex-md-row m-0 style-carousel-item">
 									<div class="col-md-6 p-0">
@@ -758,6 +762,20 @@
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
 
+	<!-- AOS (Animate on Scroll) -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- smooth scroll -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+
+	<script>
+		AOS.init();
+
+		// Initialize Smooth Scroll
+		var scroll = new SmoothScroll('[data-scroll]', {
+			speed: 100, // Adjust the scrolling speed as needed
+		});
+	</script>
+		
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="./asset/js/functions.js"></script>
