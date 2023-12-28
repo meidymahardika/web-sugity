@@ -1,13 +1,15 @@
 @media only screen and (max-width: 575px) {
     .text-banner {
         font-size: 50px !important; 
-        font-weight: 700;
+        font-weight: 700 !important; 
     }
 }
 
-.text-banner {
-    font-size: 100px; 
-    font-weight: 700;
+@media only screen and (min-width: 576px) {
+    .text-banner {
+        font-size: 100px !important; 
+        font-weight: 700 !important; 
+    }
 }
 
 .style-text-business-title {
