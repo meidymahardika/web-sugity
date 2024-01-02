@@ -1658,6 +1658,12 @@
 		addEventListener('mouseup', e => content360.style.cursor = 'grab');
 	</script>
 
+	<script>
+		$('#modalVehicle').on('hidden.bs.modal', function () {
+			$('#modaVehicle360Tab').tab('show');
+		});
+	</script>
+
 </body>
 
 </html>
