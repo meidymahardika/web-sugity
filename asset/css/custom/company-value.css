@@ -12,15 +12,29 @@ body {
     padding-left: 80px;
 }
 
+@media only screen and (min-width: 992) {
+    .test-1 {
+        padding-top: 10rem !important;
+    }
+}
+
+@media only screen and (min-width: 1200) {
+    .test-1 {
+        padding-top: 3rem !important;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .title-layer-1 {
-        background: -webkit-linear-gradient(94deg, #AB7F01 -38.9%, #FDE293 101.12%) !important;
-        -webkit-background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
         font-family: Inter;
-        text-transform: none; 
-        font-size: 35px !important;
-        font-weight: bold !important;
+        font-size: 60px !important;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        background: linear-gradient(268deg, #AB7F01 -15.33%, #FDE293 107.59%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .title-layer-2 {
@@ -34,13 +48,15 @@ body {
 }
 
 .title-layer-1 {
-    background: -webkit-linear-gradient(94deg, #AB7F01 -38.9%, #FDE293 101.12%) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
     font-family: Inter;
-    text-transform: none; 
-    font-size: 75px;
-    font-weight: bold !important;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(268deg, #AB7F01 -15.33%, #FDE293 107.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .title-layer-2 {
