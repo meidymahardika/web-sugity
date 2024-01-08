@@ -52,6 +52,22 @@ body {
     font-weight: bold !important;
 }
 
+.title-layer-3 {
+    font-weight: bold !important;
+}
+
+.title-layer-3-child-1 {
+    font-weight: bold !important;
+    font-style: italic !important;
+    color: #0817ED !important;
+}
+
+.title-layer-3-child-2 {
+    font-weight: bold !important;
+    font-style: italic !important;
+    color: #BA0102 !important;
+}
+
 .row-section-visi-misi {
     display: flex;
     width: 100%;
